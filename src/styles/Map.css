@@ -1,0 +1,30 @@
+.map__class {
+    height: 100%;
+}
+
+#map__container {
+    height: 100%;
+}
+
+#btn-zoom {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    z-index: 10;
+}
+
+#map__text {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 10;
+}
+
+text {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
