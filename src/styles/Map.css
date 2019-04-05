@@ -28,3 +28,9 @@ text {
     -o-user-select: none;
     -moz-user-select: none;
 }
+
+.leaflet-container {
+    height: 800px;
+    width: 500px;
+    overflow: hidden;
+  }

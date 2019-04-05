@@ -7,9 +7,12 @@
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "d3": "^5.9.2",
+    "leaflet": "^1.4.0",
     "lodash": "^4.17.11",
+    "mapbox-gl": "^0.53.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-leaflet": "^2.2.1",
     "react-scripts": "2.1.8"
   },
   "scripts": {
