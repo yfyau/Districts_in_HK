@@ -78,12 +78,31 @@ export default class Map extends Component {
             });
         });
 
+        this.map = map;
+    }
+
+    toggleRoads = () => {
+        // Set Roads and Aeroway to unvisible
+        var layers = this.map.getStyle().layers
+        for (var l in layers) {
+            if (layers[l]["source-layer"] == "road" || layers[l]["source-layer"] == "aeroway") {
+                var value = this.map.getLayoutProperty(layers[l]["id"], "visibility")
+                if (value == "visible")
+                    this.map.setLayoutProperty(layers[l]["id"], "visibility", "none")
+                else
+                    this.map.setLayoutProperty(layers[l]["id"], "visibility", "visible")
+                // map.moveLayer(layers[l]["id"], "land")
+            }
+        }
     }
 
     render() {
 
         return (
-            <div id='map' style={{ width: '100%', height: '100%' }}></div>
+            <div style={{ width: '100%', height: '100%' }}>
+                <button onClick={this.toggleRoads} style={{ position: "fixed", zIndex: 10 }}> Toggle Roads </button>
+                <div id='map' style={{ width: '100%', height: '100%' }}></div>
+            </div>
         )
     }
 
