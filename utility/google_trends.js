@@ -1,22 +1,54 @@
+'use strict';
+const fs = require('fs');
 const googleTrends = require('google-trends-api');
 
-const DISTRICTS = [
-    //hong kong
-    '中西區', '灣仔區', '東區', '南區',
-    //kowloon
-    '油尖旺區', '深水埗區', '九龍城區', '黃大仙區', '觀塘區',
-    //new territories
-    '荃灣區', '葵青區', '西貢區', '沙田區', '大埔區', '北區', '屯門區', '元朗區', '離島區'
-];
+const rawdata = fs.readFileSync('./data/hk_districts.json');  
+const json = JSON.parse(rawdata);
 
-googleTrends.relatedQueries({
-    keyword: DISTRICTS[0],
-    geo: 'HK',
-    hl: 'zh-TW'
-})
-.then(function(results){
-  console.log(results);
-})
-.catch(function(err){
-  console.error('Oh no there was an error', err);
+json.districts.forEach(district => {
+  //create a folder for each district
+  const dir = `./data/${district.name}`;
+  fs.mkdirSync(dir);
+
+  //find related queries of the district
+  googleTrends.relatedQueries({
+      keyword: district.name,
+      geo: 'HK',
+      hl: 'zh-TW'
+  })
+  .then(function(results){
+    const related_queries_obj = JSON.parse(results)
+      .default
+      .rankedList[1]
+      .rankedKeyword;
+    
+    for(var i=0; i<related_queries_obj.length; i++){
+      const original_query = related_queries_obj[i].query;
+      related_queries_obj[i].query = original_query.split(' ').join('');
+    }
+
+      fs.writeFile(`${dir}/${district.name}.json`, JSON.stringify(related_queries_obj), 'utf8');
+  });
+
+  //find related queries for each location in the district
+  district.locations.forEach(location => {
+    googleTrends.relatedQueries({
+        keyword: location,
+        geo: 'HK',
+        hl: 'zh-TW'
+    })
+    .then(function(results){
+      const related_queries_obj = JSON.parse(results)
+        .default
+        .rankedList[1]
+        .rankedKeyword;
+      
+      for(var i=0; i<related_queries_obj.length; i++){
+        const original_query = related_queries_obj[i].query;
+        related_queries_obj[i].query = original_query.split(' ').join('');
+      }
+
+        fs.writeFile(`${dir}/${location}.json`, JSON.stringify(related_queries_obj), 'utf8');
+    });
+  });
 });
