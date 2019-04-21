@@ -27,12 +27,35 @@ export default class Map extends Component {
                 data: test
             });
 
+
+            const fake_data = [
+                { "District": "Central & Western", "rank": 1 },
+                { "District": "Wan Chai", "rank": 10 },
+            ]
+
+            let color_expression = ["case",
+                ["==", ["get", "District"], "Central & Western"], "red",
+                ["==", ["get", "District"], "Wan Chai"], "blue",
+                ["==", ["get", "District"], "Eastern"], "pink",
+                ["==", ["get", "District"], "Southern"], "orange",
+                ["==", ["get", "District"], "Wan Chai"], "blue",
+                "#888888"
+            ];
+
+            // fake_data.forEach(function (row) {
+            //     var green = row["rank"] / 10 * 255;
+            //     var color = "rgba(" + 0 + ", " + green + ", " + 0 + ", 1)";
+            //     color_expression.push(row["District"], color);
+            // });
+
+            console.log(color_expression)
+
             map.addLayer({
                 "id": "district-poly",
                 "type": "fill",
                 "source": "districts",
                 "paint": {
-                    "fill-color": "#888888",
+                    "fill-color": color_expression,
                     "fill-opacity": ["case",
                         ["boolean", ["feature-state", "hover"], false],
                         1,
@@ -45,6 +68,7 @@ export default class Map extends Component {
 
             // Set Roads and Aeroway to unvisible
             var layers = map.getStyle().layers
+            console.log(layers)
             for (var l in layers) {
                 if (layers[l]["source-layer"] == "road" || layers[l]["source-layer"] == "aeroway") {
                     map.setLayoutProperty(layers[l]["id"], "visibility", "none")
@@ -79,6 +103,15 @@ export default class Map extends Component {
         });
 
         this.map = map;
+    }
+
+    getRandomColor = () => {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
     }
 
     toggleRoads = () => {
