@@ -1,0 +1,142 @@
+<!doctype html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+</head>
+<title>Parallel Coordinates</title>
+
+<!-- Import necessary libraries -->
+<link rel="stylesheet" type="text/css" href="./parcoords.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="lib/d3.v5.min.js"></script>
+<script src="./parcoords.standalone.js"></script>
+<!-- <script src="lib/sylvester.js"></script> -->
+<!-- <script src="lib/underscore.js"></script> -->
+<!-- <script src="lib/slickgrid/jquery-1.7.min.js"></script> -->
+<!-- <script src="lib/underscore.math.js"></script> -->
+
+<!-- The parallel coordinate itself -->
+<div id="example" class="parcoords" style="width:1500px;height:600px;"></div>
+
+<!-- Curve clustering -->
+<p>
+<p>Use this slider to change the curve smoothness. The current value is <strong id="smooth">0.0</strong><br/>
+	<input type="range" min="0" max="0.25" value="0.0" step="0.01" id="smoothness">
+</p>
+<p>Use this slider to change the bundling strength. The current value is <strong id="strength">0.0</strong><br>
+    <input type="range" min="0" max="1" value="0.0" step="0.05" id="bundling">
+</p>
+<div id="bundleDimension">Bundle using clusters determined by: </div>
+</p>
+
+<!-- Polyline brushing -->
+<p>
+    <label for="sltBrushMode">Brush mode:</label>
+    <select id="sltBrushMode">
+    </select>
+    <label id="lblPredicate" for="sltPredicate">Predicate:</label>
+    <select id="sltPredicate">
+        <option>AND</option>
+        <option>OR</option>
+    </select>
+    <button id="btnReset">Reset Brushes</button>
+</p>
+
+<script>
+	// Quantitive Color Scale
+    var blue_to_brown = d3.scaleLinear()
+        .domain([9, 50])
+        .range(["steelblue", "brown"])
+        .interpolate(d3.interpolateLab);
+
+    var color = function (d) {
+        return blue_to_brown(d['Estate']);
+    };
+
+    var parcoords = ParCoords()("#example")
+        .alpha(0.4)
+
+    d3.csv('data/major_housing_estates_hk.csv').then(function(data) {
+    parcoords
+		.data(data)
+		.bundlingStrength(0) // set bundling strength
+		.smoothness(0) // set curve smoothness
+		.bundleDimension("Median Monthly Domestic Household Mortgage Payment and Loan Repayment") // default dimension for bundling
+		.showControlPoints(false) // control points are the basis to do edge bundling
+		.hideAxis(["name"]) 
+		.composite("darker")
+		.render()
+		.shadows()
+		.reorderable()
+		.brushMode("1D-axes")
+		.interactive();
+	
+	// Brushing Mode
+    var sltBrushMode = d3.select('#sltBrushMode')
+
+    sltBrushMode.selectAll('option')
+        .data(parcoords.brushModes())
+        .enter()
+        .append('option')
+        .text(function (d) {
+            return d;
+        });
+	
+	// Switch between modes
+    sltBrushMode.on('change', function () {
+        parcoords.brushMode(this.value);
+        switch (this.value) {
+            case 'None':
+                d3.select("#lblPredicate").style("visibility", "hidden");
+                d3.select("#sltPredicate").style("visibility", "hidden");
+                d3.select("#btnReset").style("visibility", "hidden");
+                break;
+            default:
+                d3.select("#lblPredicate").style("visibility", "visible");
+                d3.select("#sltPredicate").style("visibility", "visible");
+                d3.select("#btnReset").style("visibility", "visible");
+                break;
+        }
+    });
+
+    sltBrushMode.property('value', '1D-axes');
+	
+	// Reset the brush
+    d3.select('#btnReset').on('click', function () {
+        parcoords.brushReset();
+    })
+	
+	// Set the predicate
+    d3.select('#sltPredicate').on('change', function () {
+        parcoords.brushPredicate(this.value);
+    });
+
+    // Smoothness Slider
+    d3.select("#smoothness").on("change", function() {
+    d3.select("#smooth").text(this.value);
+    parcoords.smoothness(this.value).render();
+    });
+
+    // Bundling strength slider
+    d3.select("#bundling").on("change", function() {
+    d3.select("#strength").text(this.value);
+    parcoords.bundlingStrength(this.value).render();
+    });
+
+	// Select the dimension to do bundling
+    var select = d3.select("#bundleDimension").append("select").on("change", changeBundle);
+
+    var options = select.selectAll('option')
+    .data(d3.keys(parcoords.dimensions()));
+
+    options
+    .enter()
+    .append("option")
+    .attr("value", function(d) {return d;})
+    .text(function(d) {return d;});
+
+    function changeBundle() {
+    parcoords.bundleDimension(this.value);
+    }
+});
+</script>
