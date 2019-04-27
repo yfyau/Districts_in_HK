@@ -154,12 +154,18 @@ export default class Map extends Component {
             <div style={{ width: '100%', height: '100%' }}>
                 <button onClick={this.toggleRoads} style={{ position: "fixed", zIndex: 10 }}> Toggle Roads </button>
                 <div id='map' style={{ width: '100%', height: '100%' }}></div>
-                <div style={{ position: "fixed", background: "rgba(0, 0, 0, 0.5)", height: "60vh", width: "30vw", top: 0, right: 0 }}>
-                    <TextVis
-                        // District in Chinese
-                        district={district_chinese}
-                    />
-                </div>
+                {
+                    district_chinese 
+                    ?
+                    <div style={{ position: "fixed", background: "rgba(0, 0, 0, 0.5)", height: "60vh", width: "30vw", top: 0, right: 0 }}>
+                        <TextVis
+                            // District in Chinese
+                            district={district_chinese}
+                        />
+                    </div>
+                    :
+                    null
+                }
             </div>
         )
     }

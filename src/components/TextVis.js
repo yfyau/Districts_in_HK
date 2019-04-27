@@ -34,10 +34,6 @@ const TextVis = (props) => {
   
   // const [district, setDistrict] = useState('中西區');
 
-  if (!props.district)
-    return null
-
-
   return (
     <div className='app-outer'>
         <div className='app-inner'>
