@@ -7,13 +7,16 @@ import * as d3 from "d3";
 
 const renderWordCloud = (district) => {
 
+  if (!district)
+    return
+
   const json = require(`../data/google-trends/${district}/${district}.json`);
 
   const valueArr = json.map(el => el.value);
 
   const fontSizeScale = d3.scaleLinear()
     .domain([Math.min(...valueArr), Math.max(...valueArr)])
-    .range([20, 50]);
+    .range([15, 40]);
 
   return (
     json.map(({query, value}, i) => (
@@ -27,14 +30,18 @@ const renderWordCloud = (district) => {
   );
 }
 
-const TextVis = () => {
+const TextVis = (props) => {
   
-  const [district, setDistrict] = useState('中西區');
+  // const [district, setDistrict] = useState('中西區');
+
+  if (!props.district)
+    return null
+
 
   return (
     <div className='app-outer'>
         <div className='app-inner'>
-        <select name="districts" onChange={event => setDistrict(event.target.value)}>
+        {/* <select name="districts" onChange={event => setDistrict(event.target.value)}>
           <option value="中西區">中西區</option>
           <option value="九龍城區">九龍城區</option>
           <option value="元朗區">元朗區</option>
@@ -53,7 +60,7 @@ const TextVis = () => {
           <option value="觀塘區">觀塘區</option>
           <option value="離島區">離島區</option>
           <option value="黃大仙區">黃大仙區</option>
-        </select>
+        </select> */}
           <TagCloud 
             className='tag-cloud'
             style={{
@@ -62,7 +69,7 @@ const TextVis = () => {
               color: () => randomColor({ hue: 'blue' }),
               padding: 5,
             }}>
-            {renderWordCloud(district)}
+            {renderWordCloud(props.district)}
           </TagCloud>
         </div>
     </div>

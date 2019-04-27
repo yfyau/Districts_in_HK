@@ -3,12 +3,18 @@ import _ from 'lodash';
 
 import mapboxgl from 'mapbox-gl'
 
+import TextVis from './TextVis'
+
 import { test } from '../data/test'
 
 export default class Map extends Component {
 
     constructor(props) {
         super(props)
+
+        this.state = {
+            districtHover: null
+        }
     }
 
 
@@ -91,6 +97,10 @@ export default class Map extends Component {
                     }
                     this.mapHoveredStateId = e.features[0].id;
                     map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
+
+                    // Object Compare
+                    if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
+                        this.setState({ districtHover: e.features[0].properties })
                 }
             });
 
@@ -99,6 +109,9 @@ export default class Map extends Component {
                     map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
                 }
                 this.mapHoveredStateId = null;
+
+                if (this.state.districtHover)
+                    this.setState({ districtHover: null })
             });
         });
 
@@ -129,12 +142,24 @@ export default class Map extends Component {
         }
     }
 
+
+
     render() {
+
+        const { districtHover } = this.state
+
+        const district_chinese = districtHover ? districtHover["District_Chinese"] : null
 
         return (
             <div style={{ width: '100%', height: '100%' }}>
                 <button onClick={this.toggleRoads} style={{ position: "fixed", zIndex: 10 }}> Toggle Roads </button>
                 <div id='map' style={{ width: '100%', height: '100%' }}></div>
+                <div style={{ position: "fixed", background: "rgba(0, 0, 0, 0.5)", height: "60vh", width: "30vw", top: 0, right: 0 }}>
+                    <TextVis
+                        // District in Chinese
+                        district={district_chinese}
+                    />
+                </div>
             </div>
         )
     }

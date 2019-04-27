@@ -2185,7 +2185,7 @@ export const test = {
             "properties": {
                 "地區號碼": "A",
                 "District": "Central & Western",
-                "地區": "中西區",
+                "District_Chinese": "中西區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 1
@@ -4970,7 +4970,7 @@ export const test = {
             "properties": {
                 "地區號碼": "B",
                 "District": "Wan Chai",
-                "地區": "灣仔",
+                "District_Chinese": "灣仔區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 2
@@ -7735,7 +7735,7 @@ export const test = {
             "properties": {
                 "地區號碼": "C",
                 "District": "Eastern",
-                "地區": "東區",
+                "District_Chinese": "東區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 3
@@ -12228,7 +12228,7 @@ export const test = {
             "properties": {
                 "地區號碼": "D",
                 "District": "Southern",
-                "地區": "南區",
+                "District_Chinese": "南區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 4
@@ -12645,7 +12645,7 @@ export const test = {
             "properties": {
                 "地區號碼": "E",
                 "District": "Yau Tsim Mong",
-                "地區": "油尖旺",
+                "District_Chinese": "油尖旺區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 5
@@ -14234,7 +14234,7 @@ export const test = {
             "properties": {
                 "地區號碼": "F",
                 "District": "Sham Shui Po",
-                "地區": "深水埗",
+                "District_Chinese": "深水埗區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 6
@@ -15555,7 +15555,7 @@ export const test = {
             "properties": {
                 "地區號碼": "G",
                 "District": "Kowloon City",
-                "地區": "九龍城",
+                "District_Chinese": "九龍城區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 7
@@ -17860,7 +17860,7 @@ export const test = {
             "properties": {
                 "地區號碼": "H",
                 "District": "Wong Tai Sin",
-                "地區": "黃大仙",
+                "District_Chinese": "黃大仙區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 8
@@ -20993,7 +20993,7 @@ export const test = {
             "properties": {
                 "地區號碼": "J",
                 "District": "Kwun Tong",
-                "地區": "觀塘",
+                "District_Chinese": "觀塘區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 9
@@ -27898,7 +27898,7 @@ export const test = {
             "properties": {
                 "地區號碼": "K",
                 "District": "Tsuen Wan",
-                "地區": "荃灣",
+                "District_Chinese": "荃灣區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 10
@@ -30871,7 +30871,7 @@ export const test = {
             "properties": {
                 "地區號碼": "L",
                 "District": "Tuen Mun",
-                "地區": "屯門",
+                "District_Chinese": "屯門區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 11
@@ -37792,7 +37792,7 @@ export const test = {
             "properties": {
                 "地區號碼": "M",
                 "District": "Yuen Long",
-                "地區": "元朗",
+                "District_Chinese": "元朗區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 12
@@ -46613,7 +46613,7 @@ export const test = {
             "properties": {
                 "地區號碼": "N",
                 "District": "North",
-                "地區": "北區",
+                "District_Chinese": "北區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 13
@@ -55110,7 +55110,7 @@ export const test = {
             "properties": {
                 "地區號碼": "P",
                 "District": "Tai Po",
-                "地區": "大埔",
+                "District_Chinese": "大埔區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 14
@@ -60603,7 +60603,7 @@ export const test = {
             "properties": {
                 "地區號碼": "Q",
                 "District": "Sai Kung",
-                "地區": "西貢",
+                "District_Chinese": "西貢區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 15
@@ -67228,7 +67228,7 @@ export const test = {
             "properties": {
                 "地區號碼": "R",
                 "District": "Sha Tin",
-                "地區": "沙田",
+                "District_Chinese": "沙田區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 16
@@ -69781,7 +69781,7 @@ export const test = {
             "properties": {
                 "地區號碼": "S",
                 "District": "Kwai Tsing",
-                "地區": "葵青",
+                "District_Chinese": "葵青區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 17
@@ -70042,7 +70042,7 @@ export const test = {
             "properties": {
                 "地區號碼": "T",
                 "District": "Islands",
-                "地區": "離島",
+                "District_Chinese": "離島區",
                 "Administrative District Boundary of Hong Kong": "Administrative District Boundary of Hong Kong"
             },
             "id": 18
