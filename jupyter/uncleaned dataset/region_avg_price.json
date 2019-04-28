@@ -1,0 +1,39 @@
+{
+  "mr_index": {"mr_index_1": {
+    "avg_net_feet_price_change_percentage": "+1.4%",
+    "avg_net_feet_price_hk_change_percentage": "+0.9%",
+    "avg_net_feet_price_kln_change_percentage": "+0.4%",
+    "avg_net_feet_price_nt_change_percentage": "+2.5%",
+    "avg_net_feet_rent_change_percentage": "-0.3%",
+    "avg_net_feet_price_change_percentage_lyr": "-1.3%",
+    "avg_net_feet_price_hk_change_percentage_lyr": "-2%",
+    "avg_net_feet_price_kln_change_percentage_lyr": "-1.2%",
+    "avg_net_feet_price_nt_change_percentage_lyr": "-1.8%",
+    "avg_feet_price_change_percentage": "+1.4%",
+    "avg_feet_price_hk_change_percentage": "+0.9%",
+    "avg_feet_price_kln_change_percentage": "+0.4%",
+    "avg_feet_price_nt_change_percentage": "+2.5%",
+    "avg_feet_rent_change_percentage": "-0.4%",
+    "avg_net_feet_price": "$12,482",
+    "avg_net_feet_price_hk": "$16,612",
+    "avg_net_feet_price_kln": "$14,030",
+    "avg_net_feet_price_nt": "$10,432",
+    "avg_net_feet_rent": "$37",
+    "avg_feet_price": "$9,921",
+    "avg_feet_price_hk": "$13,771",
+    "avg_feet_price_kln": "$11,324",
+    "avg_feet_price_nt": "$8,120",
+    "avg_feet_rent": "$28",
+    "avg_feet_price_month_change_value": "2",
+    "avg_feet_rent_month_change_value": "1",
+    "mr_index": 162.16,
+    "mr_index_weekly_change_percentage": "+0.91%",
+    "mr_index_monthly_change_percentage": "+1.97%",
+    "mr_index_m_period": "2019/03/06 - 2019/03/12",
+    "mr_index_updated_date": "2019-03-18",
+    "m_date": "2019-02-01"
+  }},
+  "noOfRecord": 1
+}
+
+  

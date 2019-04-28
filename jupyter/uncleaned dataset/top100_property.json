@@ -1,0 +1,4506 @@
+{
+  "estate": {
+    "estate_E00041": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11110,
+          "tx_count": 28
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 10420,
+          "tx_count": 23
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10398,
+          "tx_count": 34
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 9287,
+          "tx_count": 44
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 9509,
+          "tx_count": 37
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9851,
+          "tx_count": 45
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E00041",
+      "estate_name": "Kingswood Villas",
+      "latitude": 22.455885,
+      "longitude": 114.002547,
+      "avg_feet_price": "$7,590",
+      "avg_net_feet_price": "$9,851",
+      "tx_count": 45,
+      "pricechange": "+3.6%",
+      "region_id": "30",
+      "estate_url_desc": "Kingswood-Villas-Tin-Shui-Wai-E00041"
+    },
+    "estate_E00012": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17874,
+          "tx_count": 16
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16723,
+          "tx_count": 21
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15710,
+          "tx_count": 9
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15114,
+          "tx_count": 20
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14574,
+          "tx_count": 28
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15616,
+          "tx_count": 30
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00012",
+      "estate_name": "City One Shatin",
+      "latitude": 22.386295,
+      "longitude": 114.204261,
+      "avg_feet_price": "$12,045",
+      "avg_net_feet_price": "$15,616",
+      "tx_count": 30,
+      "pricechange": "+7.1%",
+      "region_id": "30",
+      "estate_url_desc": "City-One-Shatin-Shatin-E00012"
+    },
+    "estate_E00061": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13946,
+          "tx_count": 14
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14097,
+          "tx_count": 9
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14795,
+          "tx_count": 8
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13163,
+          "tx_count": 11
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12832,
+          "tx_count": 20
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12729,
+          "tx_count": 28
+        }
+      },
+      "dist_id": "13",
+      "est_id": "E00061",
+      "estate_name": "Mei Foo Sun Chuen",
+      "latitude": 22.336471,
+      "longitude": 114.140207,
+      "avg_feet_price": "$9,529",
+      "avg_net_feet_price": "$12,729",
+      "tx_count": 28,
+      "pricechange": "-0.8%",
+      "region_id": "20",
+      "estate_url_desc": "Mei-Foo-Sun-Chuen-Mei-Foo-E00061"
+    },
+    "estate_E00021": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17166,
+          "tx_count": 14
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17515,
+          "tx_count": 8
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15931,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14832,
+          "tx_count": 6
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15519,
+          "tx_count": 11
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 17326,
+          "tx_count": 26
+        }
+      },
+      "dist_id": "11",
+      "est_id": "E00021",
+      "estate_name": "South Horizons",
+      "latitude": 22.243928,
+      "longitude": 114.145239,
+      "avg_feet_price": "$13,857",
+      "avg_net_feet_price": "$17,326",
+      "tx_count": 26,
+      "pricechange": "+11.6%",
+      "region_id": "10",
+      "estate_url_desc": "South-Horizons-Ap-Lei-Chau-E00021"
+    },
+    "estate_E00024": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 20923,
+          "tx_count": 19
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 20769,
+          "tx_count": 8
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 21040,
+          "tx_count": 7
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 18783,
+          "tx_count": 19
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 18224,
+          "tx_count": 22
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 18248,
+          "tx_count": 22
+        }
+      },
+      "dist_id": "09",
+      "est_id": "E00024",
+      "estate_name": "Taikoo Shing",
+      "latitude": 22.286019,
+      "longitude": 114.217955,
+      "avg_feet_price": "$15,974",
+      "avg_net_feet_price": "$18,248",
+      "tx_count": 22,
+      "pricechange": "+0.1%",
+      "region_id": "10",
+      "estate_url_desc": "Taikoo-Shing-Sai-Wan-Ho-Taikoo-E00024"
+    },
+    "estate_E000000070": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11213,
+          "tx_count": 12
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11626,
+          "tx_count": 8
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11275,
+          "tx_count": 8
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10534,
+          "tx_count": 11
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10417,
+          "tx_count": 12
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10573,
+          "tx_count": 21
+        }
+      },
+      "dist_id": "16",
+      "est_id": "E000000070",
+      "estate_name": "Caribbean Coast",
+      "latitude": 22.292596,
+      "longitude": 113.950073,
+      "avg_feet_price": "$7,843",
+      "avg_net_feet_price": "$10,573",
+      "tx_count": 21,
+      "pricechange": "+1.5%",
+      "region_id": "30",
+      "estate_url_desc": "Caribbean-Coast-Tung-Chung-E000000070"
+    },
+    "estate_E000007561": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 19225,
+          "tx_count": 10
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18421,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 17472,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15798,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15837,
+          "tx_count": 13
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15845,
+          "tx_count": 20
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E000007561",
+      "estate_name": "Festival City",
+      "latitude": 22.370185,
+      "longitude": 114.17592,
+      "avg_feet_price": "$12,015",
+      "avg_net_feet_price": "$15,845",
+      "tx_count": 20,
+      "pricechange": "+0.1%",
+      "region_id": "30",
+      "estate_url_desc": "Festival-City-Shatin-E000007561"
+    },
+    "estate_E00029": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10446,
+          "tx_count": 24
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13082,
+          "tx_count": 15
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12329,
+          "tx_count": 19
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11712,
+          "tx_count": 15
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 9582,
+          "tx_count": 11
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10442,
+          "tx_count": 19
+        }
+      },
+      "dist_id": "16",
+      "est_id": "E00029",
+      "estate_name": "Discovery Bay",
+      "latitude": 22.295819,
+      "longitude": 114.01657,
+      "avg_feet_price": "$8,778",
+      "avg_net_feet_price": "$10,442",
+      "tx_count": 19,
+      "pricechange": "+9.0%",
+      "region_id": "30",
+      "estate_url_desc": "Discovery-Bay-Discovery-Bay-E00029"
+    },
+    "estate_E000000393": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12964,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16140,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11971,
+          "tx_count": 14
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11861,
+          "tx_count": 10
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11901,
+          "tx_count": 14
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11570,
+          "tx_count": 19
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E000000393",
+      "estate_name": "Park Island",
+      "latitude": 22.352597,
+      "longitude": 114.061402,
+      "avg_feet_price": "$8,924",
+      "avg_net_feet_price": "$11,570",
+      "tx_count": 19,
+      "pricechange": "-2.8%",
+      "region_id": "30",
+      "estate_url_desc": "Park-Island-Ma-Wan-E000000393"
+    },
+    "estate_E00053": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15198,
+          "tx_count": 9
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14577,
+          "tx_count": 10
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15324,
+          "tx_count": 7
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12774,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12943,
+          "tx_count": 17
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13248,
+          "tx_count": 15
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E00053",
+      "estate_name": "Laguna City",
+      "latitude": 22.305468,
+      "longitude": 114.227975,
+      "avg_feet_price": "$10,631",
+      "avg_net_feet_price": "$13,248",
+      "tx_count": 15,
+      "pricechange": "+2.4%",
+      "region_id": "20",
+      "estate_url_desc": "Laguna-City-Lam-Tin-Yau-Tong-E00053"
+    },
+    "estate_E12822": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 18435,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16746,
+          "tx_count": 10
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16301,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15745,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14965,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15529,
+          "tx_count": 15
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E12822",
+      "estate_name": "Park Central",
+      "latitude": 22.30701,
+      "longitude": 114.257187,
+      "avg_feet_price": "$11,624",
+      "avg_net_feet_price": "$15,529",
+      "tx_count": 15,
+      "pricechange": "+3.8%",
+      "region_id": "20",
+      "estate_url_desc": "Park-Central-Po-Lam-Tseung-Kwan-O-Station-E12822"
+    },
+    "estate_E000002042": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16043,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14915,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16329,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14673,
+          "tx_count": 6
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14805,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15028,
+          "tx_count": 14
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E000002042",
+      "estate_name": "Chelsea Court",
+      "latitude": 22.36686,
+      "longitude": 114.11678,
+      "avg_feet_price": "$11,099",
+      "avg_net_feet_price": "$15,028",
+      "tx_count": 14,
+      "pricechange": "+1.5%",
+      "region_id": "30",
+      "estate_url_desc": "Chelsea-Court-Tsuen-Wan-E000002042"
+    },
+    "estate_E00023": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 18097,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 19062,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13921,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13921,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15908,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15925,
+          "tx_count": 14
+        }
+      },
+      "dist_id": "09",
+      "est_id": "E00023",
+      "estate_name": "Heng Fa Chuen",
+      "latitude": 22.277714,
+      "longitude": 114.239493,
+      "avg_feet_price": "$13,208",
+      "avg_net_feet_price": "$15,925",
+      "tx_count": 14,
+      "pricechange": "+0.1%",
+      "region_id": "10",
+      "estate_url_desc": "Heng-Fa-Chuen-Heng-Fa-Chuen-(Chai-Wan)-E00023"
+    },
+    "estate_E00076": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12587,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11789,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10959,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11536,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11148,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10529,
+          "tx_count": 14
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00076",
+      "estate_name": "Belvedere Garden",
+      "latitude": 22.371702,
+      "longitude": 114.100874,
+      "avg_feet_price": "$8,829",
+      "avg_net_feet_price": "$10,529",
+      "tx_count": 14,
+      "pricechange": "-5.6%",
+      "region_id": "30",
+      "estate_url_desc": "Belvedere-Garden-Tsuen-Wan-E00076"
+    },
+    "estate_E00072": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16121,
+          "tx_count": 9
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14320,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13774,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13721,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13773,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13827,
+          "tx_count": 14
+        }
+      },
+      "dist_id": "02",
+      "est_id": "E00072",
+      "estate_name": "Tai Po Centre",
+      "latitude": 22.451405,
+      "longitude": 114.169988,
+      "avg_feet_price": "$10,160",
+      "avg_net_feet_price": "$13,827",
+      "tx_count": 14,
+      "pricechange": "+0.4%",
+      "region_id": "30",
+      "estate_url_desc": "Tai-Po-Centre-Tai-Po-E00072"
+    },
+    "estate_E00039": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13584,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13669,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13017,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12542,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12465,
+          "tx_count": 8
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12482,
+          "tx_count": 14
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00039",
+      "estate_name": "Tsuen Wan Centre",
+      "latitude": 22.378695,
+      "longitude": 114.107861,
+      "avg_feet_price": "$9,689",
+      "avg_net_feet_price": "$12,482",
+      "tx_count": 14,
+      "pricechange": "+0.1%",
+      "region_id": "30",
+      "estate_url_desc": "Tsuen-Wan-Centre-Tsuen-Wan-E00039"
+    },
+    "estate_E00055": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17264,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15881,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15164,
+          "tx_count": 10
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14969,
+          "tx_count": 15
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14893,
+          "tx_count": 12
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15380,
+          "tx_count": 13
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E00055",
+      "estate_name": "Amoy Gardens",
+      "latitude": 22.324941,
+      "longitude": 114.21582,
+      "avg_feet_price": "$11,953",
+      "avg_net_feet_price": "$15,380",
+      "tx_count": 13,
+      "pricechange": "+3.3%",
+      "region_id": "20",
+      "estate_url_desc": "Amoy-Gardens-Kowloon-Bay-E00055"
+    },
+    "estate_E000014052": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13864,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13324,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13300,
+          "tx_count": 9
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12552,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11438,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12882,
+          "tx_count": 13
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E000014052",
+      "estate_name": "The Reach",
+      "latitude": 22.437717,
+      "longitude": 114.03221,
+      "avg_feet_price": "$9,449",
+      "avg_net_feet_price": "$12,882",
+      "tx_count": 13,
+      "pricechange": "+12.6%",
+      "region_id": "30",
+      "estate_url_desc": "The-Reach-Yuen-Long-E000014052"
+    },
+    "estate_E00036": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15846,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15562,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13087,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14259,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13612,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13561,
+          "tx_count": 12
+        }
+      },
+      "dist_id": "11",
+      "est_id": "E00036",
+      "estate_name": "Chi Fu Fa Yuen",
+      "latitude": 22.257698,
+      "longitude": 114.138891,
+      "avg_feet_price": "$11,488",
+      "avg_net_feet_price": "$13,561",
+      "tx_count": 12,
+      "pricechange": "-0.4%",
+      "region_id": "10",
+      "estate_url_desc": "Chi-Fu-Fa-Yuen-Pokfulam-Residence-Bel-Air-E00036"
+    },
+    "estate_E11722": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16575,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17680,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14506,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15525,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15730,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15517,
+          "tx_count": 12
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E11722",
+      "estate_name": "La Cite Noble",
+      "latitude": 22.313778,
+      "longitude": 114.266382,
+      "avg_feet_price": "$11,132",
+      "avg_net_feet_price": "$15,517",
+      "tx_count": 12,
+      "pricechange": "-1.4%",
+      "region_id": "20",
+      "estate_url_desc": "La-Cite-Noble-Hang-Hau-E11722"
+    },
+    "estate_E00515": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17824,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16508,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15139,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15242,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15467,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15717,
+          "tx_count": 11
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E00515",
+      "estate_name": "Tak Bo Garden",
+      "latitude": 22.326864,
+      "longitude": 114.214462,
+      "avg_feet_price": "$11,477",
+      "avg_net_feet_price": "$15,717",
+      "tx_count": 11,
+      "pricechange": "+1.6%",
+      "region_id": "20",
+      "estate_url_desc": "Tak-Bo-Garden-Kowloon-Bay-E00515"
+    },
+    "estate_E000000561": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 18374,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18195,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 18195,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 18195,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 17030,
+          "tx_count": 10
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 16683,
+          "tx_count": 11
+        }
+      },
+      "dist_id": "13",
+      "est_id": "E000000561",
+      "estate_name": "The Pacifica",
+      "latitude": 22.334875,
+      "longitude": 114.150079,
+      "avg_feet_price": "$12,006",
+      "avg_net_feet_price": "$16,683",
+      "tx_count": 11,
+      "pricechange": "-2.0%",
+      "region_id": "20",
+      "estate_url_desc": "The-Pacifica-Lai-Chi-Kok-E000000561"
+    },
+    "estate_E00007": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17303,
+          "tx_count": 8
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16188,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 18376,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14814,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14915,
+          "tx_count": 13
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15482,
+          "tx_count": 11
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00007",
+      "estate_name": "Sunshine City",
+      "latitude": 22.424241,
+      "longitude": 114.2319,
+      "avg_feet_price": "$11,626",
+      "avg_net_feet_price": "$15,482",
+      "tx_count": 11,
+      "pricechange": "+3.8%",
+      "region_id": "30",
+      "estate_url_desc": "Sunshine-City-Ma-On-Shan-E00007"
+    },
+    "estate_E00142": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15765,
+          "tx_count": 11
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15033,
+          "tx_count": 7
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15850,
+          "tx_count": 14
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15122,
+          "tx_count": 10
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15279,
+          "tx_count": 12
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15692,
+          "tx_count": 11
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E00142",
+      "estate_name": "Metro City",
+      "latitude": 22.322488,
+      "longitude": 114.25773,
+      "avg_feet_price": "$11,289",
+      "avg_net_feet_price": "$15,692",
+      "tx_count": 11,
+      "pricechange": "+2.7%",
+      "region_id": "20",
+      "estate_url_desc": "Metro-City-Po-Lam-Tseung-Kwan-O-Station-E00142"
+    },
+    "estate_E11803": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16147,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17732,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16226,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15451,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 18092,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 16573,
+          "tx_count": 11
+        }
+      },
+      "dist_id": "15",
+      "est_id": "E11803",
+      "estate_name": "Tierra Verde",
+      "latitude": 22.358241,
+      "longitude": 114.106697,
+      "avg_feet_price": "$13,192",
+      "avg_net_feet_price": "$16,573",
+      "tx_count": 11,
+      "pricechange": "-8.4%",
+      "region_id": "30",
+      "estate_url_desc": "Tierra-Verde-Tsing-Yi-E11803"
+    },
+    "estate_E12846": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17878,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18906,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16047,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16268,
+          "tx_count": 7
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14835,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 16595,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "13",
+      "est_id": "E12846",
+      "estate_name": "Banyan Garden",
+      "latitude": 22.334432,
+      "longitude": 114.14774,
+      "avg_feet_price": "$12,217",
+      "avg_net_feet_price": "$16,595",
+      "tx_count": 10,
+      "pricechange": "+11.9%",
+      "region_id": "20",
+      "estate_url_desc": "Banyan-Garden-Lai-Chi-Kok-E12846"
+    },
+    "estate_E11721": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 14951,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14115,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13343,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13382,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11536,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12912,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "06",
+      "est_id": "E11721",
+      "estate_name": "Dawning Views",
+      "latitude": 22.487062,
+      "longitude": 114.143981,
+      "avg_feet_price": "$9,398",
+      "avg_net_feet_price": "$12,912",
+      "tx_count": 10,
+      "pricechange": "+11.9%",
+      "region_id": "30",
+      "estate_url_desc": "Dawning-Views-Sheung-Shui-Fanling-E11721"
+    },
+    "estate_E12480": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 18158,
+          "tx_count": 11
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17978,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16291,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15043,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14765,
+          "tx_count": 6
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15894,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E12480",
+      "estate_name": "Ocean Shores",
+      "latitude": 22.301982,
+      "longitude": 114.253992,
+      "avg_feet_price": "$11,754",
+      "avg_net_feet_price": "$15,894",
+      "tx_count": 10,
+      "pricechange": "+7.6%",
+      "region_id": "20",
+      "estate_url_desc": "Ocean-Shores-Tiu-Keng-Leng-E12480"
+    },
+    "estate_E00081": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10913,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11982,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11982,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11982,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10169,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10445,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00081",
+      "estate_name": "Allway Gardens",
+      "latitude": 22.378205,
+      "longitude": 114.10321,
+      "avg_feet_price": "$9,217",
+      "avg_net_feet_price": "$10,445",
+      "tx_count": 10,
+      "pricechange": "+2.7%",
+      "region_id": "30",
+      "estate_url_desc": "Allway-Gardens-Tsuen-Wan-E00081"
+    },
+    "estate_E00037": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17993,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17564,
+          "tx_count": 8
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15601,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14979,
+          "tx_count": 12
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15593,
+          "tx_count": 15
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15863,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "01",
+      "est_id": "E00037",
+      "estate_name": "Whampoa Garden",
+      "latitude": 22.304842,
+      "longitude": 114.190331,
+      "avg_feet_price": "$13,686",
+      "avg_net_feet_price": "$15,863",
+      "tx_count": 10,
+      "pricechange": "+1.7%",
+      "region_id": "20",
+      "estate_url_desc": "Whampoa-Garden-Hung-Hom-E00037"
+    },
+    "estate_E00054": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15267,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15559,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14649,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15453,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15492,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 14170,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E00054",
+      "estate_name": "Sceneway Garden",
+      "latitude": 22.306893,
+      "longitude": 114.233061,
+      "avg_feet_price": "$11,161",
+      "avg_net_feet_price": "$14,170",
+      "tx_count": 10,
+      "pricechange": "-8.5%",
+      "region_id": "20",
+      "estate_url_desc": "Sceneway-Garden-Lam-Tin-Yau-Tong-E00054"
+    },
+    "estate_E00078": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13291,
+          "tx_count": 9
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13606,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13225,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12431,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11614,
+          "tx_count": 20
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11401,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00078",
+      "estate_name": "Riviera Gardens",
+      "latitude": 22.361937,
+      "longitude": 114.113423,
+      "avg_feet_price": "$9,175",
+      "avg_net_feet_price": "$11,401",
+      "tx_count": 10,
+      "pricechange": "-1.8%",
+      "region_id": "30",
+      "estate_url_desc": "Riviera-Gardens-Tsuen-Wan-E00078"
+    },
+    "estate_E00885": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10271,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 9130,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 9987,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 8901,
+          "tx_count": 6
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 9878,
+          "tx_count": 10
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9656,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00885",
+      "estate_name": "Kam Fung Court",
+      "latitude": 22.42271,
+      "longitude": 114.22546,
+      "avg_feet_price": "$7,045",
+      "avg_net_feet_price": "$9,656",
+      "tx_count": 10,
+      "pricechange": "-2.2%",
+      "region_id": "30",
+      "estate_url_desc": "Kam-Fung-Court-Ma-On-Shan-E00885"
+    },
+    "estate_E000000557": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16957,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16172,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14854,
+          "tx_count": 7
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16444,
+          "tx_count": 10
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14577,
+          "tx_count": 11
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 14972,
+          "tx_count": 10
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E000000557",
+      "estate_name": "Yoho Town",
+      "latitude": 22.441932,
+      "longitude": 114.03705,
+      "avg_feet_price": "$11,543",
+      "avg_net_feet_price": "$14,972",
+      "tx_count": 10,
+      "pricechange": "+2.7%",
+      "region_id": "30",
+      "estate_url_desc": "Yoho-Town-Yuen-Long-E000000557"
+    },
+    "estate_E000013989": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13225,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 12641,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11323,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11955,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12289,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11457,
+          "tx_count": 9
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E000013989",
+      "estate_name": "The Beaumount",
+      "latitude": 22.29749,
+      "longitude": 114.27508,
+      "avg_feet_price": "$8,685",
+      "avg_net_feet_price": "$11,457",
+      "tx_count": 9,
+      "pricechange": "-6.8%",
+      "region_id": "20",
+      "estate_url_desc": "The-Beaumount-Lohas-Park-E000013989"
+    },
+    "estate_E00085": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 14468,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11190,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13925,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10747,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10839,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10607,
+          "tx_count": 9
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00085",
+      "estate_name": "Sea Crest Villa",
+      "latitude": 22.366329,
+      "longitude": 114.057002,
+      "avg_feet_price": "$8,414",
+      "avg_net_feet_price": "$10,607",
+      "tx_count": 9,
+      "pricechange": "-2.1%",
+      "region_id": "30",
+      "estate_url_desc": "Sea-Crest-Villa-Sham-Tseng-E00085"
+    },
+    "estate_E00056": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13995,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15803,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13868,
+          "tx_count": 7
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13542,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13276,
+          "tx_count": 8
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13066,
+          "tx_count": 9
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E00056",
+      "estate_name": "Telford Gardens",
+      "latitude": 22.323415,
+      "longitude": 114.212927,
+      "avg_feet_price": "$11,451",
+      "avg_net_feet_price": "$13,066",
+      "tx_count": 9,
+      "pricechange": "-1.6%",
+      "region_id": "20",
+      "estate_url_desc": "Telford-Gardens-Kowloon-Bay-E00056"
+    },
+    "estate_E00143": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15975,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13259,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14669,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16299,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13369,
+          "tx_count": 6
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13364,
+          "tx_count": 9
+        }
+      },
+      "dist_id": "15",
+      "est_id": "E00143",
+      "estate_name": "Greenfield Garden",
+      "latitude": 22.352216,
+      "longitude": 114.10785,
+      "avg_feet_price": "$10,364",
+      "avg_net_feet_price": "$13,364",
+      "tx_count": 9,
+      "pricechange": "-0.0%",
+      "region_id": "30",
+      "estate_url_desc": "Greenfield-Garden-Tsing-Yi-E00143"
+    },
+    "estate_E12837": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 18215,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 19020,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16989,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16293,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 17202,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 17380,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "10",
+      "est_id": "E12837",
+      "estate_name": "Metro Harbour View",
+      "latitude": 22.324519,
+      "longitude": 114.160467,
+      "avg_feet_price": "$12,118",
+      "avg_net_feet_price": "$17,380",
+      "tx_count": 8,
+      "pricechange": "+1.0%",
+      "region_id": "20",
+      "estate_url_desc": "Metro-Harbour-View-Tai-Kok-Tsui-E12837"
+    },
+    "estate_E12047": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13916,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13229,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13229,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13097,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12561,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11827,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "05",
+      "est_id": "E12047",
+      "estate_name": "Parkland Villas",
+      "latitude": 22.41042,
+      "longitude": 113.981307,
+      "avg_feet_price": "$8,157",
+      "avg_net_feet_price": "$11,827",
+      "tx_count": 8,
+      "pricechange": "-5.8%",
+      "region_id": "30",
+      "estate_url_desc": "Parkland-Villas-Tuen-Mun-E12047"
+    },
+    "estate_E11246": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 21196,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 19158,
+          "tx_count": 8
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 17240,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 18747,
+          "tx_count": 6
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 17543,
+          "tx_count": 12
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 17531,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "01",
+      "est_id": "E11246",
+      "estate_name": "Laguna Verde",
+      "latitude": 22.307867,
+      "longitude": 114.192466,
+      "avg_feet_price": "$13,685",
+      "avg_net_feet_price": "$17,531",
+      "tx_count": 8,
+      "pricechange": "-0.1%",
+      "region_id": "20",
+      "estate_url_desc": "Laguna-Verde-Hung-Hom-E11246"
+    },
+    "estate_E00074": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15549,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16942,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16942,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14125,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14125,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15177,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E00074",
+      "estate_name": "Well On Garden",
+      "latitude": 22.323926,
+      "longitude": 114.25379,
+      "avg_feet_price": "$11,044",
+      "avg_net_feet_price": "$15,177",
+      "tx_count": 8,
+      "pricechange": "+7.4%",
+      "region_id": "20",
+      "estate_url_desc": "Well-On-Garden-Po-Lam-Tseung-Kwan-O-Station-E00074"
+    },
+    "estate_E00093": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11926,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11250,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11293,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 9650,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11061,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10819,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "05",
+      "est_id": "E00093",
+      "estate_name": "Tai Hing Gardens",
+      "latitude": 22.399752,
+      "longitude": 113.971708,
+      "avg_feet_price": "$8,442",
+      "avg_net_feet_price": "$10,819",
+      "tx_count": 8,
+      "pricechange": "-2.2%",
+      "region_id": "30",
+      "estate_url_desc": "Tai-Hing-Gardens-Tuen-Mun-E00093"
+    },
+    "estate_E00098": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13100,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13100,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12570,
+          "tx_count": 7
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14451,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11919,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12096,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "06",
+      "est_id": "E00098",
+      "estate_name": "Fanling Centre",
+      "latitude": 22.490683,
+      "longitude": 114.141298,
+      "avg_feet_price": "$9,419",
+      "avg_net_feet_price": "$12,096",
+      "tx_count": 8,
+      "pricechange": "+1.5%",
+      "region_id": "30",
+      "estate_url_desc": "Fanling-Centre-Sheung-Shui-Fanling-E00098"
+    },
+    "estate_E00042": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15448,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15296,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13780,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13441,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13670,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 14159,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00042",
+      "estate_name": "Luk Yeung Sun Chuen",
+      "latitude": 22.373228,
+      "longitude": 114.120554,
+      "avg_feet_price": "$12,323",
+      "avg_net_feet_price": "$14,159",
+      "tx_count": 8,
+      "pricechange": "+3.6%",
+      "region_id": "30",
+      "estate_url_desc": "Luk-Yeung-Sun-Chuen-Tsuen-Wan-E00042"
+    },
+    "estate_E00057": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 14705,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14125,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14435,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12773,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12554,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12342,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E00057",
+      "estate_name": "Richland Gardens",
+      "latitude": 22.330072,
+      "longitude": 114.206843,
+      "avg_feet_price": "$10,688",
+      "avg_net_feet_price": "$12,342",
+      "tx_count": 8,
+      "pricechange": "-1.7%",
+      "region_id": "20",
+      "estate_url_desc": "Richland-Gardens-Kowloon-Bay-E00057"
+    },
+    "estate_E11543": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10962,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 9513,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 9513,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 9594,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 9501,
+          "tx_count": 6
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9542,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E11543",
+      "estate_name": "Beverly Garden",
+      "latitude": 22.31044,
+      "longitude": 114.261722,
+      "avg_feet_price": "$8,163",
+      "avg_net_feet_price": "$9,542",
+      "tx_count": 8,
+      "pricechange": "+0.4%",
+      "region_id": "20",
+      "estate_url_desc": "Beverly-Garden-Po-Lam-Tseung-Kwan-O-Station-E11543"
+    },
+    "estate_E000004214": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11828,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 12333,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11257,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11009,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10731,
+          "tx_count": 11
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11022,
+          "tx_count": 8
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E000004214",
+      "estate_name": "Central Park Towers",
+      "latitude": 22.459273,
+      "longitude": 114.001003,
+      "avg_feet_price": "$8,364",
+      "avg_net_feet_price": "$11,022",
+      "tx_count": 8,
+      "pricechange": "+2.7%",
+      "region_id": "30",
+      "estate_url_desc": "Central-Park-Towers-Tin-Shui-Wai-E000004214"
+    },
+    "estate_E000014490": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16124,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15317,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15665,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13454,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14577,
+          "tx_count": 8
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13804,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E000014490",
+      "estate_name": "City Point",
+      "latitude": 22.364164,
+      "longitude": 114.115045,
+      "avg_feet_price": "",
+      "avg_net_feet_price": "$13,804",
+      "tx_count": 7,
+      "pricechange": "-5.3%",
+      "region_id": "30",
+      "estate_url_desc": "City-Point-Tsuen-Wan-E000014490"
+    },
+    "estate_E00331": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10730,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 10213,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 9865,
+          "tx_count": 9
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 9274,
+          "tx_count": 8
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 9406,
+          "tx_count": 8
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9602,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "05",
+      "est_id": "E00331",
+      "estate_name": "Siu Hong Court",
+      "latitude": 22.412312,
+      "longitude": 113.977458,
+      "avg_feet_price": "$8,013",
+      "avg_net_feet_price": "$9,602",
+      "tx_count": 7,
+      "pricechange": "+2.1%",
+      "region_id": "30",
+      "estate_url_desc": "Siu-Hong-Court-Tuen-Mun-E00331"
+    },
+    "estate_E00422": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 19987,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18604,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 18604,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 18604,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 16955,
+          "tx_count": 9
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 16010,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00422",
+      "estate_name": "Garden Rivera",
+      "latitude": 22.38123,
+      "longitude": 114.195443,
+      "avg_feet_price": "$11,064",
+      "avg_net_feet_price": "$16,010",
+      "tx_count": 7,
+      "pricechange": "-5.6%",
+      "region_id": "30",
+      "estate_url_desc": "Garden-Rivera-Shatin-E00422"
+    },
+    "estate_E00025": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 19090,
+          "tx_count": 9
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18778,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 18674,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16429,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 17488,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 17141,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "09",
+      "est_id": "E00025",
+      "estate_name": "Kornhill",
+      "latitude": 22.283292,
+      "longitude": 114.216411,
+      "avg_feet_price": "$14,027",
+      "avg_net_feet_price": "$17,141",
+      "tx_count": 7,
+      "pricechange": "-2.0%",
+      "region_id": "10",
+      "estate_url_desc": "Kornhill-Quarry-Bay-E00025"
+    },
+    "estate_E12339": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 8075,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 9844,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 6059,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 6285,
+          "tx_count": 16
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 6551,
+          "tx_count": 11
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 6373,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E12339",
+      "estate_name": "Tin Fu Court",
+      "latitude": 22.464236,
+      "longitude": 114.000039,
+      "avg_feet_price": "$4,897",
+      "avg_net_feet_price": "$6,373",
+      "tx_count": 7,
+      "pricechange": "-2.7%",
+      "region_id": "30",
+      "estate_url_desc": "Tin-Fu-Court-Tin-Shui-Wai-E12339"
+    },
+    "estate_E01089": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10851,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 8957,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 9717,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 9120,
+          "tx_count": 9
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 7790,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9078,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E01089",
+      "estate_name": "Kwong Ming Court",
+      "latitude": 22.3125,
+      "longitude": 114.259432,
+      "avg_feet_price": "$6,793",
+      "avg_net_feet_price": "$9,078",
+      "tx_count": 7,
+      "pricechange": "+16.5%",
+      "region_id": "20",
+      "estate_url_desc": "Kwong-Ming-Court-Po-Lam-Tseung-Kwan-O-Station-E01089"
+    },
+    "estate_E00105": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12618,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 12690,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12690,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12690,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12206,
+          "tx_count": 8
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11279,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E00105",
+      "estate_name": "Fairview Park",
+      "latitude": 22.47189,
+      "longitude": 114.053479,
+      "avg_feet_price": "$10,090",
+      "avg_net_feet_price": "$11,279",
+      "tx_count": 7,
+      "pricechange": "-7.6%",
+      "region_id": "30",
+      "estate_url_desc": "Fairview-Park-Yuen-Long-E00105"
+    },
+    "estate_E000000612": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17137,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18080,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16296,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15574,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14881,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15666,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E000000612",
+      "estate_name": "Residence Oasis",
+      "latitude": 22.315531,
+      "longitude": 114.264782,
+      "avg_feet_price": "$11,620",
+      "avg_net_feet_price": "$15,666",
+      "tx_count": 7,
+      "pricechange": "+5.3%",
+      "region_id": "20",
+      "estate_url_desc": "Residence-Oasis-Hang-Hau-E000000612"
+    },
+    "estate_E000002406": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17036,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17564,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16119,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15215,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15981,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15273,
+          "tx_count": 7
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E000002406",
+      "estate_name": "Metro Town",
+      "latitude": 22.304321,
+      "longitude": 114.252304,
+      "avg_feet_price": "$11,217",
+      "avg_net_feet_price": "$15,273",
+      "tx_count": 7,
+      "pricechange": "-4.4%",
+      "region_id": "20",
+      "estate_url_desc": "Metro-Town-Tiu-Keng-Leng-E000002406"
+    },
+    "estate_E00722": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15570,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15320,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13305,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12286,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13715,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13344,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00722",
+      "estate_name": "Discovery Park",
+      "latitude": 22.376033,
+      "longitude": 114.111659,
+      "avg_feet_price": "$10,641",
+      "avg_net_feet_price": "$13,344",
+      "tx_count": 6,
+      "pricechange": "-2.7%",
+      "region_id": "30",
+      "estate_url_desc": "Discovery-Park-Tsuen-Wan-E00722"
+    },
+    "estate_E00090": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11453,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 9046,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10653,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13894,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10735,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11538,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00090",
+      "estate_name": "Hongkong Garden",
+      "latitude": 22.362027,
+      "longitude": 114.042317,
+      "avg_feet_price": "$7,775",
+      "avg_net_feet_price": "$11,538",
+      "tx_count": 6,
+      "pricechange": "+7.5%",
+      "region_id": "30",
+      "estate_url_desc": "Hongkong-Garden-Sham-Tseng-E00090"
+    },
+    "estate_E000014915": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11694,
+          "tx_count": 6
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13634,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10990,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10791,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10791,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10640,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "02",
+      "est_id": "E000014915",
+      "estate_name": "Mont Vert",
+      "latitude": 22.46502789,
+      "longitude": 114.1796315,
+      "avg_feet_price": "",
+      "avg_net_feet_price": "$10,640",
+      "tx_count": 6,
+      "pricechange": "-1.4%",
+      "region_id": "30",
+      "estate_url_desc": "Mont-Vert-Tai-Po-E000014915"
+    },
+    "estate_E00282": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13616,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13616,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12251,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12405,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10287,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12176,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00282",
+      "estate_name": "May Shing Court",
+      "latitude": 22.379253,
+      "longitude": 114.1748,
+      "avg_feet_price": "$8,877",
+      "avg_net_feet_price": "$12,176",
+      "tx_count": 6,
+      "pricechange": "+18.4%",
+      "region_id": "30",
+      "estate_url_desc": "May-Shing-Court-Shatin-E00282"
+    },
+    "estate_E000000432": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16224,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16224,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16224,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14056,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14056,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13712,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E000000432",
+      "estate_name": "Summit Terrace",
+      "latitude": 22.375732,
+      "longitude": 114.105532,
+      "avg_feet_price": "$10,040",
+      "avg_net_feet_price": "$13,712",
+      "tx_count": 6,
+      "pricechange": "-2.4%",
+      "region_id": "30",
+      "estate_url_desc": "Summit-Terrace-Tsuen-Wan-E000000432"
+    },
+    "estate_E11986": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 7397,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 6979,
+          "tx_count": 6
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 6453,
+          "tx_count": 9
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 6278,
+          "tx_count": 14
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 6458,
+          "tx_count": 12
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 6393,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E11986",
+      "estate_name": "Tin Chung Court",
+      "latitude": 22.460614,
+      "longitude": 113.999393,
+      "avg_feet_price": "$4,866",
+      "avg_net_feet_price": "$6,393",
+      "tx_count": 6,
+      "pricechange": "-1.0%",
+      "region_id": "30",
+      "estate_url_desc": "Tin-Chung-Court-Tin-Shui-Wai-E11986"
+    },
+    "estate_E00882": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 8246,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 8246,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 8246,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 8173,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10226,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 8665,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "09",
+      "est_id": "E00882",
+      "estate_name": "Tung Hei Court",
+      "latitude": 22.28005,
+      "longitude": 114.218943,
+      "avg_feet_price": "$6,293",
+      "avg_net_feet_price": "$8,665",
+      "tx_count": 6,
+      "pricechange": "-15.3%",
+      "region_id": "10",
+      "estate_url_desc": "Tung-Hei-Court-Shau-Kei-Wan-E00882"
+    },
+    "estate_E11371": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 7899,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 8342,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 8220,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 7265,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 8239,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 7713,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "16",
+      "est_id": "E11371",
+      "estate_name": "Yu Tung Court",
+      "latitude": 22.287718,
+      "longitude": 113.943007,
+      "avg_feet_price": "$5,788",
+      "avg_net_feet_price": "$7,713",
+      "tx_count": 6,
+      "pricechange": "-6.4%",
+      "region_id": "30",
+      "estate_url_desc": "Yu-Tung-Court-Tung-Chung-E11371"
+    },
+    "estate_E00092": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12239,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11340,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10889,
+          "tx_count": 11
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10036,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 9692,
+          "tx_count": 8
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10147,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "05",
+      "est_id": "E00092",
+      "estate_name": "Sun Tuen Mun Centre",
+      "latitude": 22.381231,
+      "longitude": 113.965075,
+      "avg_feet_price": "$8,375",
+      "avg_net_feet_price": "$10,147",
+      "tx_count": 6,
+      "pricechange": "+4.7%",
+      "region_id": "30",
+      "estate_url_desc": "Sun-Tuen-Mun-Centre-Tuen-Mun-E00092"
+    },
+    "estate_E00148": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15670,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18300,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15122,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14975,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15774,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15973,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "01",
+      "est_id": "E00148",
+      "estate_name": "Whampoa Estate",
+      "latitude": 22.306242,
+      "longitude": 114.188108,
+      "avg_feet_price": "$11,181",
+      "avg_net_feet_price": "$15,973",
+      "tx_count": 6,
+      "pricechange": "+1.3%",
+      "region_id": "20",
+      "estate_url_desc": "Whampoa-Estate-Hung-Hom-E00148"
+    },
+    "estate_E00004": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17338,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17227,
+          "tx_count": 4
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15278,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16649,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14925,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 14548,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00004",
+      "estate_name": "Golden Lion Garden",
+      "latitude": 22.368507,
+      "longitude": 114.182636,
+      "avg_feet_price": "$9,104",
+      "avg_net_feet_price": "$14,548",
+      "tx_count": 6,
+      "pricechange": "-2.5%",
+      "region_id": "30",
+      "estate_url_desc": "Golden-Lion-Garden-Shatin-E00004"
+    },
+    "estate_E00069": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15695,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13894,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 15484,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13850,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13850,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13479,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "02",
+      "est_id": "E00069",
+      "estate_name": "Serenity Park",
+      "latitude": 22.453933,
+      "longitude": 114.161477,
+      "avg_feet_price": "$10,219",
+      "avg_net_feet_price": "$13,479",
+      "tx_count": 6,
+      "pricechange": "-2.7%",
+      "region_id": "30",
+      "estate_url_desc": "Serenity-Park-Tai-Po-E00069"
+    },
+    "estate_E00079": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 14126,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13268,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14438,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14034,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13272,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13002,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00079",
+      "estate_name": "Tsuen King Garden",
+      "latitude": 22.378073,
+      "longitude": 114.109327,
+      "avg_feet_price": "$10,692",
+      "avg_net_feet_price": "$13,002",
+      "tx_count": 6,
+      "pricechange": "-2.0%",
+      "region_id": "30",
+      "estate_url_desc": "Tsuen-King-Garden-Tsuen-Wan-E00079"
+    },
+    "estate_E00867": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 8318,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 9648,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 8509,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 8961,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 8899,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 8926,
+          "tx_count": 6
+        }
+      },
+      "dist_id": "05",
+      "est_id": "E00867",
+      "estate_name": "Yuet Wu Villa",
+      "latitude": 22.374616,
+      "longitude": 113.968202,
+      "avg_feet_price": "$7,423",
+      "avg_net_feet_price": "$8,926",
+      "tx_count": 6,
+      "pricechange": "+0.3%",
+      "region_id": "30",
+      "estate_url_desc": "Yuet-Wu-Villa-Tuen-Mun-E00867"
+    },
+    "estate_E00479": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13730,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 12158,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11122,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11122,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11240,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11734,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "02",
+      "est_id": "E00479",
+      "estate_name": "Classical Gardens",
+      "latitude": 22.44204,
+      "longitude": 114.161469,
+      "avg_feet_price": "$9,372",
+      "avg_net_feet_price": "$11,734",
+      "tx_count": 5,
+      "pricechange": "+4.4%",
+      "region_id": "30",
+      "estate_url_desc": "Classical-Gardens-Tai-Po-E00479"
+    },
+    "estate_E00086": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 10135,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 10135,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 8446,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 8446,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 8446,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9223,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00086",
+      "estate_name": "Rhine Garden",
+      "latitude": 22.368192,
+      "longitude": 114.061738,
+      "avg_feet_price": "$7,428",
+      "avg_net_feet_price": "$9,223",
+      "tx_count": 5,
+      "pricechange": "+9.2%",
+      "region_id": "30",
+      "estate_url_desc": "Rhine-Garden-Sham-Tseng-E00086"
+    },
+    "estate_E00320": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16586,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17114,
+          "tx_count": 3
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16216,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16165,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15162,
+          "tx_count": 1
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 14807,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E00320",
+      "estate_name": "Shatinpark",
+      "latitude": 22.379975,
+      "longitude": 114.197288,
+      "avg_feet_price": "$9,603",
+      "avg_net_feet_price": "$14,807",
+      "tx_count": 5,
+      "pricechange": "-2.3%",
+      "region_id": "30",
+      "estate_url_desc": "Shatinpark-Shatin-E00320"
+    },
+    "estate_E00352": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15024,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 10651,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12816,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12816,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13110,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13622,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "14",
+      "est_id": "E00352",
+      "estate_name": "Tin Ma Court",
+      "latitude": 22.343538,
+      "longitude": 114.18579,
+      "avg_feet_price": "$9,972",
+      "avg_net_feet_price": "$13,622",
+      "tx_count": 5,
+      "pricechange": "+3.9%",
+      "region_id": "20",
+      "estate_url_desc": "Tin-Ma-Court-Wong-Tai-Sin-Lok-Fu-E00352"
+    },
+    "estate_E00402": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13109,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13109,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10671,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10671,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10671,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11131,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E00402",
+      "estate_name": "Ying Ming Court",
+      "latitude": 22.325911,
+      "longitude": 114.257392,
+      "avg_feet_price": "$8,700",
+      "avg_net_feet_price": "$11,131",
+      "tx_count": 5,
+      "pricechange": "+4.3%",
+      "region_id": "20",
+      "estate_url_desc": "Ying-Ming-Court-Po-Lam-Tseung-Kwan-O-Station-E00402"
+    },
+    "estate_P000000532": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16967,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 16829,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14775,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 18532,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 14478,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15142,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "04",
+      "est_id": "P000000532",
+      "estate_name": "Yoho Midtown",
+      "latitude": 22.443464,
+      "longitude": 114.03645,
+      "avg_feet_price": "$11,622",
+      "avg_net_feet_price": "$15,142",
+      "tx_count": 5,
+      "pricechange": "+4.6%",
+      "region_id": "30",
+      "estate_url_desc": "Yoho-Midtown-Yuen-Long-P000000532"
+    },
+    "estate_E12857": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 18788,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18788,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16280,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15993,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 16131,
+          "tx_count": 10
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15699,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "13",
+      "est_id": "E12857",
+      "estate_name": "Liberte",
+      "latitude": 22.334622,
+      "longitude": 114.148895,
+      "avg_feet_price": "$11,931",
+      "avg_net_feet_price": "$15,699",
+      "tx_count": 5,
+      "pricechange": "-2.7%",
+      "region_id": "20",
+      "estate_url_desc": "Liberte-Lai-Chi-Kok-E12857"
+    },
+    "estate_E12869": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 20920,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 21080,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 18261,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 18261,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 16375,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 16980,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "01",
+      "est_id": "E12869",
+      "estate_name": "Sky Tower",
+      "latitude": 22.323526,
+      "longitude": 114.190351,
+      "avg_feet_price": "$12,784",
+      "avg_net_feet_price": "$16,980",
+      "tx_count": 5,
+      "pricechange": "+3.7%",
+      "region_id": "20",
+      "estate_url_desc": "Sky-Tower-To-Kwa-Wan-E12869"
+    },
+    "estate_E12881": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 11214,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 10279,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 9671,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10337,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 10105,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 9844,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "18",
+      "est_id": "E12881",
+      "estate_name": "Lei On Court",
+      "latitude": 22.30888,
+      "longitude": 114.232353,
+      "avg_feet_price": "$7,610",
+      "avg_net_feet_price": "$9,844",
+      "tx_count": 5,
+      "pricechange": "-2.6%",
+      "region_id": "20",
+      "estate_url_desc": "Lei-On-Court-Lam-Tin-Yau-Tong-E12881"
+    },
+    "estate_E000000521": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17483,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18403,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 16835,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14751,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15827,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15634,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E000000521",
+      "estate_name": "Tseung Kwan O Plaza",
+      "latitude": 22.308967,
+      "longitude": 114.262342,
+      "avg_feet_price": "$11,471",
+      "avg_net_feet_price": "$15,634",
+      "tx_count": 5,
+      "pricechange": "-1.2%",
+      "region_id": "20",
+      "estate_url_desc": "Tseung-Kwan-O-Plaza-Po-Lam-Tseung-Kwan-O-Station-E000000521"
+    },
+    "estate_E000000515": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12600,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11095,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11493,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11190,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11239,
+          "tx_count": 7
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11658,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E000000515",
+      "estate_name": "Serenity Place",
+      "latitude": 22.322445,
+      "longitude": 114.253449,
+      "avg_feet_price": "$8,986",
+      "avg_net_feet_price": "$11,658",
+      "tx_count": 5,
+      "pricechange": "+3.7%",
+      "region_id": "20",
+      "estate_url_desc": "Serenity-Place-Po-Lam-Tseung-Kwan-O-Station-E000000515"
+    },
+    "estate_E000003566": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 22186,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 22186,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 22186,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 22186,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 22186,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 21643,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "17",
+      "est_id": "E000003566",
+      "estate_name": "The Zenith",
+      "latitude": 22.27487,
+      "longitude": 114.173718,
+      "avg_feet_price": "$15,889",
+      "avg_net_feet_price": "$21,643",
+      "tx_count": 5,
+      "pricechange": "-2.4%",
+      "region_id": "10",
+      "estate_url_desc": "The-Zenith-Wan-Chai-Causeway-Bay-E000003566"
+    },
+    "estate_E000003637": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12599,
+          "tx_count": 7
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11750,
+          "tx_count": 7
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 11750,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11405,
+          "tx_count": 10
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11064,
+          "tx_count": 6
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10907,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "05",
+      "est_id": "E000003637",
+      "estate_name": "The Sherwood",
+      "latitude": 22.41932,
+      "longitude": 113.985768,
+      "avg_feet_price": "$8,140",
+      "avg_net_feet_price": "$10,907",
+      "tx_count": 5,
+      "pricechange": "-1.4%",
+      "region_id": "30",
+      "estate_url_desc": "The-Sherwood-Tuen-Mun-E000003637"
+    },
+    "estate_E11636": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 19161,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 18290,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 17419,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 16302,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 17032,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 16331,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "14",
+      "est_id": "E11636",
+      "estate_name": "Galaxia",
+      "latitude": 22.341207,
+      "longitude": 114.202118,
+      "avg_feet_price": "$12,878",
+      "avg_net_feet_price": "$16,331",
+      "tx_count": 5,
+      "pricechange": "-4.1%",
+      "region_id": "20",
+      "estate_url_desc": "Galaxia-Diamond-Hill-San-Po-Kong-Ngau-Chi-Wan-E11636"
+    },
+    "estate_E11853": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15362,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14630,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13990,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13990,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13071,
+          "tx_count": 6
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 13731,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "08",
+      "est_id": "E11853",
+      "estate_name": "Castello",
+      "latitude": 22.383187,
+      "longitude": 114.215873,
+      "avg_feet_price": "$10,572",
+      "avg_net_feet_price": "$13,731",
+      "tx_count": 5,
+      "pricechange": "+5.0%",
+      "region_id": "30",
+      "estate_url_desc": "Castello-Shatin-E11853"
+    },
+    "estate_E11968": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 22673,
+          "tx_count": 5
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 24609,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 21865,
+          "tx_count": 2
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 19320,
+          "tx_count": 5
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 19300,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 20111,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "10",
+      "est_id": "E11968",
+      "estate_name": "Island Harbourview",
+      "latitude": 22.318766,
+      "longitude": 114.157468,
+      "avg_feet_price": "$15,012",
+      "avg_net_feet_price": "$20,111",
+      "tx_count": 5,
+      "pricechange": "+4.2%",
+      "region_id": "20",
+      "estate_url_desc": "Island-Harbourview-Olympic-E11968"
+    },
+    "estate_E12584": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13954,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13954,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13954,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 13966,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13525,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12485,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "07",
+      "est_id": "E12584",
+      "estate_name": "Oscar By The Sea",
+      "latitude": 22.307719,
+      "longitude": 114.266902,
+      "avg_feet_price": "$9,376",
+      "avg_net_feet_price": "$12,485",
+      "tx_count": 5,
+      "pricechange": "-7.7%",
+      "region_id": "20",
+      "estate_url_desc": "Oscar-By-The-Sea-Po-Lam-Tseung-Kwan-O-Station-E12584"
+    },
+    "estate_E12625": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13778,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13778,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12287,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12343,
+          "tx_count": 3
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12263,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12467,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E12625",
+      "estate_name": "The Parcville",
+      "latitude": 22.450706,
+      "longitude": 114.032796,
+      "avg_feet_price": "$9,438",
+      "avg_net_feet_price": "$12,467",
+      "tx_count": 5,
+      "pricechange": "+1.7%",
+      "region_id": "30",
+      "estate_url_desc": "The-Parcville-Yuen-Long-E12625"
+    },
+    "estate_E11414": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16836,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 17027,
+          "tx_count": 1
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12697,
+          "tx_count": 3
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12697,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15421,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15860,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "15",
+      "est_id": "E11414",
+      "estate_name": "Villa Esplanada",
+      "latitude": 22.362367,
+      "longitude": 114.106617,
+      "avg_feet_price": "$12,413",
+      "avg_net_feet_price": "$15,860",
+      "tx_count": 5,
+      "pricechange": "+2.8%",
+      "region_id": "30",
+      "estate_url_desc": "Villa-Esplanada-Tsing-Yi-E11414"
+    },
+    "estate_E11530": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12236,
+          "tx_count": 0
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 12236,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12236,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12236,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12236,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10021,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "04",
+      "est_id": "E11530",
+      "estate_name": "Scenic Gardens",
+      "latitude": 22.440251,
+      "longitude": 114.016856,
+      "avg_feet_price": "$7,839",
+      "avg_net_feet_price": "$10,021",
+      "tx_count": 5,
+      "pricechange": "-18.1%",
+      "region_id": "30",
+      "estate_url_desc": "Scenic-Gardens-Yuen-Long-E11530"
+    },
+    "estate_E11542": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 15329,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 11275,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 10352,
+          "tx_count": 4
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 11227,
+          "tx_count": 4
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11698,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 11649,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "10",
+      "est_id": "E11542",
+      "estate_name": "Charming Garden",
+      "latitude": 22.314125,
+      "longitude": 114.164661,
+      "avg_feet_price": "$9,937",
+      "avg_net_feet_price": "$11,649",
+      "tx_count": 5,
+      "pricechange": "-0.4%",
+      "region_id": "20",
+      "estate_url_desc": "Charming-Garden-Olympic-E11542"
+    },
+    "estate_E00100": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13790,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13460,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13407,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12881,
+          "tx_count": 1
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12372,
+          "tx_count": 4
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12839,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "06",
+      "est_id": "E00100",
+      "estate_name": "Flora Plaza",
+      "latitude": 22.485436,
+      "longitude": 114.14131,
+      "avg_feet_price": "$9,272",
+      "avg_net_feet_price": "$12,839",
+      "tx_count": 5,
+      "pricechange": "+3.8%",
+      "region_id": "30",
+      "estate_url_desc": "Flora-Plaza-Sheung-Shui-Fanling-E00100"
+    },
+    "estate_E00026": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 14899,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14899,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14899,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 15532,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 16636,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15996,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "09",
+      "est_id": "E00026",
+      "estate_name": "Nan Fung Sun Chuen",
+      "latitude": 22.282155,
+      "longitude": 114.214141,
+      "avg_feet_price": "$13,186",
+      "avg_net_feet_price": "$15,996",
+      "tx_count": 5,
+      "pricechange": "-3.8%",
+      "region_id": "10",
+      "estate_url_desc": "Nan-Fung-Sun-Chuen-Quarry-Bay-E00026"
+    },
+    "estate_E00482": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 17474,
+          "tx_count": 1
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 15682,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14833,
+          "tx_count": 5
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14833,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 15261,
+          "tx_count": 2
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 15144,
+          "tx_count": 5
+        }
+      },
+      "dist_id": "15",
+      "est_id": "E00482",
+      "estate_name": "Tsing Yi Garden",
+      "latitude": 22.353698,
+      "longitude": 114.105029,
+      "avg_feet_price": "$12,037",
+      "avg_net_feet_price": "$15,144",
+      "tx_count": 5,
+      "pricechange": "-0.8%",
+      "region_id": "30",
+      "estate_url_desc": "Tsing-Yi-Garden-Tsing-Yi-E00482"
+    },
+    "estate_E00465": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13648,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13542,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 13542,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 10912,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12514,
+          "tx_count": 5
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12020,
+          "tx_count": 4
+        }
+      },
+      "dist_id": "06",
+      "est_id": "E00465",
+      "estate_name": "Fanling Town Center",
+      "latitude": 22.492452,
+      "longitude": 114.139597,
+      "avg_feet_price": "$9,006",
+      "avg_net_feet_price": "$12,020",
+      "tx_count": 4,
+      "pricechange": "-3.9%",
+      "region_id": "30",
+      "estate_url_desc": "Fanling-Town-Center-Sheung-Shui-Fanling-E00465"
+    },
+    "estate_E00073": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 13438,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 13948,
+          "tx_count": 2
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12395,
+          "tx_count": 1
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12395,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 12395,
+          "tx_count": 0
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 12075,
+          "tx_count": 4
+        }
+      },
+      "dist_id": "02",
+      "est_id": "E00073",
+      "estate_name": "Tai Po Plaza",
+      "latitude": 22.453058,
+      "longitude": 114.170269,
+      "avg_feet_price": "$10,110",
+      "avg_net_feet_price": "$12,075",
+      "tx_count": 4,
+      "pricechange": "-2.6%",
+      "region_id": "30",
+      "estate_url_desc": "Tai-Po-Plaza-Tai-Po-E00073"
+    },
+    "estate_E00563": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 12380,
+          "tx_count": 3
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 12380,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 12380,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 12380,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 11258,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 10036,
+          "tx_count": 4
+        }
+      },
+      "dist_id": "12",
+      "est_id": "E00563",
+      "estate_name": "Lido Garden",
+      "latitude": 22.366538,
+      "longitude": 114.059216,
+      "avg_feet_price": "$8,266",
+      "avg_net_feet_price": "$10,036",
+      "tx_count": 4,
+      "pricechange": "-10.9%",
+      "region_id": "30",
+      "estate_url_desc": "Lido-Garden-Sham-Tseng-E00563"
+    },
+    "estate_E00678": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 16517,
+          "tx_count": 2
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 14493,
+          "tx_count": 5
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 14303,
+          "tx_count": 6
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 14828,
+          "tx_count": 2
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 13893,
+          "tx_count": 3
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 14227,
+          "tx_count": 4
+        }
+      },
+      "dist_id": "01",
+      "est_id": "E00678",
+      "estate_name": "Wyler Gardens",
+      "latitude": 22.317756,
+      "longitude": 114.192263,
+      "avg_feet_price": "$12,127",
+      "avg_net_feet_price": "$14,227",
+      "tx_count": 4,
+      "pricechange": "+2.4%",
+      "region_id": "20",
+      "estate_url_desc": "Wyler-Gardens-To-Kwa-Wan-E00678"
+    },
+    "estate_E000015204": {
+      "chart": {
+        "chart_1": {
+          "index_date": "2018-09-01",
+          "avg_net_feet_price": 26782,
+          "tx_count": 4
+        },
+        "chart_2": {
+          "index_date": "2018-10-01",
+          "avg_net_feet_price": 26782,
+          "tx_count": 0
+        },
+        "chart_3": {
+          "index_date": "2018-11-01",
+          "avg_net_feet_price": 26782,
+          "tx_count": 0
+        },
+        "chart_4": {
+          "index_date": "2018-12-01",
+          "avg_net_feet_price": 26782,
+          "tx_count": 0
+        },
+        "chart_5": {
+          "index_date": "2019-01-01",
+          "avg_net_feet_price": 22487,
+          "tx_count": 1
+        },
+        "chart_6": {
+          "index_date": "2019-02-01",
+          "avg_net_feet_price": 29302,
+          "tx_count": 4
+        }
+      },
+      "dist_id": "10",
+      "est_id": "E000015204",
+      "estate_name": "The Austin",
+      "latitude": 22.305206,
+      "longitude": 114.16681,
+      "avg_feet_price": "",
+      "avg_net_feet_price": "$29,302",
+      "tx_count": 4,
+      "pricechange": "+30.3%",
+      "region_id": "20",
+      "estate_url_desc": "The-Austin-Kowloon-Station-E000015204"
+    }
+  },
+  "noOfRecord": 100
+}
+  
