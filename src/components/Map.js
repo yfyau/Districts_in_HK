@@ -33,35 +33,12 @@ export default class Map extends Component {
                 data: test
             });
 
-
-            const fake_data = [
-                { "District": "Central & Western", "rank": 1 },
-                { "District": "Wan Chai", "rank": 10 },
-            ]
-
-            let color_expression = ["case",
-                ["==", ["get", "District"], "Central & Western"], "red",
-                ["==", ["get", "District"], "Wan Chai"], "blue",
-                ["==", ["get", "District"], "Eastern"], "pink",
-                ["==", ["get", "District"], "Southern"], "orange",
-                ["==", ["get", "District"], "Wan Chai"], "blue",
-                "#888888"
-            ];
-
-            // fake_data.forEach(function (row) {
-            //     var green = row["rank"] / 10 * 255;
-            //     var color = "rgba(" + 0 + ", " + green + ", " + 0 + ", 1)";
-            //     color_expression.push(row["District"], color);
-            // });
-
-            console.log(color_expression)
-
             map.addLayer({
                 "id": "district-poly",
                 "type": "fill",
                 "source": "districts",
                 "paint": {
-                    "fill-color": color_expression,
+                    "fill-color": "#888888",
                     "fill-opacity": ["case",
                         ["boolean", ["feature-state", "hover"], false],
                         1,
@@ -142,6 +119,25 @@ export default class Map extends Component {
         }
     }
 
+    toggleColor = () => {
+
+        var layers = this.map.getStyle().layers
+        for (var l in layers) {
+            if (layers[l]["source"] == "districts") {
+
+                let color_expression = ["case",
+                    ["==", ["get", "District"], "Central & Western"], "red",
+                    ["==", ["get", "District"], "Wan Chai"], "blue",
+                    ["==", ["get", "District"], "Eastern"], "pink",
+                    ["==", ["get", "District"], "Southern"], "orange",
+                    ["==", ["get", "District"], "Wan Chai"], "blue",
+                    "#888888"
+                ];
+
+                this.map.setPaintProperty(layers[l]["id"], "fill-color", color_expression)
+            }
+        }
+    }
 
 
     render() {
@@ -152,19 +148,22 @@ export default class Map extends Component {
 
         return (
             <div style={{ width: '100%', height: '100%' }}>
-                <button onClick={this.toggleRoads} style={{ position: "fixed", zIndex: 10 }}> Toggle Roads </button>
+                <div style={{ position: "fixed", zIndex: 10 }}>
+                    <button onClick={this.toggleRoads} > Toggle Roads </button>
+                    <button onClick={this.toggleColor} > Toggle Color </button>
+                </div>
                 <div id='map' style={{ width: '100%', height: '100%' }}></div>
                 {
-                    district_chinese 
-                    ?
-                    <div style={{ position: "fixed", background: "rgba(0, 0, 0, 0.5)", height: "60vh", width: "30vw", top: 0, right: 0 }}>
-                        <TextVis
-                            // District in Chinese
-                            district={district_chinese}
-                        />
-                    </div>
-                    :
-                    null
+                    district_chinese
+                        ?
+                        <div style={{ position: "fixed", background: "rgba(0, 0, 0, 0.5)", height: "60vh", width: "30vw", top: 0, right: 0 }}>
+                            <TextVis
+                                // District in Chinese
+                                district={district_chinese}
+                            />
+                        </div>
+                        :
+                        null
                 }
             </div>
         )
