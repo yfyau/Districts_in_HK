@@ -7,8 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Map></Map> */}
-        <ParallelCoordinate></ParallelCoordinate>
+        <Map></Map>
+        {/* <ParallelCoordinate></ParallelCoordinate> */}
       </div>
     );
   }
