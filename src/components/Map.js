@@ -5,7 +5,9 @@ import mapboxgl from 'mapbox-gl'
 
 import TextVis from './TextVis'
 
-import { test } from '../data/test'
+import { hk_map, population_by_district } from '../data'
+
+import * as d3 from "d3";
 
 export default class Map extends Component {
 
@@ -30,7 +32,7 @@ export default class Map extends Component {
             /* ----------------- Init Start -----------------*/
             map.addSource("districts", {
                 type: "geojson",
-                data: test
+                data: hk_map
             });
 
             map.addLayer({
@@ -121,24 +123,50 @@ export default class Map extends Component {
 
     toggleColor = () => {
 
+        // let color_expression = ["case",
+        //     ["==", ["get", "District"], "Central & Western"], color(),
+        //     ["==", ["get", "District"], "Wan Chai"], "blue",
+        //     ["==", ["get", "District"], "Eastern"], "pink",
+        //     ["==", ["get", "District"], "Southern"], "orange",
+        //     ["==", ["get", "District"], "Wan Chai"], "blue",
+        //     "#888888"
+        // ];
+
+        var max = 0, min = Infinity;
+        var color_expression;
+
+
+        if (population_by_district.length === 0)
+            color_expression = "#888888"
+        else
+            color_expression = ["case", "#888888"];
+
+        for (const districtObj of population_by_district) {
+            districtObj["2016"] > max && (max = districtObj["2016"])
+            districtObj["2016"] < min && (min = districtObj["2016"])
+        }
+
+        const color = this.linearColorScale(max, min, "red", "white")
+
+        for (const districtObj of population_by_district) {
+            color_expression.splice(1, 0, color(districtObj["2016"]))
+            color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
+        }
+
+        console.log(color_expression)
+
         var layers = this.map.getStyle().layers
         for (var l in layers) {
             if (layers[l]["source"] == "districts") {
-
-                let color_expression = ["case",
-                    ["==", ["get", "District"], "Central & Western"], "red",
-                    ["==", ["get", "District"], "Wan Chai"], "blue",
-                    ["==", ["get", "District"], "Eastern"], "pink",
-                    ["==", ["get", "District"], "Southern"], "orange",
-                    ["==", ["get", "District"], "Wan Chai"], "blue",
-                    "#888888"
-                ];
-
                 this.map.setPaintProperty(layers[l]["id"], "fill-color", color_expression)
             }
         }
     }
 
+    linearColorScale = (max, min, startColor, endColor) => {
+        var color = d3.scaleLinear([max, min], [startColor, endColor]);
+        return color
+    }
 
     render() {
 
