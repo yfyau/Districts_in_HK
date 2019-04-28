@@ -1,148 +1,173 @@
 import React, { Component } from 'react';
-import * as d3 from "d3";
 import _ from 'lodash';
 
-import { faSearchPlus, faSearchMinus } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import mapboxgl from 'mapbox-gl'
 
-import { hk_map } from "../data/hk_map"
-import '../styles/Map.css';
+import TextVis from './TextVis'
 
-const WIDTH = window.innerWidth;
-const HEIGHT = window.innerHeight;
-const ZOOM_THRESHOLD = [0.3, 7];
-const OVERLAY_MULTIPLIER = 10;
-const OVERLAY_OFFSET = OVERLAY_MULTIPLIER / 2 - 0.5;
-const ZOOM_DURATION = 500;
-const ZOOM_IN_STEP = 2;
-const ZOOM_OUT_STEP = 1 / ZOOM_IN_STEP;
-const HOVER_COLOR = "#d36f80"
-
-const color = d3.scaleOrdinal(d3.schemePastel1.slice(1, 4));
+import { test } from '../data/test'
 
 export default class Map extends Component {
 
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            districtHover: null
+        }
+    }
+
+
     componentDidMount() {
-        this.zoom = d3
-            .zoom()
-            .scaleExtent(ZOOM_THRESHOLD)
-            .on("zoom", this.zoomHandler);
 
-        // Prepare SVG container for placing the map,
-        // and overlay a transparent rectangle for pan and zoom.
-        this.svg = d3
-            .select("#map__container")
-            .append("svg")
-            .attr("width", "100%")
-            .attr("height", "100%");
+        mapboxgl.accessToken = 'pk.eyJ1IjoieWZ5YXUiLCJhIjoiY2p1NDFlaHR5MHQ4OTN5cGdoZXA3OGxzMyJ9.FJxztWx2bSr4Y-AASpOxrQ';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10'
+        });
 
-        this.g = this.svg.call(this.zoom).append("g");
+        map.on('load', () => {
+            /* ----------------- Init Start -----------------*/
+            map.addSource("districts", {
+                type: "geojson",
+                data: test
+            });
 
-        this.renderMap();
+
+            const fake_data = [
+                { "District": "Central & Western", "rank": 1 },
+                { "District": "Wan Chai", "rank": 10 },
+            ]
+
+            let color_expression = ["case",
+                ["==", ["get", "District"], "Central & Western"], "red",
+                ["==", ["get", "District"], "Wan Chai"], "blue",
+                ["==", ["get", "District"], "Eastern"], "pink",
+                ["==", ["get", "District"], "Southern"], "orange",
+                ["==", ["get", "District"], "Wan Chai"], "blue",
+                "#888888"
+            ];
+
+            // fake_data.forEach(function (row) {
+            //     var green = row["rank"] / 10 * 255;
+            //     var color = "rgba(" + 0 + ", " + green + ", " + 0 + ", 1)";
+            //     color_expression.push(row["District"], color);
+            // });
+
+            console.log(color_expression)
+
+            map.addLayer({
+                "id": "district-poly",
+                "type": "fill",
+                "source": "districts",
+                "paint": {
+                    "fill-color": color_expression,
+                    "fill-opacity": ["case",
+                        ["boolean", ["feature-state", "hover"], false],
+                        1,
+                        0.5
+                    ]
+                },
+                // "filter": ["==", "$type", "Polygon"]
+
+            }, "water");
+
+            // Set Roads and Aeroway to unvisible
+            var layers = map.getStyle().layers
+            console.log(layers)
+            for (var l in layers) {
+                if (layers[l]["source-layer"] == "road" || layers[l]["source-layer"] == "aeroway") {
+                    map.setLayoutProperty(layers[l]["id"], "visibility", "none")
+                    // map.moveLayer(layers[l]["id"], "land")
+                }
+            }
+
+            // Animation to HK
+            map.flyTo({
+                center: [114.1095, 22.3964],
+                zoom: 10
+            })
+            /* -----------------  Init End  -----------------*/
+
+            this.mapHoveredStateId = null
+            map.on("mousemove", "district-poly", (e) => {
+                if (e.features.length > 0) {
+                    if (this.mapHoveredStateId) {
+                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                    }
+                    this.mapHoveredStateId = e.features[0].id;
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
+
+                    // Object Compare
+                    if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
+                        this.setState({ districtHover: e.features[0].properties })
+                }
+            });
+
+            map.on("mouseleave", "district-poly", () => {
+                if (this.mapHoveredStateId) {
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                }
+                this.mapHoveredStateId = null;
+
+                if (this.state.districtHover)
+                    this.setState({ districtHover: null })
+            });
+        });
+
+        this.map = map;
     }
 
-    componentDidUpdate() {
-        this.renderMap();
+    getRandomColor = () => {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
     }
 
-    zoomHandler = () => {
-        this.g.attr("transform", d3.event.transform);
+    toggleRoads = () => {
+        // Set Roads and Aeroway to unvisible
+        var layers = this.map.getStyle().layers
+        for (var l in layers) {
+            if (layers[l]["source-layer"] == "road" || layers[l]["source-layer"] == "aeroway") {
+                var value = this.map.getLayoutProperty(layers[l]["id"], "visibility")
+                if (value == "visible")
+                    this.map.setLayoutProperty(layers[l]["id"], "visibility", "none")
+                else
+                    this.map.setLayoutProperty(layers[l]["id"], "visibility", "visible")
+                // map.moveLayer(layers[l]["id"], "land")
+            }
+        }
     }
 
-    mouseOverHandler(d, i) {
-        d3.select(this).attr("fill", HOVER_COLOR)
-    }
-
-    mouseOutHandler(d, i) {
-        // const color = d3.scaleOrdinal(d3.schemeCategory20c.slice(1, 4));
-        d3.select(this).attr("fill", color(i))
-    }
-
-    clickHandler = (d, i) => {
-        d3.select("#map__text").text(`You've selected ${d.properties.name} District`)
-    }
-
-    clickToZoom = (zoomStep) => {
-        this.svg
-            .transition()
-            .duration(ZOOM_DURATION)
-            .call(this.zoom.scaleBy, zoomStep);
-    }
-
-
-    renderMap = () => {
-        this.g
-            .append("rect")
-            .attr("width", WIDTH * OVERLAY_MULTIPLIER)
-            .attr("height", HEIGHT * OVERLAY_MULTIPLIER)
-            .attr(
-                "transform",
-                `translate(-${WIDTH * OVERLAY_OFFSET},-${HEIGHT * OVERLAY_OFFSET})`
-            )
-            .style("fill", "none")
-            .style("pointer-events", "all");
-
-        // Project GeoJSON from 3D to 2D plane, and set
-        // projection config.
-        const projection = d3
-            .geoMercator()
-            .center([114.1095, 22.3964])
-            .scale(80000)
-            .translate([WIDTH / 2, HEIGHT / 2]);
-
-        // Prepare SVG path and color, import the
-        // effect from above projection.
-        const path = d3.geoPath().projection(projection);
-        // const color = d3.scaleOrdinal(d3.schemeCategory20c.slice(1, 4));
-
-        const root = hk_map;
-
-        // Draw districts and register event listeners
-        this.g
-            .append("g")
-            .selectAll("path")
-            .data(root.features)
-            .enter()
-            .append("path")
-            .attr("d", path)
-            .attr("fill", (d, i) => color(i))
-            .attr("stroke", "#FFF")
-            .attr("stroke-width", 0.5)
-            .on("mouseover", this.mouseOverHandler)
-            .on("mouseout", this.mouseOutHandler)
-            .on("click", this.clickHandler);
-
-        // Place name labels in the middle of a district
-        // Introduce some offset (dy, dx) to adjust the position
-        this.g
-            .append("g")
-            .selectAll("text")
-            .data(root.features)
-            .enter()
-            .append("text")
-            .attr("transform", d => `translate(${path.centroid(d)})`)
-            .attr("text-anchor", "middle")
-            .attr("font-size", 10)
-            .attr("dx", d => _.get(d, "offset[0]", null))
-            .attr("dy", d => _.get(d, "offset[1]", null))
-            .text(d => d.properties.name);
-    }
 
 
     render() {
 
+        const { districtHover } = this.state
+
+        const district_chinese = districtHover ? districtHover["District_Chinese"] : null
+
         return (
-            <div className="map__class">
-                <h3 id="map__text">Select a district on the map ...</h3>
-                <div id="btn-zoom">
-                    <FontAwesomeIcon id="btn-zoom--in" icon={faSearchPlus} size="2x" onClick={() => this.clickToZoom(ZOOM_IN_STEP)} />
-                    <FontAwesomeIcon id="btn-zoom--out" icon={faSearchMinus} size="2x" onClick={() => this.clickToZoom(ZOOM_OUT_STEP)} />
-                        {/* <i id="btn-zoom--in" className="fa fa-search-plus fa-2x" aria-hidden="true"></i> */ }
-                    {/* <i id="btn-zoom--out" className="fa fa-search-minus fa-2x" aria-hidden="true"></i> */}
-                </div>
-                <div id="map__container"></div>
-                </div>
-                )
-            }
-        
-        }
+            <div style={{ width: '100%', height: '100%' }}>
+                <button onClick={this.toggleRoads} style={{ position: "fixed", zIndex: 10 }}> Toggle Roads </button>
+                <div id='map' style={{ width: '100%', height: '100%' }}></div>
+                {
+                    district_chinese 
+                    ?
+                    <div style={{ position: "fixed", background: "rgba(0, 0, 0, 0.5)", height: "60vh", width: "30vw", top: 0, right: 0 }}>
+                        <TextVis
+                            // District in Chinese
+                            district={district_chinese}
+                        />
+                    </div>
+                    :
+                    null
+                }
+            </div>
+        )
+    }
+
+}
