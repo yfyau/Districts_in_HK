@@ -6,7 +6,7 @@ import mapboxgl from 'mapbox-gl'
 import ParallelCoordinate from './ParallelCoordinate'
 import TextVis from './TextVis'
 
-import { hk_map, population_by_district } from '../data'
+import { hk_map, population_by_district, housing_estates_hk } from '../data'
 
 import * as d3 from "d3";
 
@@ -174,30 +174,65 @@ export default class Map extends Component {
         return color
     }
 
+    // toggleBivariateColor = () => {
+
+    //     var max = 0, min = Infinity;
+    //     var color_expression;
+
+
+    //     if (population_by_district.length === 0)
+    //         color_expression = "#888888"
+    //     else
+    //         color_expression = ["case", "#888888"];
+
+    //     for (const districtObj of population_by_district) {
+    //         districtObj["2016"] > max && (max = districtObj["2016"])
+    //         districtObj["2016"] < min && (min = districtObj["2016"])
+    //     }
+
+    //     var data1 = Array.from(population_by_district.values(), d => d["2016"])
+    //     var data2 = Array.from(population_by_district.values(), d => d["2016"])
+
+    //     const color = this.bivariateColorScale(data1, data2, "population_2016", "population_2016")
+
+    //     for (const districtObj of population_by_district) {
+    //         color_expression.splice(1, 0, color(districtObj["2016"], districtObj["2016"]))
+    //         color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
+    //     }
+
+    //     var layers = this.map.getStyle().layers
+    //     for (var l in layers) {
+    //         if (layers[l]["source"] == "districts") {
+    //             this.map.setPaintProperty(layers[l]["id"], "fill-color", color_expression)
+    //         }
+    //     }
+    // }
+
     toggleBivariateColor = () => {
 
-        var max = 0, min = Infinity;
+        const json = housing_estates_hk
+        // const json = Object.keys(housing_estates_hk).map(key => housing_estates_hk[key]);
+        const field1 = this.state.bivariate1
+        const field2 = this.state.bivariate2
+
+        console.log(field1, field2)
+        if (!field1 || !field2)
+            return
+
         var color_expression;
-
-
         if (population_by_district.length === 0)
             color_expression = "#888888"
         else
             color_expression = ["case", "#888888"];
 
-        for (const districtObj of population_by_district) {
-            districtObj["2016"] > max && (max = districtObj["2016"])
-            districtObj["2016"] < min && (min = districtObj["2016"])
-        }
+        var data1 = Array.from(json.values(), d => d[field1])
+        var data2 = Array.from(json.values(), d => d[field2])
 
-        var data1 = Array.from(population_by_district.values(), d => d["2016"])
-        var data2 = Array.from(population_by_district.values(), d => d["2016"])
+        const color = this.bivariateColorScale(data1, data2, field1, field2)
 
-        const color = this.bivariateColorScale(data1, data2, "population_2016", "population_2016")
-
-        for (const districtObj of population_by_district) {
-            color_expression.splice(1, 0, color(districtObj["2016"], districtObj["2016"]))
-            color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
+        for (const obj of json) {
+            color_expression.splice(1, 0, color(obj[field1], obj[field2]))
+            color_expression.splice(1, 0, ["==", ["get", "District"], obj["District"]])
         }
 
         var layers = this.map.getStyle().layers
@@ -329,10 +364,7 @@ export default class Map extends Component {
                 },
                 'paint': {
                     // make circles larger as the user zooms from z12 to z22
-                    'circle-radius': {
-                        'base': 1.75,
-                        'stops': [[12, 2], [22, 180]]
-                    },
+                    'circle-radius': 4,
                     // color circles by ethnicity, using a match expression
                     // https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
                     'circle-color': [
@@ -367,8 +399,24 @@ export default class Map extends Component {
                 <div style={{ position: "fixed", zIndex: 10 }}>
                     <button onClick={this.toggleRoads} > Toggle Roads </button>
                     <button onClick={this.toggleLinearColor} > Toggle Linear Color </button>
+                    {/* <button onClick={this.toggleLocationPoint} > Toggle Location Point </button> */}
+                    <select name="bivariate1" onChange={event => this.setState({ bivariate1: event.target.value })}>
+                        <option value="">Choose first bivariate axis</option>
+                        <option value="Average Domestic Household Size">Average Domestic Household Size</option>
+                        <option value="Median Age">Median Age</option>
+                        <option value="Median Monthly Domestic Household Income">Median Monthly Domestic Household Income</option>
+                        <option value="Median Rent to Income Ratio">Median Rent to Income Ratio</option>
+                        <option value="Population">Population</option>
+                    </select>
+                    <select name="bivariate2" onChange={event => this.setState({ bivariate2: event.target.value })}>
+                        <option value="">Choose second bivariate axis</option>
+                        <option value="Average Domestic Household Size">Average Domestic Household Size</option>
+                        <option value="Median Age">Median Age</option>
+                        <option value="Median Monthly Domestic Household Income">Median Monthly Domestic Household Income</option>
+                        <option value="Median Rent to Income Ratio">Median Rent to Income Ratio</option>
+                        <option value="Population">Population</option>
+                    </select>
                     <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button>
-                    <button onClick={this.toggleLocationPoint} > Toggle Location Point </button>
                 </div>
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
                     <div id='map' style={{ width: '100%', height: '75%' }}></div>
