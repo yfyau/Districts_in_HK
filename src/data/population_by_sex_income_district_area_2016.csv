@@ -1,0 +1,1294 @@
+﻿area,population,sex,income,age
+Central and Western - Chung Wan,Male,5892,27500,45.7
+Central and Western - Chung Wan,Female,6609,10000,48.2
+Central and Western - Chung Wan,Sub-Total,12501,18000,47.4
+Central and Western - Mid Levels East,Male,7584,50000,44.3
+Central and Western - Mid Levels East,Female,9425,12600,41.4
+Central and Western - Mid Levels East,Sub-Total,17009,25500,42.8
+Central and Western - Castle Road,Male,8402,60000,42.7
+Central and Western - Castle Road,Female,11656,7000,42
+Central and Western - Castle Road,Sub-Total,20058,28000,42.3
+Central and Western - Peak,Male,8010,80000,43.8
+Central and Western - Peak,Female,12253,5000,41.9
+Central and Western - Peak,Sub-Total,20263,13000,42.7
+Central and Western - University,Male,6837,50000,45.2
+Central and Western - University,Female,11195,7000,42.5
+Central and Western - University,Sub-Total,18032,20000,43
+Central and Western - Kennedy Town and Mount Davis,Male,7763,21250,44.1
+Central and Western - Kennedy Town and Mount Davis,Female,9441,15000,42.4
+Central and Western - Kennedy Town and Mount Davis,Sub-Total,17204,19000,43.1
+Central and Western - Kwun Lung,Male,7203,15500,43.1
+Central and Western - Kwun Lung,Female,8314,12000,43
+Central and Western - Kwun Lung,Sub-Total,15517,14000,43
+Central and Western - Sai Wan,Male,6949,20000,45.1
+Central and Western - Sai Wan,Female,7568,14000,45.9
+Central and Western - Sai Wan,Sub-Total,14517,17000,45.5
+Central and Western - Belcher,Male,9432,28000,41.9
+Central and Western - Belcher,Female,11719,12000,43.7
+Central and Western - Belcher,Sub-Total,21151,18500,42.8
+Central and Western - Shek Tong Tsui,Male,8326,15000,45.8
+Central and Western - Shek Tong Tsui,Female,9138,10000,46.6
+Central and Western - Shek Tong Tsui,Sub-Total,17464,12150,46.1
+Central and Western - Sai Ying Pun,Male,6527,13000,51
+Central and Western - Sai Ying Pun,Female,7891,11250,44.5
+Central and Western - Sai Ying Pun,Sub-Total,14418,12000,47.6
+Central and Western - Sheung Wan,Male,6647,20000,44.6
+Central and Western - Sheung Wan,Female,7328,14000,41.9
+Central and Western - Sheung Wan,Sub-Total,13975,18000,43.2
+Central and Western - Tung Wah,Male,5570,30000,42.1
+Central and Western - Tung Wah,Female,6264,13500,43.5
+Central and Western - Tung Wah,Sub-Total,11834,20090,42.9
+Central and Western - Centre Street,Male,6674,19500,40.9
+Central and Western - Centre Street,Female,7533,14500,47.8
+Central and Western - Centre Street,Sub-Total,14207,16530,45.3
+Central and Western - Water Street,Male,6879,20000,45.2
+Central and Western - Water Street,Female,8237,13000,42.4
+Central and Western - Water Street,Sub-Total,15116,17000,43.5
+Wan Chai - Hennessy,Male,6289,16000,43.8
+Wan Chai - Hennessy,Female,6550,10250,43.2
+Wan Chai - Hennessy,Sub-Total,12839,13500,43.5
+Wan Chai - Oi Kwan,Male,5974,20000,45.6
+Wan Chai - Oi Kwan,Female,7104,11030,46.5
+Wan Chai - Oi Kwan,Sub-Total,13078,15000,46.2
+Wan Chai - Canal Road,Male,5568,15000,41.7
+Wan Chai - Canal Road,Female,6508,10650,43.2
+Wan Chai - Canal Road,Sub-Total,12076,12000,42
+Wan Chai - Victoria Park,Male,6201,23000,48.7
+Wan Chai - Victoria Park,Female,8041,12000,49.2
+Wan Chai - Victoria Park,Sub-Total,14242,15500,49.1
+Wan Chai - Tin Hau,Male,6732,18000,48.6
+Wan Chai - Tin Hau,Female,8361,9500,47.5
+Wan Chai - Tin Hau,Sub-Total,15093,14000,48
+Wan Chai - Causeway Bay,Male,5160,18000,45.7
+Wan Chai - Causeway Bay,Female,6086,8000,46.5
+Wan Chai - Causeway Bay,Sub-Total,11246,13000,46.3
+Wan Chai - Tai Hang,Male,6040,30000,48.7
+Wan Chai - Tai Hang,Female,8475,12250,42.9
+Wan Chai - Tai Hang,Sub-Total,14515,20000,44.6
+Wan Chai - Jardine's Lookout,Male,6258,50000,48.2
+Wan Chai - Jardine's Lookout,Female,10244,5210,43.1
+Wan Chai - Jardine's Lookout,Sub-Total,16502,15000,44.6
+Wan Chai - Broadwood,Male,6756,55000,44.7
+Wan Chai - Broadwood,Female,9150,5100,41.8
+Wan Chai - Broadwood,Sub-Total,15906,20000,42.8
+Wan Chai - Happy Valley,Male,5460,32000,45.1
+Wan Chai - Happy Valley,Female,7243,12300,42.8
+Wan Chai - Happy Valley,Sub-Total,12703,20000,43.7
+Wan Chai - Stubbs Road,Male,5863,60000,47.9
+Wan Chai - Stubbs Road,Female,8867,5300,44
+Wan Chai - Stubbs Road,Sub-Total,14730,15000,45.6
+Wan Chai - Southorn,Male,6539,30000,46
+Wan Chai - Southorn,Female,8024,11000,42.8
+Wan Chai - Southorn,Sub-Total,14563,19000,44.1
+Wan Chai - Tai Fat Hau,Male,5710,23000,42.7
+Wan Chai - Tai Fat Hau,Female,6920,12000,42
+Wan Chai - Tai Fat Hau,Sub-Total,12630,16000,42.4
+Eastern - Tai Koo Shing West,Male,7579,45000,43.5
+Eastern - Tai Koo Shing West,Female,10752,13000,40.2
+Eastern - Tai Koo Shing West,Sub-Total,18331,25800,41.6
+Eastern - Tai Koo Shing East,Male,7435,40000,47
+Eastern - Tai Koo Shing East,Female,10796,12000,43.6
+Eastern - Tai Koo Shing East,Sub-Total,18231,25000,45.3
+Eastern - Lei King Wan,Male,10807,20000,43.2
+Eastern - Lei King Wan,Female,10981,13000,41.1
+Eastern - Lei King Wan,Sub-Total,21788,16500,42.3
+Eastern - Aldrich Bay,Male,7749,15500,49.3
+Eastern - Aldrich Bay,Female,9704,12000,47.7
+Eastern - Aldrich Bay,Sub-Total,17453,14000,48.5
+Eastern - Shaukeiwan,Male,5986,17000,41.3
+Eastern - Shaukeiwan,Female,7419,12000,39.8
+Eastern - Shaukeiwan,Sub-Total,13405,15000,40.8
+Eastern - A Kung Ngam,Male,8975,16500,43.1
+Eastern - A Kung Ngam,Female,9500,12250,44.5
+Eastern - A Kung Ngam,Sub-Total,18475,15000,44.4
+Eastern - Heng Fa Chuen,Male,8270,36250,44.3
+Eastern - Heng Fa Chuen,Female,10849,15000,42.3
+Eastern - Heng Fa Chuen,Sub-Total,19119,21800,43.1
+Eastern - Tsui Wan,Male,5567,15000,45
+Eastern - Tsui Wan,Female,6762,12000,43
+Eastern - Tsui Wan,Sub-Total,12329,13000,43.8
+Eastern - Yan Lam,Male,7212,28250,43.9
+Eastern - Yan Lam,Female,9325,15000,41.6
+Eastern - Yan Lam,Sub-Total,16537,20000,42.3
+Eastern - Siu Sai Wan,Male,6015,13000,43.6
+Eastern - Siu Sai Wan,Female,7017,11500,45.4
+Eastern - Siu Sai Wan,Sub-Total,13032,12250,44.6
+Eastern - King Yee,Male,7384,18000,49.8
+Eastern - King Yee,Female,7383,15000,49.4
+Eastern - King Yee,Sub-Total,14767,16500,49.5
+Eastern - Wan Tsui,Male,7278,13000,42.8
+Eastern - Wan Tsui,Female,7797,10250,45.2
+Eastern - Wan Tsui,Sub-Total,15075,12000,44.2
+Eastern - Fei Tsui,Male,6966,13500,47.4
+Eastern - Fei Tsui,Female,7975,10000,48.9
+Eastern - Fei Tsui,Sub-Total,14941,12000,48.2
+Eastern - Mount Parker,Male,5926,15000,41.7
+Eastern - Mount Parker,Female,7483,10130,41.6
+Eastern - Mount Parker,Sub-Total,13409,13000,41.7
+Eastern - Braemar Hill,Male,6796,50000,45.1
+Eastern - Braemar Hill,Female,10527,6000,40.3
+Eastern - Braemar Hill,Sub-Total,17323,20000,41.7
+Eastern - Fortress Hill,Male,7083,28000,42.6
+Eastern - Fortress Hill,Female,9264,14140,43.8
+Eastern - Fortress Hill,Sub-Total,16347,20000,43.3
+Eastern - City Garden,Male,7292,22000,42.6
+Eastern - City Garden,Female,9934,9680,40.9
+Eastern - City Garden,Sub-Total,17226,15000,41.4
+Eastern - Provident,Male,9472,16200,45.9
+Eastern - Provident,Female,12272,10000,47.5
+Eastern - Provident,Sub-Total,21744,13900,47
+Eastern - Fort Street,Male,6824,20000,40.9
+Eastern - Fort Street,Female,9405,12000,37.8
+Eastern - Fort Street,Sub-Total,16229,15500,39
+Eastern - Kam Ping,Male,7455,17500,41.5
+Eastern - Kam Ping,Female,9521,10000,41.3
+Eastern - Kam Ping,Sub-Total,16976,13500,41.4
+Eastern - Tanner,Male,6437,22000,43.5
+Eastern - Tanner,Female,8101,11000,43.1
+Eastern - Tanner,Sub-Total,14538,17500,43.3
+Eastern - Healthy Village,Male,5729,17000,44.7
+Eastern - Healthy Village,Female,7817,11000,47.2
+Eastern - Healthy Village,Sub-Total,13546,14000,46
+Eastern - Quarry Bay,Male,6026,15000,44.2
+Eastern - Quarry Bay,Female,7179,14000,42.9
+Eastern - Quarry Bay,Sub-Total,13205,15000,43.5
+Eastern - Nam Fung,Male,6185,23000,42.2
+Eastern - Nam Fung,Female,8178,15000,43.1
+Eastern - Nam Fung,Sub-Total,14363,20000,42.7
+Eastern - Kornhill,Male,6852,38000,43.7
+Eastern - Kornhill,Female,8560,13000,42.3
+Eastern - Kornhill,Sub-Total,15412,25000,42.8
+Eastern - Kornhill Garden,Male,6067,26000,43.5
+Eastern - Kornhill Garden,Female,7903,15000,43.6
+Eastern - Kornhill Garden,Sub-Total,13970,20000,43.6
+Eastern - Hing Tung,Male,8625,15500,49.2
+Eastern - Hing Tung,Female,9759,13000,48.3
+Eastern - Hing Tung,Sub-Total,18384,15000,48.9
+Eastern - Sai Wan Ho,Male,9618,20000,41.7
+Eastern - Sai Wan Ho,Female,10543,13000,41.9
+Eastern - Sai Wan Ho,Sub-Total,20161,16000,41.8
+Eastern - Lower Yiu Tung,Male,9264,15000,43.8
+Eastern - Lower Yiu Tung,Female,9930,11000,46
+Eastern - Lower Yiu Tung,Sub-Total,19194,12800,45.2
+Eastern - Upper Yiu Tung,Male,5827,13000,50
+Eastern - Upper Yiu Tung,Female,6340,11730,49.1
+Eastern - Upper Yiu Tung,Sub-Total,12167,12100,49.4
+Eastern - Hing Man,Male,6710,13000,46.3
+Eastern - Hing Man,Female,7895,11000,47.5
+Eastern - Hing Man,Sub-Total,14605,12000,46.8
+Eastern - Lok Hong,Male,5517,20000,46
+Eastern - Lok Hong,Female,6150,14500,45.8
+Eastern - Lok Hong,Sub-Total,11667,17500,45.9
+Eastern - Tsui Tak,Male,5803,20000,39.8
+Eastern - Tsui Tak,Female,7024,15500,39.1
+Eastern - Tsui Tak,Sub-Total,12827,19000,39.5
+Eastern - Yue Wan,Male,6526,13200,44.9
+Eastern - Yue Wan,Female,8205,11000,43.6
+Eastern - Yue Wan,Sub-Total,14731,12250,44
+Eastern - Kai Hiu,Male,6614,14000,44.5
+Eastern - Kai Hiu,Female,6913,11200,46.8
+Eastern - Kai Hiu,Sub-Total,13527,13000,45.9
+Southern - Aberdeen,Male,9161,17500,42
+Southern - Aberdeen,Female,10652,13500,40.8
+Southern - Aberdeen,Sub-Total,19813,15500,41.5
+Southern - Ap Lei Chau Estate,Male,5998,12250,48.2
+Southern - Ap Lei Chau Estate,Female,8622,11250,59.5
+Southern - Ap Lei Chau Estate,Sub-Total,14620,12000,53.1
+Southern - Ap Lei Chau North,Male,5997,20000,40.9
+Southern - Ap Lei Chau North,Female,7100,15000,38.6
+Southern - Ap Lei Chau North,Sub-Total,13097,18000,39.7
+Southern - Lei Tung I,Male,7619,16000,42.9
+Southern - Lei Tung I,Female,8206,12250,44.1
+Southern - Lei Tung I,Sub-Total,15825,15000,43.3
+Southern - Lei Tung II,Male,5408,15000,49.7
+Southern - Lei Tung II,Female,6345,11000,50.7
+Southern - Lei Tung II,Sub-Total,11753,13000,50.1
+Southern - South Horizons East,Male,6842,45000,41.8
+Southern - South Horizons East,Female,8713,19160,40.6
+Southern - South Horizons East,Sub-Total,15555,28000,41.1
+Southern - South Horizons West,Male,7054,36250,43.6
+Southern - South Horizons West,Female,8848,15000,41
+Southern - South Horizons West,Sub-Total,15902,25000,42.1
+Southern - Wah Kwai,Male,6200,14500,50.2
+Southern - Wah Kwai,Female,7432,12000,49.1
+Southern - Wah Kwai,Sub-Total,13632,13000,49.5
+Southern - Wah Fu South,Male,6462,13000,46.8
+Southern - Wah Fu South,Female,7163,10000,48.2
+Southern - Wah Fu South,Sub-Total,13625,11750,47.7
+Southern - Wah Fu North,Male,6703,13200,43.8
+Southern - Wah Fu North,Female,7481,10000,46.7
+Southern - Wah Fu North,Sub-Total,14184,11250,45.6
+Southern - Pokfulam,Male,7989,85000,40.7
+Southern - Pokfulam,Female,12227,5600,39.4
+Southern - Pokfulam,Sub-Total,20216,24000,39.8
+Southern - Chi Fu,Male,6885,25000,45.4
+Southern - Chi Fu,Female,8899,13980,42.7
+Southern - Chi Fu,Sub-Total,15784,20000,43.7
+Southern - Tin Wan,Male,8345,15000,42.5
+Southern - Tin Wan,Female,9115,11000,43.9
+Southern - Tin Wan,Sub-Total,17460,13000,43.3
+Southern - Shek Yue,Male,7523,13000,49.6
+Southern - Shek Yue,Female,8551,10500,50.7
+Southern - Shek Yue,Sub-Total,16074,12000,50.2
+Southern - Wong Chuk Hang,Male,8853,20000,48.5
+Southern - Wong Chuk Hang,Female,10036,12580,48.7
+Southern - Wong Chuk Hang,Sub-Total,18889,15610,48.6
+Southern - Bays Area,Male,7436,60000,42.3
+Southern - Bays Area,Female,11078,4500,39.7
+Southern - Bays Area,Sub-Total,18514,9000,41
+Southern - Stanley and Shek O,Male,9515,23750,42.7
+Southern - Stanley and Shek O,Female,10536,10000,40.5
+Southern - Stanley and Shek O,Sub-Total,20051,15000,41.4
+Yau Tsim Mong - Tsim Sha Tsui West,Male,9197,57000,46
+Yau Tsim Mong - Tsim Sha Tsui West,Female,12234,15500,40.9
+Yau Tsim Mong - Tsim Sha Tsui West,Sub-Total,21431,30000,42.6
+Yau Tsim Mong - Jordan South,Male,8521,17370,45.7
+Yau Tsim Mong - Jordan South,Female,10157,10000,43.6
+Yau Tsim Mong - Jordan South,Sub-Total,18678,14000,44.6
+Yau Tsim Mong - Jordan West,Male,8639,14400,48.6
+Yau Tsim Mong - Jordan West,Female,9621,10800,47.2
+Yau Tsim Mong - Jordan West,Sub-Total,18260,12600,47.9
+Yau Tsim Mong - Yau Ma Tei South,Male,10382,15000,42.1
+Yau Tsim Mong - Yau Ma Tei South,Female,10759,12000,43.4
+Yau Tsim Mong - Yau Ma Tei South,Sub-Total,21141,14000,42.8
+Yau Tsim Mong - Charming,Male,7988,16500,47.2
+Yau Tsim Mong - Charming,Female,9210,15600,47.5
+Yau Tsim Mong - Charming,Sub-Total,17198,16000,47.3
+Yau Tsim Mong - Mong Kok West,Male,7555,13050,47.3
+Yau Tsim Mong - Mong Kok West,Female,9331,10250,45.9
+Yau Tsim Mong - Mong Kok West,Sub-Total,16886,11750,46.2
+Yau Tsim Mong - Fu Pak,Male,9407,17000,42.4
+Yau Tsim Mong - Fu Pak,Female,10828,12000,42.1
+Yau Tsim Mong - Fu Pak,Sub-Total,20235,15000,42.3
+Yau Tsim Mong - Olympic,Male,8117,52400,38.7
+Yau Tsim Mong - Olympic,Female,10088,23750,39.2
+Yau Tsim Mong - Olympic,Sub-Total,18205,36400,39
+Yau Tsim Mong - Cherry,Male,6800,15500,42.1
+Yau Tsim Mong - Cherry,Female,7309,11500,43.7
+Yau Tsim Mong - Cherry,Sub-Total,14109,14000,43.1
+Yau Tsim Mong - Tai Kok Tsui South,Male,7310,15500,47.7
+Yau Tsim Mong - Tai Kok Tsui South,Female,8480,11000,47.2
+Yau Tsim Mong - Tai Kok Tsui South,Sub-Total,15790,13500,47.4
+Yau Tsim Mong - Tai Kok Tsui North,Male,9063,20000,41.7
+Yau Tsim Mong - Tai Kok Tsui North,Female,11389,13000,40.6
+Yau Tsim Mong - Tai Kok Tsui North,Sub-Total,20452,16500,41.1
+Yau Tsim Mong - Tai Nan,Male,10780,13500,40.8
+Yau Tsim Mong - Tai Nan,Female,12020,10750,39.7
+Yau Tsim Mong - Tai Nan,Sub-Total,22800,12500,40.2
+Yau Tsim Mong - Mong Kok North,Male,9010,14400,47.5
+Yau Tsim Mong - Mong Kok North,Female,10327,11750,44.8
+Yau Tsim Mong - Mong Kok North,Sub-Total,19337,13000,46.1
+Yau Tsim Mong - Mong Kok East,Male,7723,15000,44.5
+Yau Tsim Mong - Mong Kok East,Female,9476,12000,41.9
+Yau Tsim Mong - Mong Kok East,Sub-Total,17199,13120,42.9
+Yau Tsim Mong - Mong Kok South,Male,7458,14000,44.7
+Yau Tsim Mong - Mong Kok South,Female,8992,11000,43.3
+Yau Tsim Mong - Mong Kok South,Sub-Total,16450,12600,44.1
+Yau Tsim Mong - Yau Ma Tei North,Male,5851,15000,48.2
+Yau Tsim Mong - Yau Ma Tei North,Female,7379,10000,42.2
+Yau Tsim Mong - Yau Ma Tei North,Sub-Total,13230,12750,45.5
+Yau Tsim Mong - East Tsim Sha Tsui and King's Park,Male,7229,60000,44.6
+Yau Tsim Mong - East Tsim Sha Tsui and King's Park,Female,8851,13500,37
+Yau Tsim Mong - East Tsim Sha Tsui and King's Park,Sub-Total,16080,26250,40.7
+Yau Tsim Mong - Tsim Sha Tsui Central,Male,7492,20000,44.1
+Yau Tsim Mong - Tsim Sha Tsui Central,Female,9447,11000,45.5
+Yau Tsim Mong - Tsim Sha Tsui Central,Sub-Total,16939,15000,44.8
+Yau Tsim Mong - Jordan North,Male,9226,12000,37.9
+Yau Tsim Mong - Jordan North,Female,9324,10000,38.9
+Yau Tsim Mong - Jordan North,Sub-Total,18550,10920,38.4
+Sham Shui Po - Po Lai,Male,8734,15500,41.5
+Sham Shui Po - Po Lai,Female,10595,13000,41.1
+Sham Shui Po - Po Lai,Sub-Total,19329,14500,41.2
+Sham Shui Po - Cheung Sha Wan,Male,7409,17500,43
+Sham Shui Po - Cheung Sha Wan,Female,8444,14500,41.5
+Sham Shui Po - Cheung Sha Wan,Sub-Total,15853,15000,42.1
+Sham Shui Po - Nam Cheong North,Male,10539,14000,41.5
+Sham Shui Po - Nam Cheong North,Female,12830,10000,40.6
+Sham Shui Po - Nam Cheong North,Sub-Total,23369,12000,40.9
+Sham Shui Po - Shek Kip Mei,Male,9860,13000,46.7
+Sham Shui Po - Shek Kip Mei,Female,11233,10100,45.6
+Sham Shui Po - Shek Kip Mei,Sub-Total,21093,12000,46.1
+Sham Shui Po - Nam Cheong East,Male,10723,15000,39.4
+Sham Shui Po - Nam Cheong East,Female,10711,11000,41.8
+Sham Shui Po - Nam Cheong East,Sub-Total,21434,12960,40.8
+Sham Shui Po - Nam Cheong South,Male,10999,14000,39.6
+Sham Shui Po - Nam Cheong South,Female,11781,10250,39.5
+Sham Shui Po - Nam Cheong South,Sub-Total,22780,12000,39.6
+Sham Shui Po - Nam Cheong Central,Male,10561,13000,37
+Sham Shui Po - Nam Cheong Central,Female,10943,9750,38.4
+Sham Shui Po - Nam Cheong Central,Sub-Total,21504,11160,37.9
+Sham Shui Po - Nam Cheong West,Male,9881,15000,44
+Sham Shui Po - Nam Cheong West,Female,9422,10750,42.4
+Sham Shui Po - Nam Cheong West,Sub-Total,19303,13000,43.1
+Sham Shui Po - Fu Cheong,Male,8774,13000,45.5
+Sham Shui Po - Fu Cheong,Female,10039,10250,46.2
+Sham Shui Po - Fu Cheong,Sub-Total,18813,11600,46.2
+Sham Shui Po - Lai Kok,Male,5949,14300,51.5
+Sham Shui Po - Lai Kok,Female,7448,11000,52.6
+Sham Shui Po - Lai Kok,Sub-Total,13397,12600,52.1
+Sham Shui Po - Fortune,Male,7304,20000,44.7
+Sham Shui Po - Fortune,Female,9056,11000,40.7
+Sham Shui Po - Fortune,Sub-Total,16360,15000,41.9
+Sham Shui Po - Lai Chi Kok South,Male,8219,13700,36.4
+Sham Shui Po - Lai Chi Kok South,Female,8962,11750,41
+Sham Shui Po - Lai Chi Kok South,Sub-Total,17181,12250,38.6
+Sham Shui Po - Mei Foo South,Male,7557,35000,41.8
+Sham Shui Po - Mei Foo South,Female,10160,14000,41.2
+Sham Shui Po - Mei Foo South,Sub-Total,17717,23300,41.5
+Sham Shui Po - Mei Foo Central,Male,5556,30000,45.3
+Sham Shui Po - Mei Foo Central,Female,7653,15000,41.9
+Sham Shui Po - Mei Foo Central,Sub-Total,13209,20000,43.3
+Sham Shui Po - Mei Foo North,Male,7369,26580,42.5
+Sham Shui Po - Mei Foo North,Female,8629,15500,42.2
+Sham Shui Po - Mei Foo North,Sub-Total,15998,20000,42.3
+Sham Shui Po - Lai Chi Kok Central,Male,8887,36250,39.8
+Sham Shui Po - Lai Chi Kok Central,Female,10894,23750,37.7
+Sham Shui Po - Lai Chi Kok Central,Sub-Total,19781,30000,38.6
+Sham Shui Po - Lai Chi Kok North,Male,6956,14500,44.6
+Sham Shui Po - Lai Chi Kok North,Female,8089,12600,42.5
+Sham Shui Po - Lai Chi Kok North,Sub-Total,15045,13500,43.2
+Sham Shui Po - Un Chau and So Uk,Male,8884,13500,48.5
+Sham Shui Po - Un Chau and So Uk,Female,9839,11400,48.7
+Sham Shui Po - Un Chau and So Uk,Sub-Total,18723,12250,48.6
+Sham Shui Po - Lei Cheng Uk,Male,5405,13400,52
+Sham Shui Po - Lei Cheng Uk,Female,6941,11000,50.5
+Sham Shui Po - Lei Cheng Uk,Sub-Total,12346,12250,51.4
+Sham Shui Po - Ha Pak Tin,Male,7955,13000,43.5
+Sham Shui Po - Ha Pak Tin,Female,8693,10500,46.2
+Sham Shui Po - Ha Pak Tin,Sub-Total,16648,12000,45.3
+Sham Shui Po - Yau Yat Tsuen,Male,6454,45000,43.1
+Sham Shui Po - Yau Yat Tsuen,Female,8598,12000,41.4
+Sham Shui Po - Yau Yat Tsuen,Sub-Total,15052,26000,41.7
+"Sham Shui Po - Nam Shan, Tai Hang Tung and Tai Hang Sai",Male,6938,15000,50.5
+"Sham Shui Po - Nam Shan, Tai Hang Tung and Tai Hang Sai",Female,7798,11750,50
+"Sham Shui Po - Nam Shan, Tai Hang Tung and Tai Hang Sai",Sub-Total,14736,13000,50.3
+Sham Shui Po - Lung Ping and Sheung Pak Tin,Male,7355,15380,45
+Sham Shui Po - Lung Ping and Sheung Pak Tin,Female,8843,10000,44
+Sham Shui Po - Lung Ping and Sheung Pak Tin,Sub-Total,16198,13000,44.4
+Kowloon City - Ma Tau Wai,Male,8228,17500,45
+Kowloon City - Ma Tau Wai,Female,11796,11250,47.9
+Kowloon City - Ma Tau Wai,Sub-Total,20024,14040,47
+Kowloon City - Ma Hang Chung,Male,10094,20000,40.2
+Kowloon City - Ma Hang Chung,Female,10399,13500,42.7
+Kowloon City - Ma Hang Chung,Sub-Total,20493,16000,41.8
+Kowloon City - Ma Tau Kok,Male,7388,15750,47.2
+Kowloon City - Ma Tau Kok,Female,8101,10750,47.1
+Kowloon City - Ma Tau Kok,Sub-Total,15489,15000,47.2
+Kowloon City - Lok Man,Male,7087,17000,48
+Kowloon City - Lok Man,Female,8794,11000,46.6
+Kowloon City - Lok Man,Sub-Total,15881,15000,47.2
+Kowloon City - Sheung Lok,Male,6868,14500,51
+Kowloon City - Sheung Lok,Female,8443,11400,51
+Kowloon City - Sheung Lok,Sub-Total,15311,13000,51
+Kowloon City - Ho Man Tin,Male,8186,40000,48.4
+Kowloon City - Ho Man Tin,Female,12405,8500,44.1
+Kowloon City - Ho Man Tin,Sub-Total,20591,20000,45.5
+Kowloon City - Kadoorie,Male,7973,30000,45.5
+Kowloon City - Kadoorie,Female,10687,11000,45.8
+Kowloon City - Kadoorie,Sub-Total,18660,20000,45.7
+Kowloon City - Prince,Male,6304,33000,40.2
+Kowloon City - Prince,Female,9764,5000,43.2
+Kowloon City - Prince,Sub-Total,16068,18000,42.1
+Kowloon City - Kowloon Tong,Male,8357,48000,42.1
+Kowloon City - Kowloon Tong,Female,12871,5070,41.5
+Kowloon City - Kowloon Tong,Sub-Total,21228,20000,41.7
+Kowloon City - Lung Shing,Male,6914,18000,40.7
+Kowloon City - Lung Shing,Female,8354,11810,39.9
+Kowloon City - Lung Shing,Sub-Total,15268,15000,40.3
+Kowloon City - Sung Wong Toi,Male,10016,15500,38.2
+Kowloon City - Sung Wong Toi,Female,12235,12000,38.3
+Kowloon City - Sung Wong Toi,Sub-Total,22251,13800,38.3
+Kowloon City - Kai Tak North,Male,8129,12000,44.6
+Kowloon City - Kai Tak North,Female,8012,10250,43.9
+Kowloon City - Kai Tak North,Sub-Total,16141,11000,44.2
+Kowloon City - Kai Tak South,Male,6779,13500,44
+Kowloon City - Kai Tak South,Female,8134,10500,41.5
+Kowloon City - Kai Tak South,Sub-Total,14913,12000,42.7
+Kowloon City - Hoi Sham,Male,7994,15500,40.2
+Kowloon City - Hoi Sham,Female,7658,12000,43.3
+Kowloon City - Hoi Sham,Sub-Total,15652,14500,41.8
+Kowloon City - To Kwa Wan North,Male,7700,12150,41.8
+Kowloon City - To Kwa Wan North,Female,7991,10080,41.8
+Kowloon City - To Kwa Wan North,Sub-Total,15691,11000,41.8
+Kowloon City - To Kwa Wan South,Male,7235,16000,40.2
+Kowloon City - To Kwa Wan South,Female,7602,13500,41.5
+Kowloon City - To Kwa Wan South,Sub-Total,14837,15000,40.8
+Kowloon City - Hok Yuen Laguna Verde,Male,8737,30000,42.2
+Kowloon City - Hok Yuen Laguna Verde,Female,10753,15000,38.9
+Kowloon City - Hok Yuen Laguna Verde,Sub-Total,19490,20000,40.2
+Kowloon City - Whampoa East,Male,7765,28000,43.1
+Kowloon City - Whampoa East,Female,9997,15000,43.3
+Kowloon City - Whampoa East,Sub-Total,17762,20000,43.2
+Kowloon City - Whampoa West,Male,9210,31250,40.2
+Kowloon City - Whampoa West,Female,12986,16000,36.6
+Kowloon City - Whampoa West,Sub-Total,22196,22000,37.8
+Kowloon City - Hung Hom Bay,Male,8635,20000,38.1
+Kowloon City - Hung Hom Bay,Female,10298,13210,39.2
+Kowloon City - Hung Hom Bay,Sub-Total,18933,16000,38.7
+Kowloon City - Hung Hom,Male,7036,14000,35.5
+Kowloon City - Hung Hom,Female,7199,12000,39.9
+Kowloon City - Hung Hom,Sub-Total,14235,13500,38.3
+Kowloon City - Ka Wai,Male,8982,15000,50.2
+Kowloon City - Ka Wai,Female,10615,11000,49.1
+Kowloon City - Ka Wai,Sub-Total,19597,13000,49.4
+Kowloon City - Oi Man,Male,6780,15000,47.1
+Kowloon City - Oi Man,Female,7855,11250,45.5
+Kowloon City - Oi Man,Sub-Total,14635,14000,46.1
+Kowloon City - Oi Chun,Male,6320,15000,46.5
+Kowloon City - Oi Chun,Female,7066,11250,49.5
+Kowloon City - Oi Chun,Sub-Total,13386,13120,47.8
+Wong Tai Sin - Lung Tsui,Male,7493,16000,43.3
+Wong Tai Sin - Lung Tsui,Female,9045,11000,42.3
+Wong Tai Sin - Lung Tsui,Sub-Total,16538,13500,42.7
+Wong Tai Sin - Lung Ha,Male,5488,15000,46.1
+Wong Tai Sin - Lung Ha,Female,6249,11640,50.5
+Wong Tai Sin - Lung Ha,Sub-Total,11737,12800,49.2
+Wong Tai Sin - Lung Sheung,Male,9353,14000,48.2
+Wong Tai Sin - Lung Sheung,Female,10695,11000,48.1
+Wong Tai Sin - Lung Sheung,Sub-Total,20048,12250,48.2
+Wong Tai Sin - Fung Wong,Male,6961,18000,40.3
+Wong Tai Sin - Fung Wong,Female,8132,15000,37.8
+Wong Tai Sin - Fung Wong,Sub-Total,15093,16500,38.6
+Wong Tai Sin - Fung Tak,Male,7028,14000,49.8
+Wong Tai Sin - Fung Tak,Female,8330,12000,48.2
+Wong Tai Sin - Fung Tak,Sub-Total,15358,13000,48.7
+Wong Tai Sin - Lung Sing,Male,9028,20000,44.1
+Wong Tai Sin - Lung Sing,Female,10527,17500,44.6
+Wong Tai Sin - Lung Sing,Sub-Total,19555,20000,44.4
+Wong Tai Sin - San Po Kong,Male,10564,15500,41.9
+Wong Tai Sin - San Po Kong,Female,13448,12250,41.4
+Wong Tai Sin - San Po Kong,Sub-Total,24012,14500,41.6
+Wong Tai Sin - Tung Tau,Male,7508,15000,47.7
+Wong Tai Sin - Tung Tau,Female,9340,12000,43.8
+Wong Tai Sin - Tung Tau,Sub-Total,16848,14000,45.2
+Wong Tai Sin - Tung Mei,Male,7779,15000,46.5
+Wong Tai Sin - Tung Mei,Female,8597,11500,46.1
+Wong Tai Sin - Tung Mei,Sub-Total,16376,14500,46.3
+Wong Tai Sin - Lok Fu,Male,6715,14500,48.8
+Wong Tai Sin - Lok Fu,Female,7637,10750,49.9
+Wong Tai Sin - Lok Fu,Sub-Total,14352,13000,49.4
+Wong Tai Sin - Wang Tau Hom,Male,8361,14000,49.4
+Wong Tai Sin - Wang Tau Hom,Female,8928,11250,46.5
+Wong Tai Sin - Wang Tau Hom,Sub-Total,17289,12250,47.6
+Wong Tai Sin - Tin Keung,Male,6545,18000,47.3
+Wong Tai Sin - Tin Keung,Female,7202,14000,49.8
+Wong Tai Sin - Tin Keung,Sub-Total,13747,16500,48.2
+Wong Tai Sin - Tsui Chuk and Pang Ching,Male,8744,15500,44.3
+Wong Tai Sin - Tsui Chuk and Pang Ching,Female,9431,13000,44.1
+Wong Tai Sin - Tsui Chuk and Pang Ching,Sub-Total,18175,15000,44.2
+Wong Tai Sin - Chuk Yuen South,Male,7373,13000,46.5
+Wong Tai Sin - Chuk Yuen South,Female,8023,10750,47.1
+Wong Tai Sin - Chuk Yuen South,Sub-Total,15396,12000,46.8
+Wong Tai Sin - Chuk Yuen North,Male,6843,15000,48.1
+Wong Tai Sin - Chuk Yuen North,Female,8366,13500,50.4
+Wong Tai Sin - Chuk Yuen North,Sub-Total,15209,14250,49.5
+Wong Tai Sin - Tsz Wan West,Male,8990,14000,45.9
+Wong Tai Sin - Tsz Wan West,Female,11086,11250,43.6
+Wong Tai Sin - Tsz Wan West,Sub-Total,20076,12800,44.3
+Wong Tai Sin - Ching Oi,Male,10008,15000,41.4
+Wong Tai Sin - Ching Oi,Female,10747,12500,43
+Wong Tai Sin - Ching Oi,Sub-Total,20755,14000,42.4
+Wong Tai Sin - Ching On,Male,10819,13500,41.4
+Wong Tai Sin - Ching On,Female,11798,11250,45.2
+Wong Tai Sin - Ching On,Sub-Total,22617,12250,43.3
+Wong Tai Sin - Tsz Wan East,Male,9922,14700,38.9
+Wong Tai Sin - Tsz Wan East,Female,10977,13000,40.1
+Wong Tai Sin - Tsz Wan East,Sub-Total,20899,14000,39.5
+Wong Tai Sin - King Fu,Male,8520,18000,44.6
+Wong Tai Sin - King Fu,Female,10315,13500,45.4
+Wong Tai Sin - King Fu,Sub-Total,18835,15500,45.1
+Wong Tai Sin - Choi Wan East,Male,6759,20000,41.7
+Wong Tai Sin - Choi Wan East,Female,8026,14000,41
+Wong Tai Sin - Choi Wan East,Sub-Total,14785,16700,41.3
+Wong Tai Sin - Choi Wan South,Male,6048,13500,43.1
+Wong Tai Sin - Choi Wan South,Female,6643,11000,45.3
+Wong Tai Sin - Choi Wan South,Sub-Total,12691,12500,44.2
+Wong Tai Sin - Choi Wan West,Male,6559,13500,45
+Wong Tai Sin - Choi Wan West,Female,7121,11250,47.6
+Wong Tai Sin - Choi Wan West,Sub-Total,13680,12250,46.7
+Wong Tai Sin - Chi Choi,Male,7165,20000,41.7
+Wong Tai Sin - Chi Choi,Female,8937,15000,39.2
+Wong Tai Sin - Chi Choi,Sub-Total,16102,18000,40.2
+Wong Tai Sin - Choi Hung,Male,6744,13000,46.1
+Wong Tai Sin - Choi Hung,Female,8318,10500,48.1
+Wong Tai Sin - Choi Hung,Sub-Total,15062,12000,47.2
+Kwun Tong - Kwun Tong Central,Male,7067,14000,40.5
+Kwun Tong - Kwun Tong Central,Female,8486,12000,40.8
+Kwun Tong - Kwun Tong Central,Sub-Total,15553,12960,40.7
+Kwun Tong - Kowloon Bay,Male,5830,30000,40.1
+Kwun Tong - Kowloon Bay,Female,7231,20000,38.4
+Kwun Tong - Kowloon Bay,Sub-Total,13061,26550,39.3
+Kwun Tong - Kai Yip,Male,6540,15500,44.5
+Kwun Tong - Kai Yip,Female,8552,12250,48.4
+Kwun Tong - Kai Yip,Sub-Total,15092,14000,47.3
+Kwun Tong - Lai Ching,Male,6938,18000,43.9
+Kwun Tong - Lai Ching,Female,8300,14000,44.4
+Kwun Tong - Lai Ching,Sub-Total,15238,15500,44.3
+Kwun Tong - Ping Shek,Male,5999,12800,49
+Kwun Tong - Ping Shek,Female,7145,10250,50.6
+Kwun Tong - Ping Shek,Sub-Total,13144,11530,50.2
+Kwun Tong - Sheung Choi,Male,10671,13000,43.3
+Kwun Tong - Sheung Choi,Female,11393,10700,43.7
+Kwun Tong - Sheung Choi,Sub-Total,22064,12000,43.5
+Kwun Tong - Jordan Valley,Male,9482,13000,42.8
+Kwun Tong - Jordan Valley,Female,10809,10000,42.1
+Kwun Tong - Jordan Valley,Sub-Total,20291,11750,42.3
+Kwun Tong - Shun Tin,Male,8763,13500,46.3
+Kwun Tong - Shun Tin,Female,9767,10500,50
+Kwun Tong - Shun Tin,Sub-Total,18530,12000,47.9
+Kwun Tong - Sheung Shun,Male,8164,22000,41.3
+Kwun Tong - Sheung Shun,Female,9833,12500,39.8
+Kwun Tong - Sheung Shun,Sub-Total,17997,16640,40.4
+Kwun Tong - On Lee,Male,6559,13000,55.7
+Kwun Tong - On Lee,Female,7932,10400,55.4
+Kwun Tong - On Lee,Sub-Total,14491,12000,55.5
+Kwun Tong - Po Tat,Male,10848,13000,37.5
+Kwun Tong - Po Tat,Female,11601,10250,42
+Kwun Tong - Po Tat,Sub-Total,22449,12000,40.2
+Kwun Tong - Sau Mau Ping North,Male,10129,14500,44.3
+Kwun Tong - Sau Mau Ping North,Female,10487,10250,45.5
+Kwun Tong - Sau Mau Ping North,Sub-Total,20616,12250,44.8
+Kwun Tong - Hiu Lai,Male,8037,18300,45.3
+Kwun Tong - Hiu Lai,Female,9009,14030,46.4
+Kwun Tong - Hiu Lai,Sub-Total,17046,16000,46.1
+Kwun Tong - Sau Mau Ping South,Male,7386,13500,41.1
+Kwun Tong - Sau Mau Ping South,Female,8029,11000,41.8
+Kwun Tong - Sau Mau Ping South,Sub-Total,15415,12000,41.6
+Kwun Tong - Sau Mau Ping Central,Male,8127,13500,42.3
+Kwun Tong - Sau Mau Ping Central,Female,8852,11580,44.2
+Kwun Tong - Sau Mau Ping Central,Sub-Total,16979,12250,43.5
+Kwun Tong - Hing Tin,Male,8265,15000,48.7
+Kwun Tong - Hing Tin,Female,8871,12000,48.2
+Kwun Tong - Hing Tin,Sub-Total,17136,14000,48.5
+Kwun Tong - Lam Tin,Male,10364,15000,43
+Kwun Tong - Lam Tin,Female,11758,12000,40.9
+Kwun Tong - Lam Tin,Sub-Total,22122,13500,42
+Kwun Tong - Kwong Tak,Male,8925,14000,48.2
+Kwun Tong - Kwong Tak,Female,10025,12000,52.1
+Kwun Tong - Kwong Tak,Sub-Total,18950,13000,49.9
+Kwun Tong - Ping Tin,Male,8233,13500,44.2
+Kwun Tong - Ping Tin,Female,8121,10790,46.1
+Kwun Tong - Ping Tin,Sub-Total,16354,12250,45.3
+Kwun Tong - Pak Nga,Male,5991,18500,48.7
+Kwun Tong - Pak Nga,Female,7027,15000,47.9
+Kwun Tong - Pak Nga,Sub-Total,13018,16900,48.2
+Kwun Tong - Yau Tong East,Male,10238,15500,40.9
+Kwun Tong - Yau Tong East,Female,11042,11250,43.3
+Kwun Tong - Yau Tong East,Sub-Total,21280,13650,42.3
+Kwun Tong - Yau Lai,Male,9711,13500,40.6
+Kwun Tong - Yau Lai,Female,10998,11250,40.2
+Kwun Tong - Yau Lai,Sub-Total,20709,12250,40.4
+Kwun Tong - Chui Cheung,Male,10406,21250,39
+Kwun Tong - Chui Cheung,Female,12857,13000,37.7
+Kwun Tong - Chui Cheung,Sub-Total,23263,17000,38.2
+Kwun Tong - Yau Tong West,Male,8962,14000,45.8
+Kwun Tong - Yau Tong West,Female,10309,11000,44.6
+Kwun Tong - Yau Tong West,Sub-Total,19271,12000,45.3
+Kwun Tong - Laguna City,Male,11367,37990,41.2
+Kwun Tong - Laguna City,Female,14904,17500,39
+Kwun Tong - Laguna City,Sub-Total,26271,26000,39.7
+Kwun Tong - King Tin,Male,9123,26250,40.2
+Kwun Tong - King Tin,Female,11051,16000,40.3
+Kwun Tong - King Tin,Sub-Total,20174,21130,40.3
+Kwun Tong - Tsui Ping,Male,9137,13000,47.5
+Kwun Tong - Tsui Ping,Female,9417,10250,49.7
+Kwun Tong - Tsui Ping,Sub-Total,18554,12000,48.1
+Kwun Tong - Po Lok,Male,6212,15000,49.3
+Kwun Tong - Po Lok,Female,7865,12000,49.3
+Kwun Tong - Po Lok,Sub-Total,14077,13000,49.3
+Kwun Tong - Yuet Wah,Male,6283,16500,41.3
+Kwun Tong - Yuet Wah,Female,7426,12750,41.9
+Kwun Tong - Yuet Wah,Sub-Total,13709,15000,41.6
+Kwun Tong - Hip Hong,Male,8099,13500,40.4
+Kwun Tong - Hip Hong,Female,8740,10250,41.8
+Kwun Tong - Hip Hong,Sub-Total,16839,12380,41.3
+Kwun Tong - Hong Lok,Male,7231,16000,43.4
+Kwun Tong - Hong Lok,Female,8739,15000,42.3
+Kwun Tong - Hong Lok,Sub-Total,15970,15000,42.9
+Kwun Tong - Ting On,Male,7809,13500,46
+Kwun Tong - Ting On,Female,10186,10250,43.6
+Kwun Tong - Ting On,Sub-Total,17995,11700,44.5
+Kwun Tong - Upper Ngau Tau Kok Estate,Male,7084,13000,51.4
+Kwun Tong - Upper Ngau Tau Kok Estate,Female,8120,10250,52.9
+Kwun Tong - Upper Ngau Tau Kok Estate,Sub-Total,15204,12000,52.1
+Kwun Tong - Lower Ngau Tau Kok Estate,Male,8258,14500,47
+Kwun Tong - Lower Ngau Tau Kok Estate,Female,8757,12000,46.4
+Kwun Tong - Lower Ngau Tau Kok Estate,Sub-Total,17015,13000,46.6
+Kwun Tong - To Tai,Male,7817,21250,36.7
+Kwun Tong - To Tai,Female,9243,17730,40.1
+Kwun Tong - To Tai,Sub-Total,17060,20000,38.2
+Kwun Tong - Lok Wah North,Male,5883,13500,44.5
+Kwun Tong - Lok Wah North,Female,6787,10750,50.7
+Kwun Tong - Lok Wah North,Sub-Total,12670,12000,48.3
+Kwun Tong - Lok Wah South,Male,5991,15000,51.1
+Kwun Tong - Lok Wah South,Female,6943,11250,53
+Kwun Tong - Lok Wah South,Sub-Total,12934,13300,52.5
+Kwai Tsing - Kwai Hing,Male,8045,15500,48.9
+Kwai Tsing - Kwai Hing,Female,9960,12000,47.2
+Kwai Tsing - Kwai Hing,Sub-Total,18005,14000,47.9
+Kwai Tsing - Kwai Shing East Estate,Male,9583,13000,45
+Kwai Tsing - Kwai Shing East Estate,Female,10430,10000,46.7
+Kwai Tsing - Kwai Shing East Estate,Sub-Total,20013,11250,46
+Kwai Tsing - Upper Tai Wo Hau,Male,6522,14500,46.6
+Kwai Tsing - Upper Tai Wo Hau,Female,7257,10750,46.8
+Kwai Tsing - Upper Tai Wo Hau,Sub-Total,13779,13000,46.7
+Kwai Tsing - Lower Tai Wo Hau,Male,5992,13720,43.7
+Kwai Tsing - Lower Tai Wo Hau,Female,7469,12000,44.7
+Kwai Tsing - Lower Tai Wo Hau,Sub-Total,13461,13000,44.2
+Kwai Tsing - Kwai Chung Estate North,Male,9661,12500,38.3
+Kwai Tsing - Kwai Chung Estate North,Female,10717,10250,39.2
+Kwai Tsing - Kwai Chung Estate North,Sub-Total,20378,11500,38.9
+Kwai Tsing - Kwai Chung Estate South,Male,10302,15000,39.9
+Kwai Tsing - Kwai Chung Estate South,Female,11427,10530,40.7
+Kwai Tsing - Kwai Chung Estate South,Sub-Total,21729,12250,40.5
+Kwai Tsing - Shek Yam,Male,10515,13500,42.9
+Kwai Tsing - Shek Yam,Female,11881,10800,44.2
+Kwai Tsing - Shek Yam,Sub-Total,22396,12250,43.7
+Kwai Tsing - On Yam,Male,7519,13080,46.7
+Kwai Tsing - On Yam,Female,8808,11260,46.4
+Kwai Tsing - On Yam,Sub-Total,16327,12000,46.6
+Kwai Tsing - Shek Lei South,Male,9459,13500,45.1
+Kwai Tsing - Shek Lei South,Female,10609,10000,47.8
+Kwai Tsing - Shek Lei South,Sub-Total,20068,12000,46.6
+Kwai Tsing - Shek Lei North,Male,11003,14400,36.1
+Kwai Tsing - Shek Lei North,Female,11583,10750,40
+Kwai Tsing - Shek Lei North,Sub-Total,22586,12250,38.3
+Kwai Tsing - Tai Pak Tin,Male,11979,14500,42.7
+Kwai Tsing - Tai Pak Tin,Female,11804,11750,39.8
+Kwai Tsing - Tai Pak Tin,Sub-Total,23783,13000,40.8
+Kwai Tsing - Kwai Fong,Male,8425,13000,47.3
+Kwai Tsing - Kwai Fong,Female,10067,11000,45.4
+Kwai Tsing - Kwai Fong,Sub-Total,18492,12000,46.7
+Kwai Tsing - Wah Lai,Male,7757,18500,45
+Kwai Tsing - Wah Lai,Female,9239,12000,43.7
+Kwai Tsing - Wah Lai,Sub-Total,16996,15000,44.5
+Kwai Tsing - Lai Wah,Male,7328,17000,41.2
+Kwai Tsing - Lai Wah,Female,8859,13000,41.2
+Kwai Tsing - Lai Wah,Sub-Total,16187,15000,41.2
+Kwai Tsing - Cho Yiu,Male,7314,20000,44.9
+Kwai Tsing - Cho Yiu,Female,8768,15000,44
+Kwai Tsing - Cho Yiu,Sub-Total,16082,18500,44.3
+Kwai Tsing - Hing Fong,Male,10721,15500,42.1
+Kwai Tsing - Hing Fong,Female,13613,11500,41.2
+Kwai Tsing - Hing Fong,Sub-Total,24334,14000,41.6
+Kwai Tsing - Lai King,Male,6528,13000,48.2
+Kwai Tsing - Lai King,Female,7457,10000,50
+Kwai Tsing - Lai King,Sub-Total,13985,12000,49.1
+Kwai Tsing - Kwai Shing West Estate,Male,8666,14500,43.3
+Kwai Tsing - Kwai Shing West Estate,Female,9138,11000,44.4
+Kwai Tsing - Kwai Shing West Estate,Sub-Total,17804,12250,43.8
+Kwai Tsing - On Ho,Male,9534,19500,44.4
+Kwai Tsing - On Ho,Female,11071,13500,42
+Kwai Tsing - On Ho,Sub-Total,20605,15500,42.9
+Kwai Tsing - Wai Ying,Male,8855,28000,43.6
+Kwai Tsing - Wai Ying,Female,11045,16000,41.8
+Kwai Tsing - Wai Ying,Sub-Total,19900,20000,42.6
+Kwai Tsing - Tsing Yi Estate,Male,7073,17500,41.2
+Kwai Tsing - Tsing Yi Estate,Female,7851,14000,44
+Kwai Tsing - Tsing Yi Estate,Sub-Total,14924,15500,42.3
+Kwai Tsing - Greenfield,Male,8012,22500,38.9
+Kwai Tsing - Greenfield,Female,10182,17500,37.4
+Kwai Tsing - Greenfield,Sub-Total,18194,20000,38
+Kwai Tsing - Cheung Ching,Male,9006,15000,45.1
+Kwai Tsing - Cheung Ching,Female,9657,12000,44.9
+Kwai Tsing - Cheung Ching,Sub-Total,18663,13500,45
+Kwai Tsing - Cheung Hong,Male,6455,15000,46
+Kwai Tsing - Cheung Hong,Female,7636,12000,48.7
+Kwai Tsing - Cheung Hong,Sub-Total,14091,13000,47.3
+Kwai Tsing - Shing Hong,Male,7519,14000,44.9
+Kwai Tsing - Shing Hong,Female,8404,12000,50
+Kwai Tsing - Shing Hong,Sub-Total,15923,12880,48.1
+Kwai Tsing - Tsing Yi South,Male,8161,17000,40.9
+Kwai Tsing - Tsing Yi South,Female,9166,11500,41.4
+Kwai Tsing - Tsing Yi South,Sub-Total,17327,14000,41.2
+Kwai Tsing - Cheung Hang,Male,7132,13500,43.6
+Kwai Tsing - Cheung Hang,Female,6836,11000,46.5
+Kwai Tsing - Cheung Hang,Sub-Total,13968,12250,45.5
+Kwai Tsing - Ching Fat,Male,8192,15000,48.2
+Kwai Tsing - Ching Fat,Female,9469,13000,49.1
+Kwai Tsing - Ching Fat,Sub-Total,17661,14000,48.5
+Kwai Tsing - Cheung On,Male,6207,15000,43.2
+Kwai Tsing - Cheung On,Female,6704,12000,49.9
+Kwai Tsing - Cheung On,Sub-Total,12911,14000,46.8
+Tsuen Wan - Tak Wah,Male,10755,15000,35.9
+Tsuen Wan - Tak Wah,Female,11693,10800,39.7
+Tsuen Wan - Tak Wah,Sub-Total,22448,13000,38.6
+Tsuen Wan - Yeung Uk Road,Male,11560,15000,38.6
+Tsuen Wan - Yeung Uk Road,Female,12436,12000,39.5
+Tsuen Wan - Yeung Uk Road,Sub-Total,23996,14000,39.4
+Tsuen Wan - Hoi Bun,Male,9227,21250,43.9
+Tsuen Wan - Hoi Bun,Female,10728,15000,43.2
+Tsuen Wan - Hoi Bun,Sub-Total,19955,18500,43.5
+Tsuen Wan - Clague Garden,Male,8289,12750,41.3
+Tsuen Wan - Clague Garden,Female,9005,10000,43
+Tsuen Wan - Clague Garden,Sub-Total,17294,11250,42.5
+Tsuen Wan - Fuk Loi,Male,6533,14200,45.6
+Tsuen Wan - Fuk Loi,Female,8196,10250,46.5
+Tsuen Wan - Fuk Loi,Sub-Total,14729,12050,46.1
+Tsuen Wan - Discovery Park,Male,7733,23750,43.4
+Tsuen Wan - Discovery Park,Female,9131,15000,41.9
+Tsuen Wan - Discovery Park,Sub-Total,16864,20000,42.4
+Tsuen Wan - Tsuen Wan Centre,Male,7345,18000,40.8
+Tsuen Wan - Tsuen Wan Centre,Female,8213,15000,43.2
+Tsuen Wan - Tsuen Wan Centre,Sub-Total,15558,16000,42
+Tsuen Wan - Allway,Male,9440,21250,46.5
+Tsuen Wan - Allway,Female,10951,13500,44.5
+Tsuen Wan - Allway,Sub-Total,20391,17000,45.2
+Tsuen Wan - Lai To,Male,8743,24000,44.6
+Tsuen Wan - Lai To,Female,10565,15500,43
+Tsuen Wan - Lai To,Sub-Total,19308,20000,43.6
+Tsuen Wan - Ting Sham,Male,8354,27420,43.5
+Tsuen Wan - Ting Sham,Female,10219,15500,41.3
+Tsuen Wan - Ting Sham,Sub-Total,18573,20000,42.1
+Tsuen Wan - Tsuen Wan West,Male,8841,29000,43.4
+Tsuen Wan - Tsuen Wan West,Female,10937,17000,40.7
+Tsuen Wan - Tsuen Wan West,Sub-Total,19778,21000,41.7
+Tsuen Wan - Tsuen Wan Rural,Male,8983,25000,44.8
+Tsuen Wan - Tsuen Wan Rural,Female,10704,15000,42.7
+Tsuen Wan - Tsuen Wan Rural,Sub-Total,19687,20700,43.4
+Tsuen Wan - Ma Wan,Male,6637,31250,41.6
+Tsuen Wan - Ma Wan,Female,8375,18800,41.2
+Tsuen Wan - Ma Wan,Sub-Total,15012,25000,41.3
+Tsuen Wan - Luk Yeung,Male,6138,21250,46.2
+Tsuen Wan - Luk Yeung,Female,8441,16500,45.3
+Tsuen Wan - Luk Yeung,Sub-Total,14579,19000,45.5
+Tsuen Wan - Lei Muk Shue East,Male,7618,15000,44.9
+Tsuen Wan - Lei Muk Shue East,Female,9792,11000,43.8
+Tsuen Wan - Lei Muk Shue East,Sub-Total,17410,13000,44.2
+Tsuen Wan - Lei Muk Shue West,Male,8263,13000,46.9
+Tsuen Wan - Lei Muk Shue West,Female,9174,11150,46.5
+Tsuen Wan - Lei Muk Shue West,Sub-Total,17437,12000,46.7
+Tsuen Wan - Shek Wai Kok,Male,6430,13000,48.9
+Tsuen Wan - Shek Wai Kok,Female,6888,10250,53.4
+Tsuen Wan - Shek Wai Kok,Sub-Total,13318,12000,51.2
+Tsuen Wan - Cheung Shek,Male,6052,13000,47.5
+Tsuen Wan - Cheung Shek,Female,6527,11250,50.9
+Tsuen Wan - Cheung Shek,Sub-Total,12579,12250,49.3
+Tuen Mun - Tuen Mun Town Centre,Male,10021,21250,39.8
+Tuen Mun - Tuen Mun Town Centre,Female,11608,16000,39.5
+Tuen Mun - Tuen Mun Town Centre,Sub-Total,21629,19900,39.7
+Tuen Mun - Siu Chi,Male,9179,18000,42.7
+Tuen Mun - Siu Chi,Female,10782,12300,42
+Tuen Mun - Siu Chi,Sub-Total,19961,15000,42.4
+Tuen Mun - Siu Tsui,Male,8975,18200,44.4
+Tuen Mun - Siu Tsui,Female,9821,14000,43.9
+Tuen Mun - Siu Tsui,Sub-Total,18796,15200,44.1
+Tuen Mun - On Ting,Male,7382,15000,50
+Tuen Mun - On Ting,Female,8883,10750,48.1
+Tuen Mun - On Ting,Sub-Total,16265,12500,48.7
+Tuen Mun - Yau Oi South,Male,7191,13500,45.4
+Tuen Mun - Yau Oi South,Female,7953,10200,48.6
+Tuen Mun - Yau Oi South,Sub-Total,15144,12000,47
+Tuen Mun - Yau Oi North,Male,7091,15000,41.1
+Tuen Mun - Yau Oi North,Female,8084,12000,40.1
+Tuen Mun - Yau Oi North,Sub-Total,15175,13900,40.5
+Tuen Mun - Tsui Hing,Male,8966,20000,41.6
+Tuen Mun - Tsui Hing,Female,10128,15000,40.6
+Tuen Mun - Tsui Hing,Sub-Total,19094,18000,40.9
+Tuen Mun - Shan King,Male,7717,14000,44.6
+Tuen Mun - Shan King,Female,9125,11000,45.6
+Tuen Mun - Shan King,Sub-Total,16842,12250,45.2
+Tuen Mun - King Hing,Male,6788,13000,48.4
+Tuen Mun - King Hing,Female,7893,10340,50.3
+Tuen Mun - King Hing,Sub-Total,14681,12000,49.6
+Tuen Mun - Hing Tsak,Male,7267,15000,46.4
+Tuen Mun - Hing Tsak,Female,7920,11250,49.6
+Tuen Mun - Hing Tsak,Sub-Total,15187,13000,48.8
+Tuen Mun - San Hui,Male,7966,15000,45.8
+Tuen Mun - San Hui,Female,11511,10920,45.9
+Tuen Mun - San Hui,Sub-Total,19477,13000,45.9
+Tuen Mun - Sam Shing,Male,10175,21250,44.8
+Tuen Mun - Sam Shing,Female,11377,10500,41.9
+Tuen Mun - Sam Shing,Sub-Total,21552,17190,43
+Tuen Mun - Hanford,Male,9114,27000,45.3
+Tuen Mun - Hanford,Female,11770,14000,40.8
+Tuen Mun - Hanford,Sub-Total,20884,20000,42.3
+Tuen Mun - Fu Sun,Male,9055,18000,42.9
+Tuen Mun - Fu Sun,Female,9913,13000,42.2
+Tuen Mun - Fu Sun,Sub-Total,18968,15750,42.4
+Tuen Mun - Yuet Wu,Male,6165,18000,47.1
+Tuen Mun - Yuet Wu,Female,6758,13000,45.2
+Tuen Mun - Yuet Wu,Sub-Total,12923,15500,45.6
+Tuen Mun - Siu Hei,Male,5947,20000,45.1
+Tuen Mun - Siu Hei,Female,6713,15000,42
+Tuen Mun - Siu Hei,Sub-Total,12660,17500,43.3
+Tuen Mun - Wu King,Male,6496,13000,40.5
+Tuen Mun - Wu King,Female,7184,10000,41.3
+Tuen Mun - Wu King,Sub-Total,13680,12000,40.9
+Tuen Mun - Butterfly,Male,7456,14500,50.3
+Tuen Mun - Butterfly,Female,8921,10000,51.5
+Tuen Mun - Butterfly,Sub-Total,16377,12000,50.9
+Tuen Mun - Lok Tsui,Male,6609,20000,43.1
+Tuen Mun - Lok Tsui,Female,7998,15000,41.6
+Tuen Mun - Lok Tsui,Sub-Total,14607,18000,42.3
+Tuen Mun - Lung Mun,Male,7751,15480,44.4
+Tuen Mun - Lung Mun,Female,9045,12000,41.3
+Tuen Mun - Lung Mun,Sub-Total,16796,14500,42.7
+Tuen Mun - San King,Male,6658,15000,45
+Tuen Mun - San King,Female,7013,12000,47.6
+Tuen Mun - San King,Sub-Total,13671,13250,46.9
+Tuen Mun - Leung King,Male,6290,14000,45.8
+Tuen Mun - Leung King,Female,6534,11250,45
+Tuen Mun - Leung King,Sub-Total,12824,12300,45.3
+Tuen Mun - Tin King,Male,7493,15000,45.7
+Tuen Mun - Tin King,Female,7760,11570,48.1
+Tuen Mun - Tin King,Sub-Total,15253,13500,47.3
+Tuen Mun - Po Tin,Male,8973,14000,48
+Tuen Mun - Po Tin,Female,8727,11250,43.2
+Tuen Mun - Po Tin,Sub-Total,17700,13000,45.4
+Tuen Mun - Kin Sang,Male,7092,15500,41.9
+Tuen Mun - Kin Sang,Female,8356,12750,40.8
+Tuen Mun - Kin Sang,Sub-Total,15448,15000,41.3
+Tuen Mun - Siu Hong,Male,6796,15600,49.8
+Tuen Mun - Siu Hong,Female,8503,13000,52.3
+Tuen Mun - Siu Hong,Sub-Total,15299,15000,50.9
+Tuen Mun - Prime View,Male,9496,20000,39.4
+Tuen Mun - Prime View,Female,10079,16000,39.3
+Tuen Mun - Prime View,Sub-Total,19575,18000,39.4
+Tuen Mun - Fu Tai,Male,8877,14500,41.2
+Tuen Mun - Fu Tai,Female,10234,11970,39.5
+Tuen Mun - Fu Tai,Sub-Total,19111,13000,40
+Tuen Mun - Tuen Mun Rural,Male,9189,18000,43.1
+Tuen Mun - Tuen Mun Rural,Female,10531,14500,41
+Tuen Mun - Tuen Mun Rural,Sub-Total,19720,16000,41.9
+Yuen Long - Fung Nin,Male,8960,15500,42.8
+Yuen Long - Fung Nin,Female,10130,11750,46.2
+Yuen Long - Fung Nin,Sub-Total,19090,14000,44.7
+Yuen Long - Shui Pin,Male,9243,16500,43.2
+Yuen Long - Shui Pin,Female,11278,12500,44.5
+Yuen Long - Shui Pin,Sub-Total,20521,15000,44
+Yuen Long - Nam Ping,Male,7128,14040,43.6
+Yuen Long - Nam Ping,Female,8641,11000,46.1
+Yuen Long - Nam Ping,Sub-Total,15769,12000,45.7
+Yuen Long - Pek Long,Male,7737,15500,41.6
+Yuen Long - Pek Long,Female,8778,12000,42.1
+Yuen Long - Pek Long,Sub-Total,16515,14700,41.9
+Yuen Long - Yuen Long Centre,Male,8235,15000,43.7
+Yuen Long - Yuen Long Centre,Female,8992,11000,40.8
+Yuen Long - Yuen Long Centre,Sub-Total,17227,13500,42.5
+Yuen Long - Yuen Lung,Male,6526,30000,40.8
+Yuen Long - Yuen Lung,Female,8390,17000,38.8
+Yuen Long - Yuen Lung,Sub-Total,14916,21250,39.5
+Yuen Long - Fung Cheung,Male,7690,18500,39.7
+Yuen Long - Fung Cheung,Female,8726,15000,42.8
+Yuen Long - Fung Cheung,Sub-Total,16416,16000,41.5
+Yuen Long - Shap Pat Heung East,Male,6906,17000,42.9
+Yuen Long - Shap Pat Heung East,Female,8778,12250,39.7
+Yuen Long - Shap Pat Heung East,Sub-Total,15684,15000,40.7
+Yuen Long - Shap Pat Heung Central,Male,9737,26000,38.1
+Yuen Long - Shap Pat Heung Central,Female,11722,16000,37.1
+Yuen Long - Shap Pat Heung Central,Sub-Total,21459,21000,37.5
+Yuen Long - Shap Pat Heung West,Male,9716,17500,43.3
+Yuen Long - Shap Pat Heung West,Female,10796,12000,40.1
+Yuen Long - Shap Pat Heung West,Sub-Total,20512,15000,41.3
+Yuen Long - Ping Shan South,Male,11848,16000,40.9
+Yuen Long - Ping Shan South,Female,13495,12000,39.4
+Yuen Long - Ping Shan South,Sub-Total,25343,14200,40.2
+Yuen Long - Ping Shan Central,Male,6580,18000,38.5
+Yuen Long - Ping Shan Central,Female,7395,12360,39.2
+Yuen Long - Ping Shan Central,Sub-Total,13975,16000,38.8
+Yuen Long - Ping Shan North,Male,6239,20000,44.2
+Yuen Long - Ping Shan North,Female,7100,13500,41.4
+Yuen Long - Ping Shan North,Sub-Total,13339,17000,42.8
+Yuen Long - Ha Tsuen,Male,7257,16000,45.1
+Yuen Long - Ha Tsuen,Female,8009,11000,43.2
+Yuen Long - Ha Tsuen,Sub-Total,15266,15000,44
+Yuen Long - Tin Shing,Male,9705,17000,43.3
+Yuen Long - Tin Shing,Female,11146,13000,43.6
+Yuen Long - Tin Shing,Sub-Total,20851,15000,43.5
+Yuen Long - Shui Oi,Male,8640,14000,41.7
+Yuen Long - Shui Oi,Female,9080,11570,47.8
+Yuen Long - Shui Oi,Sub-Total,17720,12480,46.2
+Yuen Long - Shui Wah,Male,7394,14000,37.5
+Yuen Long - Shui Wah,Female,7739,11250,45
+Yuen Long - Shui Wah,Sub-Total,15133,12250,40.7
+Yuen Long - Chung Wah,Male,8272,15000,36.8
+Yuen Long - Chung Wah,Female,8532,12000,43.2
+Yuen Long - Chung Wah,Sub-Total,16804,13500,39.3
+Yuen Long - Yuet Yan,Male,9180,13000,48.7
+Yuen Long - Yuet Yan,Female,9669,10250,46.6
+Yuen Long - Yuet Yan,Sub-Total,18849,12000,47.3
+Yuen Long - Fu Yan,Male,8893,16000,42.1
+Yuen Long - Fu Yan,Female,10545,12000,39.8
+Yuen Long - Fu Yan,Sub-Total,19438,15000,40.7
+Yuen Long - Yat Chak,Male,9986,14000,35.4
+Yuen Long - Yat Chak,Female,10608,10750,39.8
+Yuen Long - Yat Chak,Sub-Total,20594,12000,38.4
+Yuen Long - Tin Heng,Male,9833,12750,31.5
+Yuen Long - Tin Heng,Female,10970,10250,37.1
+Yuen Long - Tin Heng,Sub-Total,20803,11750,33.9
+Yuen Long - Wang Yat,Male,9090,14000,34.9
+Yuen Long - Wang Yat,Female,9572,10250,40.5
+Yuen Long - Wang Yat,Sub-Total,18662,12000,38.3
+Yuen Long - Ching King,Male,8962,15000,41.2
+Yuen Long - Ching King,Female,10046,10250,40.6
+Yuen Long - Ching King,Sub-Total,19008,12000,40.8
+Yuen Long - Kingswood North,Male,10494,21250,45.9
+Yuen Long - Kingswood North,Female,12630,15000,44.9
+Yuen Long - Kingswood North,Sub-Total,23124,20000,45.3
+Yuen Long - Tsz Yau,Male,7170,15000,45.1
+Yuen Long - Tsz Yau,Female,7530,10750,47.7
+Yuen Long - Tsz Yau,Sub-Total,14700,13000,46.9
+Yuen Long - Yiu Yau,Male,6491,13000,43
+Yuen Long - Yiu Yau,Female,7544,12000,44.6
+Yuen Long - Yiu Yau,Sub-Total,14035,12500,43.8
+Yuen Long - Tin Yiu,Male,5926,13500,45.6
+Yuen Long - Tin Yiu,Female,6787,11000,44.5
+Yuen Long - Tin Yiu,Sub-Total,12713,12000,45.3
+Yuen Long - Kingswood South,Male,8025,21250,44.4
+Yuen Long - Kingswood South,Female,9588,14660,43.5
+Yuen Long - Kingswood South,Sub-Total,17613,18500,43.9
+Yuen Long - Chung Pak,Male,7671,19000,42.9
+Yuen Long - Chung Pak,Female,8514,13600,40.7
+Yuen Long - Chung Pak,Sub-Total,16185,16000,42
+Yuen Long - Fairview Park,Male,6270,30000,51.2
+Yuen Long - Fairview Park,Female,9313,13000,42.7
+Yuen Long - Fairview Park,Sub-Total,15583,20000,45.5
+Yuen Long - San Tin,Male,9639,24300,48.8
+Yuen Long - San Tin,Female,12351,9000,44
+Yuen Long - San Tin,Sub-Total,21990,17000,45.9
+Yuen Long - Kam Tin,Male,6504,18000,44.1
+Yuen Long - Kam Tin,Female,6985,11000,40.7
+Yuen Long - Kam Tin,Sub-Total,13489,15000,41.9
+Yuen Long - Pat Heung North,Male,5318,16500,44
+Yuen Long - Pat Heung North,Female,6216,12000,39.1
+Yuen Long - Pat Heung North,Sub-Total,11534,15000,40.9
+Yuen Long - Pat Heung South,Male,8822,19000,44.3
+Yuen Long - Pat Heung South,Female,10496,12000,42.5
+Yuen Long - Pat Heung South,Sub-Total,19318,15500,43.3
+North - Luen Wo Hui,Male,9577,17000,42.5
+North - Luen Wo Hui,Female,11614,11250,40.4
+North - Luen Wo Hui,Sub-Total,21191,14500,41.2
+North - Fanling Town,Male,6640,19500,43.6
+North - Fanling Town,Female,7558,12000,40.6
+North - Fanling Town,Sub-Total,14198,15500,42.2
+North - Cheung Wah,Male,7661,15000,45.7
+North - Cheung Wah,Female,8544,11380,47.1
+North - Cheung Wah,Sub-Total,16205,13500,46.4
+North - Wah Do,Male,9092,17000,45
+North - Wah Do,Female,9528,13000,43.8
+North - Wah Do,Sub-Total,18620,15000,44.3
+North - Wah Ming,Male,7403,15000,39.5
+North - Wah Ming,Female,8512,11250,42.2
+North - Wah Ming,Sub-Total,15915,13500,41
+North - Yan Shing,Male,9062,16000,43.9
+North - Yan Shing,Female,10263,12250,44.1
+North - Yan Shing,Sub-Total,19325,14500,44.1
+North - Shing Fuk,Male,7179,15500,45.6
+North - Shing Fuk,Female,7283,12250,47.7
+North - Shing Fuk,Sub-Total,14462,14000,47
+North - Fanling South,Male,6979,24000,40.3
+North - Fanling South,Female,7920,18000,40.7
+North - Fanling South,Sub-Total,14899,20000,40.5
+North - Ching Ho,Male,9425,13000,39.7
+North - Ching Ho,Female,10913,10250,39.3
+North - Ching Ho,Sub-Total,20338,11250,39.5
+North - Yu Tai,Male,8822,17460,38.8
+North - Yu Tai,Female,9565,11250,37.6
+North - Yu Tai,Sub-Total,18387,15000,38.1
+North - Sheung Shui Rural,Male,9930,16000,47.7
+North - Sheung Shui Rural,Female,12435,10000,42.5
+North - Sheung Shui Rural,Sub-Total,22365,15000,44.6
+North - Choi Yuen,Male,8044,13000,49
+North - Choi Yuen,Female,9285,11580,51.6
+North - Choi Yuen,Sub-Total,17329,12500,50.3
+North - Shek Wu Hui,Male,9616,18000,45.2
+North - Shek Wu Hui,Female,11519,11500,43.3
+North - Shek Wu Hui,Sub-Total,21135,15000,43.8
+North - Tin Ping West,Male,6623,15000,49.6
+North - Tin Ping West,Female,7766,12000,52.5
+North - Tin Ping West,Sub-Total,14389,13500,51.7
+North - Fung Tsui,Male,7326,16500,42.2
+North - Fung Tsui,Female,8311,11250,39.6
+North - Fung Tsui,Sub-Total,15637,15000,40.3
+North - Sha Ta,Male,7300,15000,45.1
+North - Sha Ta,Female,8157,10250,43.1
+North - Sha Ta,Sub-Total,15457,14000,44.2
+North - Tin Ping East,Male,8411,17500,40.8
+North - Tin Ping East,Female,9289,13000,41.5
+North - Tin Ping East,Sub-Total,17700,15000,41.1
+North - Queen's Hill,Male,8404,16000,42.5
+North - Queen's Hill,Female,9314,11000,40.5
+North - Queen's Hill,Sub-Total,17718,15000,41.1
+Tai Po - Tai Po Hui,Male,9136,12600,45.3
+Tai Po - Tai Po Hui,Female,10757,10000,41.2
+Tai Po - Tai Po Hui,Sub-Total,19893,11000,42.9
+Tai Po - Tai Po Central,Male,6191,20000,42.7
+Tai Po - Tai Po Central,Female,7864,15500,42
+Tai Po - Tai Po Central,Sub-Total,14055,18000,42.3
+Tai Po - Chung Ting,Male,6830,16500,44.4
+Tai Po - Chung Ting,Female,7828,13000,44.4
+Tai Po - Chung Ting,Sub-Total,14658,15000,44.4
+Tai Po - Tai Yuen,Male,6838,13500,43.8
+Tai Po - Tai Yuen,Female,7730,10500,49.8
+Tai Po - Tai Yuen,Sub-Total,14568,12000,47
+Tai Po - Fu Heng,Male,7546,14500,45.7
+Tai Po - Fu Heng,Female,8164,11250,46.5
+Tai Po - Fu Heng,Sub-Total,15710,13000,46.3
+Tai Po - Yee Fu,Male,7060,15000,46
+Tai Po - Yee Fu,Female,7429,10600,51.4
+Tai Po - Yee Fu,Sub-Total,14489,13000,49.3
+Tai Po - Fu Ming Sun,Male,6157,18000,45.5
+Tai Po - Fu Ming Sun,Female,7396,12000,47.2
+Tai Po - Fu Ming Sun,Sub-Total,13553,15000,46.5
+Tai Po - Kwong Fuk and Plover Cove,Male,6186,15000,42.8
+Tai Po - Kwong Fuk and Plover Cove,Female,7049,10770,48.8
+Tai Po - Kwong Fuk and Plover Cove,Sub-Total,13235,13200,46.2
+Tai Po - Wang Fuk,Male,5285,15500,47.1
+Tai Po - Wang Fuk,Female,6412,12800,51.1
+Tai Po - Wang Fuk,Sub-Total,11697,15000,50.1
+Tai Po - Tai Po Kau,Male,10468,30000,42.3
+Tai Po - Tai Po Kau,Female,13234,10000,39.9
+Tai Po - Tai Po Kau,Sub-Total,23702,19000,40.7
+Tai Po - Wan Tau Tong,Male,7276,15500,48.3
+Tai Po - Wan Tau Tong,Female,7997,12000,46.2
+Tai Po - Wan Tau Tong,Sub-Total,15273,14640,46.9
+Tai Po - San Fu,Male,7125,20000,45.1
+Tai Po - San Fu,Female,8584,17500,43.6
+Tai Po - San Fu,Sub-Total,15709,20000,44.2
+Tai Po - Lam Tsuen Valley,Male,8864,23750,43.2
+Tai Po - Lam Tsuen Valley,Female,10505,12000,40.8
+Tai Po - Lam Tsuen Valley,Sub-Total,19369,17000,41.8
+Tai Po - Po Nga,Male,6340,15500,46
+Tai Po - Po Nga,Female,7072,13000,48.7
+Tai Po - Po Nga,Sub-Total,13412,14500,47.1
+Tai Po - Tai Wo,Male,6846,15000,43.4
+Tai Po - Tai Wo,Female,6881,11500,51.2
+Tai Po - Tai Wo,Sub-Total,13727,13000,46.8
+Tai Po - Old Market and Serenity,Male,7407,21000,40.5
+Tai Po - Old Market and Serenity,Female,7797,16500,42.1
+Tai Po - Old Market and Serenity,Sub-Total,15204,19500,41.6
+Tai Po - Hong Lok Yuen,Male,10256,23750,41.3
+Tai Po - Hong Lok Yuen,Female,12934,10000,40.1
+Tai Po - Hong Lok Yuen,Sub-Total,23190,17000,40.7
+Tai Po - Shuen Wan,Male,8539,26000,45.7
+Tai Po - Shuen Wan,Female,10920,10000,41.2
+Tai Po - Shuen Wan,Sub-Total,19459,16000,42.8
+Tai Po - Sai Kung North,Male,5678,25000,45.1
+Tai Po - Sai Kung North,Female,7345,12000,42.5
+Tai Po - Sai Kung North,Sub-Total,13023,18000,43.1
+Sha Tin - Sha Tin Town Centre,Male,8311,30000,43.9
+Sha Tin - Sha Tin Town Centre,Female,11372,15000,41.5
+Sha Tin - Sha Tin Town Centre,Sub-Total,19683,21250,42.5
+Sha Tin - Lek Yuen,Male,7019,15000,47.5
+Sha Tin - Lek Yuen,Female,8970,11050,45.7
+Sha Tin - Lek Yuen,Sub-Total,15989,13000,46.6
+Sha Tin - Wo Che Estate,Male,8232,12250,45.9
+Sha Tin - Wo Che Estate,Female,9584,11000,48.8
+Sha Tin - Wo Che Estate,Sub-Total,17816,12000,47.4
+Sha Tin - City One,Male,7746,25000,43.6
+Sha Tin - City One,Female,9210,17140,44.3
+Sha Tin - City One,Sub-Total,16956,20000,44.1
+Sha Tin - Yue Shing,Male,6748,23000,45.1
+Sha Tin - Yue Shing,Female,8880,18020,44.6
+Sha Tin - Yue Shing,Sub-Total,15628,20000,44.8
+Sha Tin - Wong Uk,Male,7724,21250,42.4
+Sha Tin - Wong Uk,Female,9548,17000,41.1
+Sha Tin - Wong Uk,Sub-Total,17272,20000,41.9
+Sha Tin - Sha Kok,Male,7205,13500,52.6
+Sha Tin - Sha Kok,Female,8946,10250,52.6
+Sha Tin - Sha Kok,Sub-Total,16151,12000,52.6
+Sha Tin - Pok Hong,Male,6514,13500,49.7
+Sha Tin - Pok Hong,Female,7653,11860,53.9
+Sha Tin - Pok Hong,Sub-Total,14167,13000,52.1
+Sha Tin - Jat Min,Male,11053,15000,45.9
+Sha Tin - Jat Min,Female,12265,11250,42.4
+Sha Tin - Jat Min,Sub-Total,23318,13000,43.8
+Sha Tin - Chun Fung,Male,7131,15500,43.6
+Sha Tin - Chun Fung,Female,8135,13000,44.8
+Sha Tin - Chun Fung,Sub-Total,15266,14500,44
+Sha Tin - Sun Tin Wai,Male,7507,16000,46.1
+Sha Tin - Sun Tin Wai,Female,8621,13100,44.9
+Sha Tin - Sun Tin Wai,Sub-Total,16128,14500,45.4
+Sha Tin - Chui Tin,Male,7166,16500,44.2
+Sha Tin - Chui Tin,Female,8078,12000,45.6
+Sha Tin - Chui Tin,Sub-Total,15244,15000,45.2
+Sha Tin - Hin Ka,Male,5736,15600,48.8
+Sha Tin - Hin Ka,Female,6458,13000,49.1
+Sha Tin - Hin Ka,Sub-Total,12194,15000,48.9
+Sha Tin - Lower Shing Mun,Male,8614,15000,41.8
+Sha Tin - Lower Shing Mun,Female,9520,10000,40.8
+Sha Tin - Lower Shing Mun,Sub-Total,18134,12000,41.2
+Sha Tin - Wan Shing,Male,9799,30000,40.1
+Sha Tin - Wan Shing,Female,12470,15000,38.8
+Sha Tin - Wan Shing,Sub-Total,22269,20000,39.2
+Sha Tin - Keng Hau,Male,9548,18000,45.6
+Sha Tin - Keng Hau,Female,11397,11750,47.2
+Sha Tin - Keng Hau,Sub-Total,20945,15000,46.5
+Sha Tin - Tin Sum,Male,7063,13500,44.5
+Sha Tin - Tin Sum,Female,7450,11080,46.5
+Sha Tin - Tin Sum,Sub-Total,14513,12250,45.6
+Sha Tin - Chui Ka,Male,7649,14000,46.6
+Sha Tin - Chui Ka,Female,8583,11200,49.8
+Sha Tin - Chui Ka,Sub-Total,16232,12750,48.2
+Sha Tin - Tai Wai,Male,9139,15500,48
+Sha Tin - Tai Wai,Female,11127,11390,47.8
+Sha Tin - Tai Wai,Sub-Total,20266,14000,47.9
+Sha Tin - Chung Tin,Male,6649,20000,47.5
+Sha Tin - Chung Tin,Female,8115,13120,44
+Sha Tin - Chung Tin,Sub-Total,14764,16500,45.5
+Sha Tin - Sui Wo,Male,5284,20000,45.9
+Sha Tin - Sui Wo,Female,6977,15000,46.3
+Sha Tin - Sui Wo,Sub-Total,12261,18000,46.2
+Sha Tin - Fo Tan,Male,8241,30000,41.7
+Sha Tin - Fo Tan,Female,10855,12750,40.9
+Sha Tin - Fo Tan,Sub-Total,19096,21250,41.2
+Sha Tin - Chun Ma,Male,6079,46000,41.1
+Sha Tin - Chun Ma,Female,8544,10250,38.9
+Sha Tin - Chun Ma,Sub-Total,14623,25400,39.5
+Sha Tin - Chung On,Male,10456,19000,43.2
+Sha Tin - Chung On,Female,11557,13000,42.6
+Sha Tin - Chung On,Sub-Total,22013,15750,42.8
+Sha Tin - Kam To,Male,9198,19500,42.4
+Sha Tin - Kam To,Female,10480,14000,42
+Sha Tin - Kam To,Sub-Total,19678,17000,42.2
+Sha Tin - Ma On Shan Town Centre,Male,7709,28000,44.8
+Sha Tin - Ma On Shan Town Centre,Female,9578,19000,42.6
+Sha Tin - Ma On Shan Town Centre,Sub-Total,17287,23000,43.4
+Sha Tin - Lee On,Male,8234,15370,43.4
+Sha Tin - Lee On,Female,8834,11000,43.5
+Sha Tin - Lee On,Sub-Total,17068,13500,43.4
+Sha Tin - Fu Lung,Male,7350,17000,49
+Sha Tin - Fu Lung,Female,8355,15000,48.9
+Sha Tin - Fu Lung,Sub-Total,15705,15500,48.9
+Sha Tin - Wu Kai Sha,Male,7209,36000,41.8
+Sha Tin - Wu Kai Sha,Female,9579,20000,38.8
+Sha Tin - Wu Kai Sha,Sub-Total,16788,25000,39.5
+Sha Tin - Kam Ying,Male,7830,20000,47.9
+Sha Tin - Kam Ying,Female,9071,15000,45.2
+Sha Tin - Kam Ying,Sub-Total,16901,18000,46.5
+Sha Tin - Yiu On,Male,8065,15000,41.9
+Sha Tin - Yiu On,Female,9396,12000,50.5
+Sha Tin - Yiu On,Sub-Total,17461,14000,47.9
+Sha Tin - Heng On,Male,9689,15500,43.9
+Sha Tin - Heng On,Female,10347,12500,49.6
+Sha Tin - Heng On,Sub-Total,20036,15000,47.2
+Sha Tin - On Tai,Male,9759,22000,42.1
+Sha Tin - On Tai,Female,11824,16000,40.9
+Sha Tin - On Tai,Sub-Total,21583,20000,41.4
+Sha Tin - Tai Shui Hang,Male,9096,15000,46.3
+Sha Tin - Tai Shui Hang,Female,9651,11630,46.1
+Sha Tin - Tai Shui Hang,Sub-Total,18747,13500,46.2
+Sha Tin - Yu Yan,Male,8101,21000,41.8
+Sha Tin - Yu Yan,Female,9984,15500,40.6
+Sha Tin - Yu Yan,Sub-Total,18085,20000,41.2
+Sha Tin - Bik Woo,Male,7840,20000,45.3
+Sha Tin - Bik Woo,Female,9421,13300,41.1
+Sha Tin - Bik Woo,Sub-Total,17261,19600,42.4
+Sha Tin - Kwong Hong,Male,8603,20000,45.1
+Sha Tin - Kwong Hong,Female,10624,13000,43.4
+Sha Tin - Kwong Hong,Sub-Total,19227,17120,43.9
+Sha Tin - Kwong Yuen,Male,6407,15000,44.5
+Sha Tin - Kwong Yuen,Female,6632,12000,48.1
+Sha Tin - Kwong Yuen,Sub-Total,13039,13340,47.1
+Sai Kung - Sai Kung Central,Male,4273,16000,49
+Sai Kung - Sai Kung Central,Female,5350,13000,46.2
+Sai Kung - Sai Kung Central,Sub-Total,9623,15000,47.1
+Sai Kung - Pak Sha Wan,Male,7009,25000,43.7
+Sai Kung - Pak Sha Wan,Female,9541,10250,41.1
+Sai Kung - Pak Sha Wan,Sub-Total,16550,17630,41.9
+Sai Kung - Sai Kung Islands,Male,5793,21250,40.2
+Sai Kung - Sai Kung Islands,Female,6390,7000,41.9
+Sai Kung - Sai Kung Islands,Sub-Total,12183,18500,41.1
+Sai Kung - Hang Hau East,Male,6108,30000,43.6
+Sai Kung - Hang Hau East,Female,7994,7000,38.7
+Sai Kung - Hang Hau East,Sub-Total,14102,15000,40.4
+Sai Kung - Hang Hau West,Male,7889,21250,39.3
+Sai Kung - Hang Hau West,Female,8744,10250,39.4
+Sai Kung - Hang Hau West,Sub-Total,16633,16000,39.3
+Sai Kung - Po Yee,Male,7443,19500,44.4
+Sai Kung - Po Yee,Female,10000,13000,41.7
+Sai Kung - Po Yee,Sub-Total,17443,15500,42.8
+Sai Kung - Wai King,Male,6913,40000,42.9
+Sai Kung - Wai King,Female,9026,19000,41.9
+Sai Kung - Wai King,Sub-Total,15939,29070,42.3
+Sai Kung - Do Shin,Male,7109,30000,41.5
+Sai Kung - Do Shin,Female,8773,14500,38.7
+Sai Kung - Do Shin,Sub-Total,15882,20000,39.7
+Sai Kung - Kin Ming,Male,7218,13800,43.1
+Sai Kung - Kin Ming,Female,8413,10750,42
+Sai Kung - Kin Ming,Sub-Total,15631,12000,42.3
+Sai Kung - Choi Kin,Male,9695,15000,39.2
+Sai Kung - Choi Kin,Female,10254,12000,41.8
+Sai Kung - Choi Kin,Sub-Total,19949,13000,40.5
+Sai Kung - O Tong,Male,8452,27000,41.4
+Sai Kung - O Tong,Female,10105,18000,41
+Sai Kung - O Tong,Sub-Total,18557,21250,41.2
+Sai Kung - Fu Kwan,Male,8695,20000,43
+Sai Kung - Fu Kwan,Female,10464,15000,42.3
+Sai Kung - Fu Kwan,Sub-Total,19159,18000,42.7
+Sai Kung - Kwan Po,Male,6733,33750,39.3
+Sai Kung - Kwan Po,Female,8123,18000,38.1
+Sai Kung - Kwan Po,Sub-Total,14856,23500,38.6
+Sai Kung - Nam On,Male,9083,23750,43.3
+Sai Kung - Nam On,Female,10475,15000,43.9
+Sai Kung - Nam On,Sub-Total,19558,20000,43.7
+Sai Kung - Hong King,Male,9401,20000,41.1
+Sai Kung - Hong King,Female,11144,15450,41.6
+Sai Kung - Hong King,Sub-Total,20545,18000,41.4
+Sai Kung - Tsui Lam,Male,7287,14300,48
+Sai Kung - Tsui Lam,Female,7776,12000,52.1
+Sai Kung - Tsui Lam,Sub-Total,15063,13000,50.9
+Sai Kung - Po Lam,Male,7364,14750,48
+Sai Kung - Po Lam,Female,8004,11750,52.6
+Sai Kung - Po Lam,Sub-Total,15368,13000,51.5
+Sai Kung - Yan Ying,Male,8307,20000,45.1
+Sai Kung - Yan Ying,Female,10281,14800,43.6
+Sai Kung - Yan Ying,Sub-Total,18588,18000,44.2
+Sai Kung - Wan Hang,Male,9940,23880,45.1
+Sai Kung - Wan Hang,Female,11828,16500,43.5
+Sai Kung - Wan Hang,Sub-Total,21768,20000,44
+Sai Kung - King Lam,Male,8495,15000,48.4
+Sai Kung - King Lam,Female,8398,11250,52.7
+Sai Kung - King Lam,Sub-Total,16893,13500,51.6
+Sai Kung - Hau Tak,Male,8570,14300,46.7
+Sai Kung - Hau Tak,Female,9302,12000,49.6
+Sai Kung - Hau Tak,Sub-Total,17872,13000,49.1
+Sai Kung - Fu Nam,Male,7607,20000,43.9
+Sai Kung - Fu Nam,Female,9467,14000,45.4
+Sai Kung - Fu Nam,Sub-Total,17074,17500,44.8
+Sai Kung - Tak Ming,Male,8624,16890,48
+Sai Kung - Tak Ming,Female,10259,13000,46.5
+Sai Kung - Tak Ming,Sub-Total,18883,15000,46.9
+Sai Kung - Sheung Tak,Male,9330,13000,37.1
+Sai Kung - Sheung Tak,Female,10336,10750,44.6
+Sai Kung - Sheung Tak,Sub-Total,19666,12000,41.3
+Sai Kung - Kwong Ming,Male,8343,17000,46.1
+Sai Kung - Kwong Ming,Female,9223,13000,47.3
+Sai Kung - Kwong Ming,Sub-Total,17566,15000,46.8
+Sai Kung - Wan Po North,Male,8016,30000,37.9
+Sai Kung - Wan Po North,Female,9231,17000,39.3
+Sai Kung - Wan Po North,Sub-Total,17247,24000,38.7
+Sai Kung - Wan Po South,Male,8502,30000,39.5
+Sai Kung - Wan Po South,Female,10764,17300,38.8
+Sai Kung - Wan Po South,Sub-Total,19266,21000,39
+Islands - Lantau,Male,10518,16000,44.8
+Islands - Lantau,Female,10171,10000,43.3
+Islands - Lantau,Sub-Total,20689,14000,44.2
+Islands - Yat Tung Estate North,Male,9453,14000,38.6
+Islands - Yat Tung Estate North,Female,10655,11000,41.1
+Islands - Yat Tung Estate North,Sub-Total,20108,12250,40.2
+Islands - Yat Tung Estate South,Male,8148,13350,39.9
+Islands - Yat Tung Estate South,Female,9017,11250,40.4
+Islands - Yat Tung Estate South,Sub-Total,17165,12250,40.2
+Islands - Tung Chung North,Male,11083,38000,39.6
+Islands - Tung Chung North,Female,13859,19500,39.7
+Islands - Tung Chung North,Sub-Total,24942,28000,39.7
+Islands - Tung Chung South,Male,9481,20000,45.3
+Islands - Tung Chung South,Female,10688,13100,43
+Islands - Tung Chung South,Sub-Total,20169,17000,44
+Islands - Discovery Bay,Male,8913,50000,44
+Islands - Discovery Bay,Female,11358,10000,41
+Islands - Discovery Bay,Sub-Total,20271,31000,42.2
+Islands - Peng Chau and Hei Ling Chau,Male,3313,15000,44
+Islands - Peng Chau and Hei Ling Chau,Female,3174,10500,48.8
+Islands - Peng Chau and Hei Ling Chau,Sub-Total,6487,14000,46.4
+Islands - Lamma and Po Toi,Male,2746,20000,45.1
+Islands - Lamma and Po Toi,Female,3268,14000,42.2
+Islands - Lamma and Po Toi,Sub-Total,6014,17000,43.2
+Islands - Cheung Chau South,Male,5387,15000,47.5
+Islands - Cheung Chau South,Female,6356,11250,46.7
+Islands - Cheung Chau South,Sub-Total,11743,12830,46.9
+Islands - Cheung Chau North,Male,4483,15000,44.8
+Islands - Cheung Chau North,Female,4730,10250,48.4
+Islands - Cheung Chau North,Sub-Total,9213,13500,47.2

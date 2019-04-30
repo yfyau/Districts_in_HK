@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Map/> */}
-        {/* <ParallelCoordinate></ParallelCoordinate> */}
+        <Map/>
+        <ParallelCoordinate></ParallelCoordinate>
         <HeatMap/>
       </div>
     );

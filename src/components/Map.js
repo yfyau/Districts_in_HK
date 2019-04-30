@@ -44,7 +44,7 @@ export default class Map extends Component {
                     "fill-opacity": ["case",
                         ["boolean", ["feature-state", "hover"], false],
                         1,
-                        0.5
+                        0.6
                     ]
                 },
                 // "filter": ["==", "$type", "Polygon"]
@@ -121,16 +121,7 @@ export default class Map extends Component {
         }
     }
 
-    toggleColor = () => {
-
-        // let color_expression = ["case",
-        //     ["==", ["get", "District"], "Central & Western"], color(),
-        //     ["==", ["get", "District"], "Wan Chai"], "blue",
-        //     ["==", ["get", "District"], "Eastern"], "pink",
-        //     ["==", ["get", "District"], "Southern"], "orange",
-        //     ["==", ["get", "District"], "Wan Chai"], "blue",
-        //     "#888888"
-        // ];
+    toggleLinearColor = () => {
 
         var max = 0, min = Infinity;
         var color_expression;
@@ -153,8 +144,6 @@ export default class Map extends Component {
             color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
         }
 
-        console.log(color_expression)
-
         var layers = this.map.getStyle().layers
         for (var l in layers) {
             if (layers[l]["source"] == "districts") {
@@ -168,6 +157,118 @@ export default class Map extends Component {
         return color
     }
 
+    toggleBivariateColor = () => {
+
+        var max = 0, min = Infinity;
+        var color_expression;
+
+
+        if (population_by_district.length === 0)
+            color_expression = "#888888"
+        else
+            color_expression = ["case", "#888888"];
+
+        for (const districtObj of population_by_district) {
+            districtObj["2016"] > max && (max = districtObj["2016"])
+            districtObj["2016"] < min && (min = districtObj["2016"])
+        }
+
+        var data1 = Array.from(population_by_district.values(), d => d["2016"])
+        var data2 = Array.from(population_by_district.values(), d => d["2016"])
+
+        console.log(data1)
+
+        const color = this.bivariateColorScale(data1, data2, "population_2016", "population_2016")
+
+        for (const districtObj of population_by_district) {
+            color_expression.splice(1, 0, color(districtObj["2016"], districtObj["2016"]))
+            color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
+        }
+
+        var layers = this.map.getStyle().layers
+        for (var l in layers) {
+            if (layers[l]["source"] == "districts") {
+                this.map.setPaintProperty(layers[l]["id"], "fill-color", color_expression)
+            }
+        }
+    }
+
+    /* 
+        TODO: 
+        Test for two datasets
+        SVG append multi-times 
+        SVG size
+        Toggle
+    */
+    bivariateColorScale = (data1, data2, title1 = "unknown", title2 = "unknown") => {
+
+        const colors = [
+            "#e8e8e8", "#e4acac", "#c85a5a",
+            "#b0d5df", "#ad9ea5", "#985356",
+            "#64acbe", "#627f8c", "#574249"
+        ];
+
+        const labels = ["low", "", "high"]
+
+        const n = Math.floor(Math.sqrt(colors.length))
+
+        const svg = d3.create("svg")
+            .attr("viewBox", "0 0 1100 900")
+            .style("width", "100%")
+            .style("height", "auto")
+            .style("position", "absolute")
+            .style("top", "0")
+            .style("pointer-events", "none");
+
+
+        const legend = () => {
+            const k = 24;
+            const arrow = "arrow";
+
+            return this.stringToSVG(`<g font-family=sans-serif font-size=10 >
+                    <g transform="translate(-${k * n / 2},-${k * n / 2}) rotate(-45 ${k * n / 2},${k * n / 2})">
+                        <marker id="${arrow.id}" markerHeight=10 markerWidth=10 refX=6 refY=3 orient=auto>
+                    <path d="M0,0L9,3L0,6Z" />
+                  </marker>
+            ${
+                d3.cross(d3.range(n), d3.range(n)).map(([i, j]) =>
+                    this.stringToSVG(`<rect width=${k} height=${k} x=${i * k} y=${(n - 1 - j) * k} fill=${colors[j * n + i]}>
+                    <title>${title1}${labels[j] && ` (${labels[j]})`}
+              ${title2}${labels[i] && ` (${labels[i]})`}</title>
+                  </rect>`
+                    ).outerHTML)}
+
+            <line marker-end="${arrow}" x1=0 x2 = ${n * k} y1 = ${n * k} y2 = ${n * k} stroke = black stroke - width=1.5 />
+                <line marker-end="${arrow}" y2=0 y1 = ${n * k} stroke = black stroke - width=1.5 />
+                    <text font-weight="bold" dy="0.71em" transform="rotate(90) translate(${n / 2 * k},6)" text-anchor="middle">${title1}</text>
+                    <text font-weight="bold" dy="0.71em" transform="translate(${n / 2 * k},${n * k + 6})" text-anchor="middle">${title2}</text>
+                </g>
+              </g>`)
+
+        }
+
+        svg.append(legend)
+            .attr("transform", "translate(870,450)");
+
+        d3.select("#map").append(function () { return svg.node(); });
+
+        var x = d3.scaleQuantile(data1, d3.range(n))
+        var y = d3.scaleQuantile(data2, d3.range(n))
+
+        return (a, b) => {
+            if (!a || !b) return "#ccc";
+
+            return colors[y(b) + x(a) * n]
+        };
+    }
+
+    stringToSVG = (string) => {
+        console.log(string)
+        var root = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        root.innerHTML = string.trim();
+        return root;
+    }
+
     render() {
 
         const { districtHover } = this.state
@@ -178,7 +279,8 @@ export default class Map extends Component {
             <div style={{ width: '100%', height: '100%' }}>
                 <div style={{ position: "fixed", zIndex: 10 }}>
                     <button onClick={this.toggleRoads} > Toggle Roads </button>
-                    <button onClick={this.toggleColor} > Toggle Color </button>
+                    <button onClick={this.toggleLinearColor} > Toggle Linear Color </button>
+                    <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button>
                 </div>
                 <div id='map' style={{ width: '100%', height: '100%' }}></div>
                 {
