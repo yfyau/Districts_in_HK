@@ -38,13 +38,13 @@ const data = Object.keys(json).map(key => json[key]);
 //Median Age [30, 66]
 //Median Rent to Income Ratio [0, 60]
 var divergingColorScale = d3.scaleLinear()
-  .domain([1549, 39964])
+  .domain([0, 60])
   .range(["red", "blue"])
-  .interpolate(d3.interpolateLab);
+  .interpolate(d3.interpolateHslLong);
 
 const props = {
     // color: (d) => districtColor[d.District],
-    color: d => divergingColorScale(d['Population']),
+    color: d => divergingColorScale(d['Median Rent to Income Ratio']),
     width: 1500,
     height: 500,
     dimensions,
