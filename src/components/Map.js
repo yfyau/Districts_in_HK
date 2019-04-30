@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 import mapboxgl from 'mapbox-gl'
 
+import ParallelCoordinate from './ParallelCoordinate'
 import TextVis from './TextVis'
 
 import { hk_map, population_by_district } from '../data'
@@ -275,14 +276,11 @@ export default class Map extends Component {
 
 
     // data = [{ "latitude": 22.373578, "longitude": 114.131009, "Estate": "Kwai Chung Estate", "Population": 38674, "Median Age": 40.7, "Median Monthly Domestic Household Income": 16000, "Median Rent to Income Ratio": 10.6, "Average Domestic Household Size": 2.8, "District": "Tsuen Wan" }]
-    toggleLocationPoint = () => {
+    toggleLocationPoint = (data) => {
 
-        const test_data = [{ "latitude": 22.373578, "longitude": 114.131009, "Estate": "Kwai Chung Estate", "Population": 38674, "Median Age": 40.7, "Median Monthly Domestic Household Income": 16000, "Median Rent to Income Ratio": 10.6, "Average Domestic Household Size": 2.8, "District": "Tsuen Wan" }, { "latitude": 22.3183094, "longitude": 114.2329969, "Estate": "Sau Mau Ping Estate", "Population": 36944, "Median Age": 44.1, "Median Monthly Domestic Household Income": 20300, "Median Rent to Income Ratio": 11.7, "Average Domestic Household Size": 3.1, "District": "Kwun Tong" }, { "latitude": 22.4579826, "longitude": 113.9991517, "Estate": "Kingswood Villas", "Population": 39964, "Median Age": 44.4, "Median Monthly Domestic Household Income": 28750, "Median Rent to Income Ratio": 33.7, "Average Domestic Household Size": 2.8, "District": "Yuen Long" }, { "latitude": 22.3366356, "longitude": 114.1402195, "Estate": "Mei Foo Sun Chuen", "Population": 37303, "Median Age": 42.7, "Median Monthly Domestic Household Income": 46740, "Median Rent to Income Ratio": 30.9, "Average Domestic Household Size": 3.1, "District": "Sham Shui Po" }, { "latitude": 22.2865471, "longitude": 114.2189883, "Estate": "Taikoo Shing", "Population": 35509, "Median Age": 43.5, "Median Monthly Domestic Household Income": 59500, "Median Rent to Income Ratio": 28, "Average Domestic Household Size": 3, "District": "Eastern" }]
-
-        const coordinates = test_data.map(d => [d["longitude"], d["latitude"]])
+        const coordinates = data.map(d => [d["longitude"], d["latitude"]])
 
         console.log(coordinates)
-
 
         const populations = {
             "type": "FeatureCollection",
@@ -299,38 +297,44 @@ export default class Map extends Component {
             })
         })
 
-        this.map.addSource("populations", {
-            type: "geojson",
-            data: populations
-        });
+        if (!this.map.getSource("populations")) {
+            this.map.addSource("populations", {
+                type: "geojson",
+                data: populations
+            });
 
-        this.map.addLayer({
-            'id': 'population-circles',
-            'type': "circle",
-            'source': "populations",
-            // 'source-layer': 'districts',
-            'layout': {
-                'visibility': 'visible'
-            },
-            'paint': {
-                // make circles larger as the user zooms from z12 to z22
-                'circle-radius': {
-                    'base': 1.75,
-                    'stops': [[12, 2], [22, 180]]
+            this.map.addLayer({
+                'id': 'population-circles',
+                'type': "circle",
+                'source': "populations",
+                // 'source-layer': 'districts',
+                'layout': {
+                    'visibility': 'visible'
                 },
-                // color circles by ethnicity, using a match expression
-                // https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
-                'circle-color': [
-                    'match',
-                    ['get', 'ethnicity'],
-                    'White', '#fbb03b',
-                    'Black', '#223b53',
-                    'Hispanic', '#e55e5e',
-                    'Asian', '#3bb2d0',
-                /* other */ '#000'
-                ]
-            }
-        });
+                'paint': {
+                    // make circles larger as the user zooms from z12 to z22
+                    'circle-radius': {
+                        'base': 1.75,
+                        'stops': [[12, 2], [22, 180]]
+                    },
+                    // color circles by ethnicity, using a match expression
+                    // https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
+                    'circle-color': [
+                        'match',
+                        ['get', 'ethnicity'],
+                        'White', '#fbb03b',
+                        'Black', '#223b53',
+                        'Hispanic', '#e55e5e',
+                        'Asian', '#3bb2d0',
+                    /* other */ '#000'
+                    ]
+                }
+            });
+        }
+        else {
+            this.map.getSource("populations").setData(populations)
+        }
+
 
         var layers = this.map.getStyle().layers
         console.log(layers)
@@ -363,6 +367,7 @@ export default class Map extends Component {
                         :
                         null
                 }
+                <ParallelCoordinate onBrushEnd={this.toggleLocationPoint} />
             </div>
         )
     }

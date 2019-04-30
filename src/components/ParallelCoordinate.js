@@ -1,5 +1,5 @@
 import React from 'react';
-import {ParallelCoordinates} from 'react-parcoords';
+import { ParallelCoordinates } from 'react-parcoords';
 import 'react-parcoords/d3.parcoords.css';
 import * as d3 from "d3";
 
@@ -38,23 +38,9 @@ const data = Object.keys(json).map(key => json[key]);
 //Median Age [30, 66]
 //Median Rent to Income Ratio [0, 60]
 var divergingColorScale = d3.scaleLinear()
-  .domain([0, 60])
-  .range(["red", "blue"])
-  .interpolate(d3.interpolateHslLong);
-
-const props = {
-    // color: (d) => districtColor[d.District],
-    color: d => divergingColorScale(d['Median Rent to Income Ratio']),
-    width: 1500,
-    height: 500,
-    dimensions,
-    data: data,
-    highlights: [],
-    // onBrush: console.log,
-    // onBrushEnd: console.log,
-    // onLineHover: console.log,
-    // onLinesHover: console.log
-};
+    .domain([0, 60])
+    .range(["red", "blue"])
+    .interpolate(d3.interpolateHslLong);
 
 const districtColor = {
     'Southern': "#e2d43b",
@@ -78,9 +64,24 @@ const districtColor = {
 };
 
 class ParallelCoordinate extends React.Component {
+
     render() {
+        const props = {
+            // color: (d) => districtColor[d.District],
+            color: d => divergingColorScale(d['Median Rent to Income Ratio']),
+            width: 1500,
+            height: 500,
+            dimensions,
+            data: data,
+            highlights: [],
+            // onBrush: console.log,
+            onBrushEnd: (x) => this.props.onBrushEnd(x.data),
+            // onLineHover: console.log,
+            // onLinesHover: console.log
+        };
+
         return (
-            <ParallelCoordinates {...props}/>
+            <ParallelCoordinates {...props} />
         );
     }
 }
