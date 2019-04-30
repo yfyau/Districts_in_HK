@@ -176,8 +176,6 @@ export default class Map extends Component {
         var data1 = Array.from(population_by_district.values(), d => d["2016"])
         var data2 = Array.from(population_by_district.values(), d => d["2016"])
 
-        console.log(data1)
-
         const color = this.bivariateColorScale(data1, data2, "population_2016", "population_2016")
 
         for (const districtObj of population_by_district) {
@@ -202,11 +200,17 @@ export default class Map extends Component {
     */
     bivariateColorScale = (data1, data2, title1 = "unknown", title2 = "unknown") => {
 
+        // const colors = [
+        //     "#e8e8e8", "#e4acac", "#c85a5a",
+        //     "#b0d5df", "#ad9ea5", "#985356",
+        //     "#64acbe", "#627f8c", "#574249"
+        // ];
+
         const colors = [
-            "#e8e8e8", "#e4acac", "#c85a5a",
-            "#b0d5df", "#ad9ea5", "#985356",
-            "#64acbe", "#627f8c", "#574249"
-        ];
+            "#e8e8e8", "#ace4e4", "#5ac8c8",
+            "#dfb0d6", "#a5add3", "#5698b9",
+            "#be64ac", "#8c62aa", "#3b4994"
+        ]
 
         const labels = ["low", "", "high"]
 
@@ -269,6 +273,69 @@ export default class Map extends Component {
         return root;
     }
 
+
+    // data = [{ "latitude": 22.373578, "longitude": 114.131009, "Estate": "Kwai Chung Estate", "Population": 38674, "Median Age": 40.7, "Median Monthly Domestic Household Income": 16000, "Median Rent to Income Ratio": 10.6, "Average Domestic Household Size": 2.8, "District": "Tsuen Wan" }]
+    toggleLocationPoint = () => {
+
+        const test_data = [{ "latitude": 22.373578, "longitude": 114.131009, "Estate": "Kwai Chung Estate", "Population": 38674, "Median Age": 40.7, "Median Monthly Domestic Household Income": 16000, "Median Rent to Income Ratio": 10.6, "Average Domestic Household Size": 2.8, "District": "Tsuen Wan" }, { "latitude": 22.3183094, "longitude": 114.2329969, "Estate": "Sau Mau Ping Estate", "Population": 36944, "Median Age": 44.1, "Median Monthly Domestic Household Income": 20300, "Median Rent to Income Ratio": 11.7, "Average Domestic Household Size": 3.1, "District": "Kwun Tong" }, { "latitude": 22.4579826, "longitude": 113.9991517, "Estate": "Kingswood Villas", "Population": 39964, "Median Age": 44.4, "Median Monthly Domestic Household Income": 28750, "Median Rent to Income Ratio": 33.7, "Average Domestic Household Size": 2.8, "District": "Yuen Long" }, { "latitude": 22.3366356, "longitude": 114.1402195, "Estate": "Mei Foo Sun Chuen", "Population": 37303, "Median Age": 42.7, "Median Monthly Domestic Household Income": 46740, "Median Rent to Income Ratio": 30.9, "Average Domestic Household Size": 3.1, "District": "Sham Shui Po" }, { "latitude": 22.2865471, "longitude": 114.2189883, "Estate": "Taikoo Shing", "Population": 35509, "Median Age": 43.5, "Median Monthly Domestic Household Income": 59500, "Median Rent to Income Ratio": 28, "Average Domestic Household Size": 3, "District": "Eastern" }]
+
+        const coordinates = test_data.map(d => [d["longitude"], d["latitude"]])
+
+        console.log(coordinates)
+
+
+        const populations = {
+            "type": "FeatureCollection",
+            "features": []
+        }
+
+        coordinates.forEach(c => {
+            populations.features.push({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": c
+                }
+            })
+        })
+
+        this.map.addSource("populations", {
+            type: "geojson",
+            data: populations
+        });
+
+        this.map.addLayer({
+            'id': 'population-circles',
+            'type': "circle",
+            'source': "populations",
+            // 'source-layer': 'districts',
+            'layout': {
+                'visibility': 'visible'
+            },
+            'paint': {
+                // make circles larger as the user zooms from z12 to z22
+                'circle-radius': {
+                    'base': 1.75,
+                    'stops': [[12, 2], [22, 180]]
+                },
+                // color circles by ethnicity, using a match expression
+                // https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
+                'circle-color': [
+                    'match',
+                    ['get', 'ethnicity'],
+                    'White', '#fbb03b',
+                    'Black', '#223b53',
+                    'Hispanic', '#e55e5e',
+                    'Asian', '#3bb2d0',
+                /* other */ '#000'
+                ]
+            }
+        });
+
+        var layers = this.map.getStyle().layers
+        console.log(layers)
+    }
+
     render() {
 
         const { districtHover } = this.state
@@ -281,6 +348,7 @@ export default class Map extends Component {
                     <button onClick={this.toggleRoads} > Toggle Roads </button>
                     <button onClick={this.toggleLinearColor} > Toggle Linear Color </button>
                     <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button>
+                    <button onClick={this.toggleLocationPoint} > Toggle Location Point </button>
                 </div>
                 <div id='map' style={{ width: '100%', height: '100%' }}></div>
                 {
