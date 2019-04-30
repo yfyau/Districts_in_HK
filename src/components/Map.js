@@ -268,8 +268,11 @@ export default class Map extends Component {
 
         const n = Math.floor(Math.sqrt(colors.length))
 
+        d3.select("#bivariate_chart").remove()
+
         const svg = d3.create("svg")
             .attr("viewBox", "0 0 1100 900")
+            .attr("id", "bivariate_chart")
             .style("width", "100%")
             .style("height", "auto")
             .style("position", "absolute")
