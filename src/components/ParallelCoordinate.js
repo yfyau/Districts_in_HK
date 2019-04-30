@@ -3,6 +3,8 @@ import { ParallelCoordinates } from 'react-parcoords';
 import 'react-parcoords/d3.parcoords.css';
 import * as d3 from "d3";
 
+import "../styles/ParallelCoordinate.css"
+
 const json = require('../data/housing_estates_hk.json');
 
 const dimensions = {
@@ -69,19 +71,22 @@ class ParallelCoordinate extends React.Component {
         const props = {
             // color: (d) => districtColor[d.District],
             color: d => divergingColorScale(d['Median Rent to Income Ratio']),
-            width: 1500,
-            height: 500,
+            width: 1200,
+            height: 250,
+            background: "transparent",
             dimensions,
             data: data,
             highlights: [],
-            // onBrush: console.log,
-            onBrushEnd: (x) => this.props.onBrushEnd(x.data),
+            onBrush: (x) => this.props.onBrush(x.data),
+            // onBrushEnd: console.log,
             // onLineHover: console.log,
             // onLinesHover: console.log
         };
 
         return (
-            <ParallelCoordinates {...props} />
+            <div style={this.props.style}>
+                <ParallelCoordinates {...props} />
+            </div>
         );
     }
 }
