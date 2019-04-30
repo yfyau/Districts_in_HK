@@ -1,0 +1,193 @@
+Month,Location,AQHI
+1,Central/Western,3.677
+1,Eastern,3.796
+1,Kwun Tong,3.892
+1,Sham Shui Po,3.462
+1,Kwai Chung,3.774
+1,Tsuen Wan,3.828
+1,Tseung Kwan O,3.581
+1,Yuen Long,3.634
+1,Tuen Mun,3.871
+1,Tung Chung,3.452
+1,Tai Po,3.806
+1,Sha Tin,3.699
+1,Tap Mun,3.522
+1,Causeway Bay,4.527
+1,Central,4.161
+1,Mong Kok,4.108
+2,Central/Western,3.81
+2,Eastern,4
+2,Kwun Tong,4.06
+2,Sham Shui Po,3.524
+2,Kwai Chung,3.857
+2,Tsuen Wan,3.798
+2,Tseung Kwan O,3.548
+2,Yuen Long,3.488
+2,Tuen Mun,3.738
+2,Tung Chung,3.369
+2,Tai Po,3.869
+2,Sha Tin,3.75
+2,Tap Mun,3.617
+2,Causeway Bay,4.571
+2,Central,4.214
+2,Mong Kok,4.143
+3,Central/Western,4.054
+3,Eastern,4.183
+3,Kwun Tong,4.086
+3,Sham Shui Po,3.86
+3,Kwai Chung,4.043
+3,Tsuen Wan,3.914
+3,Tseung Kwan O,3.774
+3,Yuen Long,3.677
+3,Tuen Mun,3.774
+3,Tung Chung,3.387
+3,Tai Po,3.914
+3,Sha Tin,3.753
+3,Tap Mun,3.731
+3,Causeway Bay,4.613
+3,Central,4.194
+3,Mong Kok,4.14
+4,Central/Western,3.733
+4,Eastern,3.956
+4,Kwun Tong,3.867
+4,Sham Shui Po,3.611
+4,Kwai Chung,3.933
+4,Tsuen Wan,3.667
+4,Tseung Kwan O,3.833
+4,Yuen Long,3.633
+4,Tuen Mun,3.8
+4,Tung Chung,3.378
+4,Tai Po,3.4
+4,Sha Tin,3.711
+4,Tap Mun,3.829
+4,Causeway Bay,4.467
+4,Central,3.633
+4,Mong Kok,4.011
+5,Central/Western,2.785
+5,Eastern,3.161
+5,Kwun Tong,3.376
+5,Sham Shui Po,2.978
+5,Kwai Chung,3.419
+5,Tsuen Wan,2.742
+5,Tseung Kwan O,3
+5,Yuen Long,2.946
+5,Tuen Mun,3.054
+5,Tung Chung,2.785
+5,Tai Po,2.495
+5,Sha Tin,3.032
+5,Tap Mun,2.837
+5,Causeway Bay,3.731
+5,Central,3.247
+5,Mong Kok,3.452
+6,Central/Western,3.089
+6,Eastern,3.456
+6,Kwun Tong,3.433
+6,Sham Shui Po,3.167
+6,Kwai Chung,3.489
+6,Tsuen Wan,2.922
+6,Tseung Kwan O,3.278
+6,Yuen Long,3.122
+6,Tuen Mun,3.367
+6,Tung Chung,3.111
+6,Tai Po,2.611
+6,Sha Tin,3.322
+6,Tap Mun,3.125
+6,Causeway Bay,3.789
+6,Central,3.756
+6,Mong Kok,3.422
+7,Central/Western,2.355
+7,Eastern,2.516
+7,Kwun Tong,2.645
+7,Sham Shui Po,2.452
+7,Kwai Chung,2.581
+7,Tsuen Wan,2.301
+7,Tseung Kwan O,2.452
+7,Yuen Long,2.419
+7,Tuen Mun,2.559
+7,Tung Chung,2.333
+7,Tai Po,2.409
+7,Sha Tin,2.538
+7,Tap Mun,2.411
+7,Causeway Bay,3.28
+7,Central,2.871
+7,Mong Kok,2.839
+8,Central/Western,3.151
+8,Eastern,3.237
+8,Kwun Tong,3.43
+8,Sham Shui Po,3.237
+8,Kwai Chung,3.344
+8,Tsuen Wan,3
+8,Tseung Kwan O,3.194
+8,Yuen Long,3.129
+8,Tuen Mun,3.366
+8,Tung Chung,3.022
+8,Tai Po,3.204
+8,Sha Tin,3.204
+8,Tap Mun,3.086
+8,Causeway Bay,3.871
+8,Central,3.806
+8,Mong Kok,3.688
+9,Central/Western,3.289
+9,Eastern,3.3
+9,Kwun Tong,3.244
+9,Sham Shui Po,3.3
+9,Kwai Chung,3.344
+9,Tsuen Wan,3.178
+9,Tseung Kwan O,3.244
+9,Yuen Long,3.5
+9,Tuen Mun,3.622
+9,Tung Chung,3.256
+9,Tai Po,3.344
+9,Sha Tin,3.444
+9,Tap Mun,3.163
+9,Causeway Bay,3.856
+9,Central,3.822
+9,Mong Kok,3.611
+10,Central/Western,4.699
+10,Eastern,4.753
+10,Kwun Tong,4.581
+10,Sham Shui Po,4.645
+10,Kwai Chung,4.624
+10,Tsuen Wan,4.462
+10,Tseung Kwan O,4.72
+10,Yuen Long,4.699
+10,Tuen Mun,4.935
+10,Tung Chung,4.387
+10,Tai Po,4.688
+10,Sha Tin,4.86
+10,Tap Mun,4.613
+10,Causeway Bay,4.935
+10,Central,5.065
+10,Mong Kok,4.892
+11,Central/Western,3.622
+11,Eastern,3.544
+11,Kwun Tong,3.622
+11,Sham Shui Po,3.433
+11,Kwai Chung,3.544
+11,Tsuen Wan,3.456
+11,Tseung Kwan O,3.589
+11,Yuen Long,3.6
+11,Tuen Mun,3.767
+11,Tung Chung,3.267
+11,Tai Po,3.6
+11,Sha Tin,3.589
+11,Tap Mun,3.483
+11,Causeway Bay,3.833
+11,Central,4.044
+11,Mong Kok,3.833
+12,Central/Western,3.075
+12,Eastern,3.086
+12,Kwun Tong,3.226
+12,Sham Shui Po,2.946
+12,Kwai Chung,2.989
+12,Tsuen Wan,2.946
+12,Tseung Kwan O,2.989
+12,Yuen Long,3.022
+12,Tuen Mun,3.151
+12,Tung Chung,2.882
+12,Tai Po,2.957
+12,Sha Tin,2.914
+12,Tap Mun,2.796
+12,Causeway Bay,3.581
+12,Central,3.602
+12,Mong Kok,3.28
