@@ -15,11 +15,11 @@ export default class Map extends Component {
     constructor(props) {
         super(props)
 
-        // this.state = {
-        //     districtClick: null
-        // }
+        this.state = {
+            districtHover: null
+        }
 
-        this.districtClick = null
+        // this.districtClick = null
     }
 
 
@@ -72,6 +72,20 @@ export default class Map extends Component {
             /* -----------------  Init End  -----------------*/
 
             this.mapHoveredStateId = null
+            map.on("mousemove", "district-poly", (e) => {
+                if (e.features.length > 0) {
+                    if (this.mapHoveredStateId) {
+                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                    }
+                    this.mapHoveredStateId = e.features[0].id;
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
+
+                    // Object Compare
+                    if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
+                        this.setState({ districtHover: e.features[0].properties })
+                }
+            });
+
             // map.on("click", "district-poly", (e) => {
             //     if (e.features.length > 0) {
             //         if (this.mapHoveredStateId) {
@@ -86,29 +100,15 @@ export default class Map extends Component {
             //     }
             // });
 
-            map.on("click", "district-poly", (e) => {
-                if (e.features.length > 0) {
-                    if (this.mapHoveredStateId) {
-                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-                    }
-                    this.mapHoveredStateId = e.features[0].id;
-                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
-
-                    // Object Compare
-                    if (JSON.stringify(this.districtClick) !== JSON.stringify(e.features[0].properties))
-                        this.districtClick = e.features[0].properties
+            map.on("mouseleave", "district-poly", () => {
+                if (this.mapHoveredStateId) {
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
                 }
+                this.mapHoveredStateId = null;
+
+                if (this.state.districtHover)
+                    this.setState({ districtHover: null })
             });
-
-            // map.on("mouseleave", "district-poly", () => {
-            //     if (this.mapHoveredStateId) {
-            //         map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-            //     }
-            //     this.mapHoveredStateId = null;
-
-            //     if (this.state.districtClick)
-            //         this.setState({ districtClick: null })
-            // });
         });
 
         this.map = map;
@@ -358,11 +358,9 @@ export default class Map extends Component {
 
     render() {
 
-        const { districtClick } = this
+        const { districtHover } = this.state
 
-        const district_chinese = districtClick ? districtClick["District_Chinese"] : null
-
-        console.log(district_chinese)
+        const district_chinese = districtHover ? districtHover["District_Chinese"] : null
 
         return (
             <div style={{ width: '100%', height: '100%' }}>
@@ -372,16 +370,24 @@ export default class Map extends Component {
                     <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button>
                     <button onClick={this.toggleLocationPoint} > Toggle Location Point </button>
                 </div>
-                <div style={{ width: '75%', height: "100%" }}>
-                    <div id='map' style={{ width: '100%', height: '100%' }}></div>
-                    <ParallelCoordinate onBrush={this.toggleLocationPoint} style={{ position: "absolute", bottom: 0 }} />
+                <div style={{ position: "relative", width: '75%', height: "100%" }}>
+                    <div id='map' style={{ width: '100%', height: '75%' }}></div>
+                    <div style={{ width: '100%', height: '25%', position: "absolute", bottom: 0, background: "white" }}>
+                        <ParallelCoordinate onBrush={this.toggleLocationPoint} />
+                    </div>
                 </div>
 
                 <div style={{ position: "absolute", background: "#fff", width: "25%", height: "100%", top: 0, right: 0 }}>
-                    <TextVis
-                        // District in Chinese
-                        district={district_chinese}
-                    />
+                    {
+                        district_chinese
+                            ?
+                            <TextVis
+                                // District in Chinese
+                                district={district_chinese}
+                            />
+                            :
+                            null
+                    }
                 </div>
             </div>
         )
