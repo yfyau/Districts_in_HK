@@ -4,6 +4,7 @@ import { Handler } from 'vega-tooltip';
 
 import * as d3 from "d3";
 
+import _2018 from '../data/AirQualityCleaned/2018.csv';
 import _0100_0500_2018 from '../data/AirQualityCleaned/0100_0500_2018.csv';
 import _0600_1000_2018 from '../data/AirQualityCleaned/0600_1000_2018.csv';
 import _1100_1300_2018 from '../data/AirQualityCleaned/1100_1300_2018.csv';
@@ -26,6 +27,7 @@ export default class HeatMap extends React.Component {
             case '1100_1300_2018': filePath = _1100_1300_2018; break;
             case '1400_1800_2018': filePath = _1400_1800_2018; break;
             case '1900_2400_2018': filePath = _1900_2400_2018; break;
+            default: filePath = _2018; break;
         }
 
         d3.csv(filePath, d => ({
@@ -46,7 +48,7 @@ export default class HeatMap extends React.Component {
     }
 
     componentDidMount() {
-        this.fetchData('0100_0500_2018');
+        this.fetchData('0000_2400_2018');
     }
 
     render() {
@@ -75,6 +77,7 @@ export default class HeatMap extends React.Component {
                 <select name="districts" onChange={(event) => {
                     this.fetchData(event.target.value);
                 }}>
+                    <option value="0000_2400_2018">All day</option>
                     <option value="0100_0500_2018">0100 - 0500</option>
                     <option value="0600_1000_2018">0600 - 1000</option>
                     <option value="1100_1300_2018">1100 - 1300</option>
