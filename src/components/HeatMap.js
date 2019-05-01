@@ -11,6 +11,29 @@ import _1100_1300_2018 from '../data/AirQualityCleaned/1100_1300_2018.csv';
 import _1400_1800_2018 from '../data/AirQualityCleaned/1400_1800_2018.csv';
 import _1900_2400_2018 from '../data/AirQualityCleaned/1900_2400_2018.csv';
 
+
+const allYearsSpec = {
+    data: { url: 'https://gist.githubusercontent.com/ptrknow/911546be7201dbdc17e57342bf1d2dbe/raw/1e1e4caeb0051a19abdc45aa6797be69c2cd9eb9/average_across_years.csv' },
+    width: 1000,
+    height: 400,
+    title: 'Monthly Average of Air Quality',
+    mark: 'rect',
+    selection: { highlight: {type: "single"}} ,
+    encoding: {
+      x: { field: 'Month of Year', type: 'o' },
+      y: { field: 'District', type: 'n' },
+      color: {
+        field: 'AQHI',
+        type: 'q',
+        scale: { scheme: 'blueorange', domain: [1.5, 5.5] }
+      },
+      opacity: {
+        condition: { selection: "highlight", value: 1},
+        value: 0.5
+      }
+    }
+  };
+
 export default class HeatMap extends React.Component {
     state = {
         title: '',
@@ -87,6 +110,10 @@ export default class HeatMap extends React.Component {
                 <VegaLite
                     spec={{ title: this.state.title, ...spec }}
                     data={this.state.data}
+                    tooltip={new Handler().call}
+                />
+                <VegaLite
+                    spec={allYearsSpec}
                     tooltip={new Handler().call}
                 />
             </div>
