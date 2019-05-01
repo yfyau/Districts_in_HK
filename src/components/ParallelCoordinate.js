@@ -67,9 +67,12 @@ var divergingColorScale = d3.scaleLinear()
 
 class ParallelCoordinate extends React.Component {
 
-    // shouldComponentUpdate(nextProps, nextState) {
-    //     return false
-    // }
+    shouldComponentUpdate(nextProps, nextState) {
+        if (nextProps.district === this.props.district)
+            return false
+        
+        return true
+    }
 
     render() {
         const props = {

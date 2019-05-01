@@ -16,6 +16,7 @@ export default class Map extends Component {
         super(props)
 
         this.state = {
+            districtHover: null,
             districtClick: null
         }
 
@@ -44,9 +45,13 @@ export default class Map extends Component {
                 "source": "districts",
                 "paint": {
                     "fill-color": "#888888",
-                    "fill-opacity": ["case",
+                    "fill-opacity": [
+                        "case",
                         ["boolean", ["feature-state", "hover"], false],
                         1,
+                        ["boolean", ["feature-state", "active"], false],
+                        1,
+                        // Default
                         0.6
                     ]
                 },
@@ -71,19 +76,31 @@ export default class Map extends Component {
             /* -----------------  Init End  -----------------*/
 
             this.mapHoveredStateId = null
-            // map.on("mousemove", "district-poly", (e) => {
-            //     if (e.features.length > 0) {
-            //         if (this.mapHoveredStateId) {
-            //             map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-            //         }
-            //         this.mapHoveredStateId = e.features[0].id;
-            //         map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
+            this.mapClickedStateId = null
+            
+            map.on("mousemove", "district-poly", (e) => {
+                if (e.features.length > 0) {
+                    if (this.mapHoveredStateId) {
+                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                    }
+                    this.mapHoveredStateId = e.features[0].id;
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
 
-            //         // Object Compare
-            //         if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
-            //             this.setState({ districtHover: e.features[0].properties })
-            //     }
-            // });
+                    // Object Compare
+                    if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
+                        this.setState({ districtHover: e.features[0].properties })
+                }
+            });
+
+            map.on("mouseleave", "district-poly", () => {
+                if (this.mapHoveredStateId) {
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                }
+                this.mapHoveredStateId = null;
+
+                if (this.state.districtHover)
+                    this.setState({ districtHover: null })
+            });
 
             map.on("click", "district-poly", (e) => {
                 if (e.features.length > 0) {
@@ -91,30 +108,21 @@ export default class Map extends Component {
                     if (JSON.stringify(this.state.districtClick) !== JSON.stringify(e.features[0].properties)) {
                         this.setState({ districtClick: e.features[0].properties })
 
-                        if (this.mapHoveredStateId) {
-                            map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                        if (this.mapClickedStateId) {
+                            map.setFeatureState({ source: 'districts', id: this.mapClickedStateId }, { active: false });
                         }
-                        this.mapHoveredStateId = e.features[0].id;
-                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
+                        this.mapClickedStateId = e.features[0].id;
+                        map.setFeatureState({ source: 'districts', id: this.mapClickedStateId }, { active: true });
                     } else {
                         this.setState({ districtClick: null })
-                        if (this.mapHoveredStateId) {
-                            map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                        if (this.mapClickedStateId) {
+                            map.setFeatureState({ source: 'districts', id: this.mapClickedStateId }, { active: false });
                         }
                         this.mapHoveredStateId = e.features[0].id;
                     }
                 }
             });
 
-            // map.on("mouseleave", "district-poly", () => {
-            //     if (this.mapHoveredStateId) {
-            //         map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-            //     }
-            //     this.mapHoveredStateId = null;
-
-            //     if (this.state.districtHover)
-            //         this.setState({ districtHover: null })
-            // });
         });
 
         this.map = map;
