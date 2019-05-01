@@ -87,15 +87,22 @@ export default class Map extends Component {
 
             map.on("click", "district-poly", (e) => {
                 if (e.features.length > 0) {
-                    if (this.mapHoveredStateId) {
-                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-                    }
-                    this.mapHoveredStateId = e.features[0].id;
-                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
-
                     // Object Compare
-                    if (JSON.stringify(this.state.districtClick) !== JSON.stringify(e.features[0].properties))
+                    if (JSON.stringify(this.state.districtClick) !== JSON.stringify(e.features[0].properties)) {
                         this.setState({ districtClick: e.features[0].properties })
+
+                        if (this.mapHoveredStateId) {
+                            map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                        }
+                        this.mapHoveredStateId = e.features[0].id;
+                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
+                    } else {
+                        this.setState({ districtClick: null })
+                        if (this.mapHoveredStateId) {
+                            map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                        }
+                        this.mapHoveredStateId = e.features[0].id;
+                    }
                 }
             });
 
@@ -419,7 +426,7 @@ export default class Map extends Component {
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
                     <div id='map' style={{ width: '100%', height: '75%' }}></div>
                     <div style={{ width: '100%', height: '25%', position: "absolute", bottom: 0, background: "white" }}>
-                        <ParallelCoordinate onBrush={this.toggleLocationPoint} district={district_english}/>
+                        <ParallelCoordinate onBrush={this.toggleLocationPoint} district={district_english} />
                     </div>
                 </div>
 

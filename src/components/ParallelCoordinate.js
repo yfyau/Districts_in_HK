@@ -28,10 +28,10 @@ const dimensions = {
         title: 'Average Domestic Household Size',
         type: 'number'
     },
-    'District': {
-        title: 'District',
-        type: 'string'
-    }
+    // 'District': {
+    //     title: 'District',
+    //     type: 'string'
+    // }
 };
 
 const data = Object.keys(json).map(key => json[key]);
@@ -72,7 +72,6 @@ class ParallelCoordinate extends React.Component {
     // }
 
     render() {
-        console.log('parallel:', data);
         const props = {
             // color: (d) => districtColor[d.District],
             color: d => divergingColorScale(d['Median Rent to Income Ratio']),

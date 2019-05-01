@@ -73,7 +73,7 @@ export default class HeatMap extends React.Component {
         };
 
         return (
-            <div>
+            <div style={{margin: 50}}>
                 <select name="districts" onChange={(event) => {
                     this.fetchData(event.target.value);
                 }}>
