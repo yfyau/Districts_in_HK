@@ -56,7 +56,6 @@ export default class Map extends Component {
 
             // Set Roads and Aeroway to unvisible
             var layers = map.getStyle().layers
-            console.log(layers)
             for (var l in layers) {
                 if (layers[l]["source-layer"] == "road" || layers[l]["source-layer"] == "aeroway") {
                     map.setLayoutProperty(layers[l]["id"], "visibility", "none")
@@ -215,7 +214,6 @@ export default class Map extends Component {
         const field1 = this.state.bivariate1
         const field2 = this.state.bivariate2
 
-        console.log(field1, field2)
         if (!field1 || !field2)
             return
 
@@ -309,6 +307,8 @@ export default class Map extends Component {
         svg.append(legend)
             .attr("transform", "translate(870,450)");
 
+        d3.select('#map').select('svg').remove();
+
         d3.select("#map").append(function () { return svg.node(); });
 
         var x = d3.scaleQuantile(data1, d3.range(n))
@@ -322,7 +322,6 @@ export default class Map extends Component {
     }
 
     stringToSVG = (string) => {
-        console.log(string)
         var root = document.createElementNS("http://www.w3.org/2000/svg", "g");
         root.innerHTML = string.trim();
         return root;
@@ -333,8 +332,6 @@ export default class Map extends Component {
     toggleLocationPoint = (data) => {
 
         const coordinates = data.map(d => [d["longitude"], d["latitude"]])
-
-        console.log(coordinates)
 
         const populations = {
             "type": "FeatureCollection",
@@ -388,13 +385,13 @@ export default class Map extends Component {
 
 
         var layers = this.map.getStyle().layers
-        console.log(layers)
     }
 
     render() {
 
         const { districtHover } = this.state
 
+        const district_english = districtHover ? districtHover["District"] : null
         const district_chinese = districtHover ? districtHover["District_Chinese"] : null
 
         return (
@@ -424,7 +421,7 @@ export default class Map extends Component {
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
                     <div id='map' style={{ width: '100%', height: '75%' }}></div>
                     <div style={{ width: '100%', height: '25%', position: "absolute", bottom: 0, background: "white" }}>
-                        <ParallelCoordinate onBrush={this.toggleLocationPoint} />
+                        <ParallelCoordinate onBrush={this.toggleLocationPoint} district={district_english}/>
                     </div>
                 </div>
 
