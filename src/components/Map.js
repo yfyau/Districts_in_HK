@@ -137,27 +137,63 @@ export default class Map extends Component {
         }
     }
 
-    toggleLinearColor = () => {
+    toggleColor = () => {
+        const { scale1, scale2 } = this.state
+        const json = housing_estates_hk
+
+        // Set back to default
+        this.toggleDefaultColor()
+
+        // 2 option - Bivariate
+        if (scale1 && scale2) {
+            this.toggleBivariateColor(json, scale1, scale2)
+        }
+
+        // 1 option - Linear
+        else if (scale1 || scale2) {
+            if (scale1)
+                this.toggleLinearColor(json, scale1)
+            else
+                this.toggleLinearColor(json, scale2)
+        }
+
+    }
+
+    toggleDefaultColor = () => {
+        d3.select("#bivariate_chart").remove()
+
+        const color_expression = "#888888"
+        var layers = this.map.getStyle().layers
+        for (var l in layers) {
+            if (layers[l]["source"] == "districts") {
+                this.map.setPaintProperty(layers[l]["id"], "fill-color", color_expression)
+            }
+        }
+    }
+
+    toggleLinearColor = (json, scale) => {
+
+        if (!scale)
+            return
 
         var max = 0, min = Infinity;
         var color_expression;
 
-
-        if (population_by_district.length === 0)
+        if (json.length === 0)
             color_expression = "#888888"
         else
             color_expression = ["case", "#888888"];
 
-        for (const districtObj of population_by_district) {
-            districtObj["2016"] > max && (max = districtObj["2016"])
-            districtObj["2016"] < min && (min = districtObj["2016"])
+        for (const obj of json) {
+            obj[scale] > max && (max = obj[scale])
+            obj[scale] < min && (min = obj[scale])
         }
 
         const color = this.linearColorScale(max, min, "red", "white")
 
-        for (const districtObj of population_by_district) {
-            color_expression.splice(1, 0, color(districtObj["2016"]))
-            color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
+        for (const obj of json) {
+            color_expression.splice(1, 0, color(obj[scale]))
+            color_expression.splice(1, 0, ["==", ["get", "District"], obj["District"]])
         }
 
         var layers = this.map.getStyle().layers
@@ -173,48 +209,9 @@ export default class Map extends Component {
         return color
     }
 
-    // toggleBivariateColor = () => {
+    toggleBivariateColor = (json, scale1, scale2) => {
 
-    //     var max = 0, min = Infinity;
-    //     var color_expression;
-
-
-    //     if (population_by_district.length === 0)
-    //         color_expression = "#888888"
-    //     else
-    //         color_expression = ["case", "#888888"];
-
-    //     for (const districtObj of population_by_district) {
-    //         districtObj["2016"] > max && (max = districtObj["2016"])
-    //         districtObj["2016"] < min && (min = districtObj["2016"])
-    //     }
-
-    //     var data1 = Array.from(population_by_district.values(), d => d["2016"])
-    //     var data2 = Array.from(population_by_district.values(), d => d["2016"])
-
-    //     const color = this.bivariateColorScale(data1, data2, "population_2016", "population_2016")
-
-    //     for (const districtObj of population_by_district) {
-    //         color_expression.splice(1, 0, color(districtObj["2016"], districtObj["2016"]))
-    //         color_expression.splice(1, 0, ["==", ["get", "District"], districtObj["District"]])
-    //     }
-
-    //     var layers = this.map.getStyle().layers
-    //     for (var l in layers) {
-    //         if (layers[l]["source"] == "districts") {
-    //             this.map.setPaintProperty(layers[l]["id"], "fill-color", color_expression)
-    //         }
-    //     }
-    // }
-
-    toggleBivariateColor = () => {
-
-        const json = housing_estates_hk
-        // const json = Object.keys(housing_estates_hk).map(key => housing_estates_hk[key]);
-        const field1 = this.state.bivariate1
-        const field2 = this.state.bivariate2
-
-        if (!field1 || !field2)
+        if (!scale1 || !scale2)
             return
 
         var color_expression;
@@ -223,13 +220,13 @@ export default class Map extends Component {
         else
             color_expression = ["case", "#888888"];
 
-        var data1 = Array.from(json.values(), d => d[field1])
-        var data2 = Array.from(json.values(), d => d[field2])
+        var data1 = Array.from(json.values(), d => d[scale1])
+        var data2 = Array.from(json.values(), d => d[scale2])
 
-        const color = this.bivariateColorScale(data1, data2, field1, field2)
+        const color = this.bivariateColorScale(data1, data2, scale1, scale2)
 
         for (const obj of json) {
-            color_expression.splice(1, 0, color(obj[field1], obj[field2]))
+            color_expression.splice(1, 0, color(obj[scale1], obj[scale2]))
             color_expression.splice(1, 0, ["==", ["get", "District"], obj["District"]])
         }
 
@@ -242,11 +239,8 @@ export default class Map extends Component {
     }
 
     /* 
-        TODO: 
-        Test for two datasets
-        SVG append multi-times 
+        TODO:
         SVG size
-        Toggle
     */
     bivariateColorScale = (data1, data2, title1 = "unknown", title2 = "unknown") => {
 
@@ -396,30 +390,31 @@ export default class Map extends Component {
             <div style={{ width: '100%', height: '100%' }}>
                 <div style={{ position: "fixed", zIndex: 10 }}>
                     <button onClick={this.toggleRoads} > Toggle Roads </button>
-                    <button onClick={this.toggleLinearColor} > Toggle Linear Color </button>
+                    {/* <button onClick={this.toggleLinearColor} > Toggle Linear Color </button> */}
                     {/* <button onClick={this.toggleLocationPoint} > Toggle Location Point </button> */}
-                    <select name="bivariate1" onChange={event => this.setState({ bivariate1: event.target.value })}>
-                        <option value="">Choose first bivariate axis</option>
+                    <select name="scale1" onChange={event => this.setState({ scale1: event.target.value })}>
+                        <option value="">Choose one for Linear</option>
                         <option value="Average Domestic Household Size">Average Domestic Household Size</option>
                         <option value="Median Age">Median Age</option>
                         <option value="Median Monthly Domestic Household Income">Median Monthly Domestic Household Income</option>
                         <option value="Median Rent to Income Ratio">Median Rent to Income Ratio</option>
                         <option value="Population">Population</option>
                     </select>
-                    <select name="bivariate2" onChange={event => this.setState({ bivariate2: event.target.value })}>
-                        <option value="">Choose second bivariate axis</option>
+                    <select name="scale2" onChange={event => this.setState({ scale2: event.target.value })}>
+                        <option value="">Choose two for Bivariate</option>
                         <option value="Average Domestic Household Size">Average Domestic Household Size</option>
                         <option value="Median Age">Median Age</option>
                         <option value="Median Monthly Domestic Household Income">Median Monthly Domestic Household Income</option>
                         <option value="Median Rent to Income Ratio">Median Rent to Income Ratio</option>
                         <option value="Population">Population</option>
                     </select>
-                    <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button>
+                    <button onClick={this.toggleColor} > Toggle Color </button>
+                    {/* <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button> */}
                 </div>
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
                     <div id='map' style={{ width: '100%', height: '75%' }}></div>
                     <div style={{ width: '100%', height: '25%', position: "absolute", bottom: 0, background: "white" }}>
-                        <ParallelCoordinate onBrush={this.toggleLocationPoint} district={district_english}/>
+                        <ParallelCoordinate onBrush={this.toggleLocationPoint} district={district_english} />
                     </div>
                 </div>
 
