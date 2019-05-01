@@ -16,7 +16,7 @@ export default class Map extends Component {
         super(props)
 
         this.state = {
-            districtHover: null
+            districtClick: null
         }
 
         // this.districtClick = null
@@ -71,21 +71,7 @@ export default class Map extends Component {
             /* -----------------  Init End  -----------------*/
 
             this.mapHoveredStateId = null
-            map.on("mousemove", "district-poly", (e) => {
-                if (e.features.length > 0) {
-                    if (this.mapHoveredStateId) {
-                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-                    }
-                    this.mapHoveredStateId = e.features[0].id;
-                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
-
-                    // Object Compare
-                    if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
-                        this.setState({ districtHover: e.features[0].properties })
-                }
-            });
-
-            // map.on("click", "district-poly", (e) => {
+            // map.on("mousemove", "district-poly", (e) => {
             //     if (e.features.length > 0) {
             //         if (this.mapHoveredStateId) {
             //             map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
@@ -94,20 +80,34 @@ export default class Map extends Component {
             //         map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
 
             //         // Object Compare
-            //         if (JSON.stringify(this.state.districtClick) !== JSON.stringify(e.features[0].properties))
-            //             this.setState({ districtClick: e.features[0].properties })
+            //         if (JSON.stringify(this.state.districtHover) !== JSON.stringify(e.features[0].properties))
+            //             this.setState({ districtHover: e.features[0].properties })
             //     }
             // });
 
-            map.on("mouseleave", "district-poly", () => {
-                if (this.mapHoveredStateId) {
-                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
-                }
-                this.mapHoveredStateId = null;
+            map.on("click", "district-poly", (e) => {
+                if (e.features.length > 0) {
+                    if (this.mapHoveredStateId) {
+                        map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+                    }
+                    this.mapHoveredStateId = e.features[0].id;
+                    map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: true });
 
-                if (this.state.districtHover)
-                    this.setState({ districtHover: null })
+                    // Object Compare
+                    if (JSON.stringify(this.state.districtClick) !== JSON.stringify(e.features[0].properties))
+                        this.setState({ districtClick: e.features[0].properties })
+                }
             });
+
+            // map.on("mouseleave", "district-poly", () => {
+            //     if (this.mapHoveredStateId) {
+            //         map.setFeatureState({ source: 'districts', id: this.mapHoveredStateId }, { hover: false });
+            //     }
+            //     this.mapHoveredStateId = null;
+
+            //     if (this.state.districtHover)
+            //         this.setState({ districtHover: null })
+            // });
         });
 
         this.map = map;
@@ -307,8 +307,6 @@ export default class Map extends Component {
         svg.append(legend)
             .attr("transform", "translate(870,450)");
 
-        d3.select('#map').select('svg').remove();
-
         d3.select("#map").append(function () { return svg.node(); });
 
         var x = d3.scaleQuantile(data1, d3.range(n))
@@ -389,10 +387,10 @@ export default class Map extends Component {
 
     render() {
 
-        const { districtHover } = this.state
+        const { districtClick } = this.state
 
-        const district_english = districtHover ? districtHover["District"] : null
-        const district_chinese = districtHover ? districtHover["District_Chinese"] : null
+        const district_english = districtClick ? districtClick["District"] : null
+        const district_chinese = districtClick ? districtClick["District_Chinese"] : null
 
         return (
             <div style={{ width: '100%', height: '100%' }}>
