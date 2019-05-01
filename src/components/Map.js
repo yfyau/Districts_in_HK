@@ -70,14 +70,14 @@ export default class Map extends Component {
 
             // Animation to HK
             map.flyTo({
-                center: [114.1095, 22.3964],
+                center: [114.1095, 22.3564],
                 zoom: 10
             })
             /* -----------------  Init End  -----------------*/
 
             this.mapHoveredStateId = null
             this.mapClickedStateId = null
-            
+
             map.on("mousemove", "district-poly", (e) => {
                 if (e.features.length > 0) {
                     if (this.mapHoveredStateId) {
@@ -338,19 +338,32 @@ export default class Map extends Component {
     // data = [{ "latitude": 22.373578, "longitude": 114.131009, "Estate": "Kwai Chung Estate", "Population": 38674, "Median Age": 40.7, "Median Monthly Domestic Household Income": 16000, "Median Rent to Income Ratio": 10.6, "Average Domestic Household Size": 2.8, "District": "Tsuen Wan" }]
     toggleLocationPoint = (data) => {
 
-        const coordinates = data.map(d => [d["longitude"], d["latitude"]])
+        var divergingColorScale = d3.scaleLinear()
+            .domain([0, 60])
+            .range(["red", "blue"])
+            .interpolate(d3.interpolateHslLong);
+
+        const formatted_data = data.map(d => {
+            return {
+                coordinates: [d["longitude"], d["latitude"]],
+                color: divergingColorScale(d['Median Rent to Income Ratio'])
+            }
+        })
 
         const populations = {
             "type": "FeatureCollection",
             "features": []
         }
 
-        coordinates.forEach(c => {
+        formatted_data.forEach(o => {
             populations.features.push({
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
-                    "coordinates": c
+                    "coordinates": o.coordinates
+                },
+                "properties": {
+                    "color": o.color
                 }
             })
         })
@@ -374,15 +387,7 @@ export default class Map extends Component {
                     'circle-radius': 4,
                     // color circles by ethnicity, using a match expression
                     // https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
-                    'circle-color': [
-                        'match',
-                        ['get', 'ethnicity'],
-                        'White', '#fbb03b',
-                        'Black', '#223b53',
-                        'Hispanic', '#e55e5e',
-                        'Asian', '#3bb2d0',
-                    /* other */ '#000'
-                    ]
+                    'circle-color': ['get', 'color']
                 }
             });
         }
@@ -427,8 +432,8 @@ export default class Map extends Component {
                     {/* <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button> */}
                 </div>
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
-                    <div id='map' style={{ width: '100%', height: '75%' }}></div>
-                    <div style={{ width: '100%', height: '25%', position: "absolute", bottom: 0, background: "white" }}>
+                    <div id='map' style={{ width: '100%', height: '70%' }}></div>
+                    <div style={{ width: '100%', height: '30%', position: "absolute", bottom: 0, background: "white" }}>
                         <ParallelCoordinate onBrush={this.toggleLocationPoint} district={district_english} />
                     </div>
                 </div>
