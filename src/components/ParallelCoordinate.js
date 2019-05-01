@@ -44,34 +44,35 @@ var divergingColorScale = d3.scaleLinear()
     .range(["red", "blue"])
     .interpolate(d3.interpolateHslLong);
 
-const districtColor = {
-    'Southern': "#e2d43b",
-    'Tuen Mun': "#ef712d",
-    'Eastern': "#c17032",
-    'Sham Shui Po': "#ffd3cc",
-    'Kwai Tsing': "#c8e884",
-    'Tsuen Wan': "#02c97c",
-    'North': "#c10329",
-    'Wong Tai Sin': "#306ab2",
-    'Kwun Tong': "#d1f961",
-    'Sha Tin': "#c0f963",
-    'Tai Po': "#98f9f5",
-    'Islands': "#4341e0",
-    'Yuen Long': "#d33990",
-    'Sai Kung': "#e5fc8a",
-    'Kowloon City': "#db628c",
-    'Yau Tsim Mong': "#dd1850",
-    'Central & Western': "#f47aec",
-    'Wan Chai': "#99fcfc"
-};
+// const districtColor = {
+//     'Southern': "#e2d43b",
+//     'Tuen Mun': "#ef712d",
+//     'Eastern': "#c17032",
+//     'Sham Shui Po': "#ffd3cc",
+//     'Kwai Tsing': "#c8e884",
+//     'Tsuen Wan': "#02c97c",
+//     'North': "#c10329",
+//     'Wong Tai Sin': "#306ab2",
+//     'Kwun Tong': "#d1f961",
+//     'Sha Tin': "#c0f963",
+//     'Tai Po': "#98f9f5",
+//     'Islands': "#4341e0",
+//     'Yuen Long': "#d33990",
+//     'Sai Kung': "#e5fc8a",
+//     'Kowloon City': "#db628c",
+//     'Yau Tsim Mong': "#dd1850",
+//     'Central & Western': "#f47aec",
+//     'Wan Chai': "#99fcfc"
+// };
 
 class ParallelCoordinate extends React.Component {
 
-    shouldComponentUpdate(nextProps, nextState) {
-        return false
-    }
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     return false
+    // }
 
     render() {
+        console.log('parallel:', data);
         const props = {
             // color: (d) => districtColor[d.District],
             color: d => divergingColorScale(d['Median Rent to Income Ratio']),
@@ -80,7 +81,7 @@ class ParallelCoordinate extends React.Component {
             background: "transparent",
             dimensions,
             data: data,
-            highlights: [],
+            highlights: data.filter(d => d.District === this.props.district),
             onBrush: (x) => this.props.onBrush(x.data),
             // onBrushEnd: console.log,
             // onLineHover: console.log,
