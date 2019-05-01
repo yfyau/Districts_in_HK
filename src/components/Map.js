@@ -306,6 +306,8 @@ export default class Map extends Component {
         svg.append(legend)
             .attr("transform", "translate(870,450)");
 
+        d3.select('#map').select('svg').remove();
+
         d3.select("#map").append(function () { return svg.node(); });
 
         var x = d3.scaleQuantile(data1, d3.range(n))
