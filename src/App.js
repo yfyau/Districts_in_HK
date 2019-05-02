@@ -26,7 +26,7 @@ class App extends Component {
 
         <div className='heading'>
           <div>Monthly Air Pollution in Different Districts</div>
-          <p>Explore the patterns of air pollution in the breath-taking heatmaps (pun inteended). You can also choose a specific timeframe from the dropdown menu.</p>
+          <p>Explore the patterns of air pollution in the breath-taking heatmaps (pun inteended). You can also choose a specific timeframe from the slider.</p>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>

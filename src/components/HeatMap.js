@@ -1,6 +1,8 @@
 import React from 'react';
 import VegaLite from 'react-vega-lite';
 import { Handler } from 'vega-tooltip';
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
 
 import * as d3 from "d3";
 
@@ -51,6 +53,17 @@ export default class HeatMap extends React.Component {
         this.fetchData('0000_2400_2018');
     }
 
+    onSliderChange(value){
+        switch(value){
+            case 0: this.fetchData('0000_2400_2018'); break;
+            case 1: this.fetchData('0100_0500_2018'); break;
+            case 2: this.fetchData('0600_1000_2018'); break;
+            case 3: this.fetchData('1100_1300_2018'); break;
+            case 4: this.fetchData('1400_1800_2018'); break;
+            case 5: this.fetchData('1900_2400_2018'); break;
+        }
+    }
+
     render() {
         const spec = {
             width: 500,
@@ -72,19 +85,19 @@ export default class HeatMap extends React.Component {
             }
         };
 
+        const sliderMarks = {
+            0: 'All day',
+            1: '0100 - 0500',
+            2: '0600 - 1000',
+            3: '1100 - 1300',
+            4: '1400 - 1800',
+            5: '1900 -2400'
+        }
+
         return (
             <div>
-                <select name="districts" onChange={(event) => {
-                    this.fetchData(event.target.value);
-                }}>
-                    <option value="0000_2400_2018">All day</option>
-                    <option value="0100_0500_2018">0100 - 0500</option>
-                    <option value="0600_1000_2018">0600 - 1000</option>
-                    <option value="1100_1300_2018">1100 - 1300</option>
-                    <option value="1400_1800_2018">1400 - 1800</option>
-                    <option value="1900_2400_2018">1900 - 2400</option>
-                </select>
-                <div>
+                <Slider min={0} max={5} defaultValue={0} marks={sliderMarks} onChange={this.onSliderChange.bind(this)}/>
+                <div style={{marginTop: '30px'}}>
                 <VegaLite
                     spec={{ title: this.state.title, ...spec }}
                     data={this.state.data}
