@@ -26,7 +26,8 @@ const renderWordCloud = (district) => {
         value={value}
         style={{ 
           fontSize: fontSizeScale(value),
-          fontFamily: "DFKai-sb"
+          fontFamily: "DFKai-sb",
+		  fontWeight: 700
         }}
       />
     ))
