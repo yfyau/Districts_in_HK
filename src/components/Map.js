@@ -415,9 +415,9 @@ export default class Map extends Component {
             .attr("transform", "translate(150,150)");
 
         d3.select("#map")
-            .append("div")
-            .style("width", "100%")
-            .style("height", "100%")
+            // .append("div")
+            // .style("width", "100%")
+            // .style("height", "100%")
             .append(function () { return svg.node(); });
 
         var x = d3.scaleQuantile(data1, d3.range(n))
