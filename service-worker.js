@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/Districts_in_HK/precache-manifest.4a62b3c5a08d55aa02fa891aeb128c6a.js"
+  "/Districts_in_HK/precache-manifest.211bfce0d12c0194da7db9335fa5065d.js"
 );
 
 self.addEventListener('message', (event) => {
