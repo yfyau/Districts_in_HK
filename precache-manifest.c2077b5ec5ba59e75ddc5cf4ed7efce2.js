@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7624f262a3cd808908f21588deaae50c",
+    "revision": "ff2e92b477fb1a28203d783379c800df",
     "url": "/Districts_in_HK/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Districts_in_HK/static/css/2.172d1813.chunk.css"
   },
   {
-    "revision": "c3aded932081d42452cd",
+    "revision": "a5aa19dc9bc84b43f003",
     "url": "/Districts_in_HK/static/css/main.98e91237.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Districts_in_HK/static/js/2.e89529ca.chunk.js"
   },
   {
-    "revision": "c3aded932081d42452cd",
-    "url": "/Districts_in_HK/static/js/main.d254e7a2.chunk.js"
+    "revision": "a5aa19dc9bc84b43f003",
+    "url": "/Districts_in_HK/static/js/main.ce7ed17b.chunk.js"
   },
   {
     "revision": "c83797f3fccea26c83cc",
