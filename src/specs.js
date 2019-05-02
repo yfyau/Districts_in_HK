@@ -4,16 +4,16 @@ module.exports = {
         data: { url: 'https://gist.githubusercontent.com/ptrknow/911546be7201dbdc17e57342bf1d2dbe/raw/1e1e4caeb0051a19abdc45aa6797be69c2cd9eb9/average_across_years.csv' },
         width: 1000,
         height: 400,
-        title: 'Monthly Average of Air Quality',
+        title: 'Monthly Average of Air Quality in Hong Kong from Jan 2016 - Apr 2019',
         mark: 'rect',
         selection: { highlight: { type: "single" } },
         encoding: {
-            x: { field: 'Month of Year', type: 'o' },
+            x: { field: 'Month of Year', type: 'o', "title": "Year and Month" },
             y: { field: 'District', type: 'n' },
             color: {
                 field: 'AQHI',
                 type: 'q',
-                scale: { scheme: 'blueorange', domain: [1.5, 5.5] }
+                scale: { "scheme": "redyellowgreen", "reverse": true }
             },
             opacity: {
                 condition: { selection: "highlight", value: 1 },
