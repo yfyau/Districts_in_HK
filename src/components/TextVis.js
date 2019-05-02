@@ -24,7 +24,10 @@ const renderWordCloud = (district) => {
         key={i}
         text={query}
         value={value}
-        style={{ fontSize: fontSizeScale(value) }}
+        style={{ 
+          fontSize: fontSizeScale(value),
+          fontFamily: "DFKai-sb"
+        }}
       />
     ))
   );
@@ -48,7 +51,10 @@ class TextVis extends Component {
             style={{
               fontFamily: 'sans-serif',
               fontSize: 30,
-              color: () => randomColor({ hue: 'blue' }),
+              color: () => randomColor({
+                luminosity: 'dark',
+                format: 'rgb'
+              }),
               padding: 5,
             }}>
             {renderWordCloud(this.props.district)}
