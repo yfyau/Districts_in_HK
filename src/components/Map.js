@@ -569,7 +569,7 @@ export default class Map extends Component {
                     </div>
                 </div>
 
-                <div style={{ position: "absolute", background: "#fff", width: "25%", height: "100%", top: 0, right: 0 }}>
+                <div style={{ position: "absolute", background: "#fff", width: "25%", height: "100%", top: '115px', right: 0 }}>
                     {
                         district_chinese
                             ?

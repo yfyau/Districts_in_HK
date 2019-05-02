@@ -12,15 +12,21 @@ class App extends Component {
       <div className="App">
 
         <div className='heading'>
-          <div>511 Major Housing Estates in Hong Kong</div>
-          <p>short description</p>
+          <div>511 Major Housing Estates Visualized</div>
+          <p>
+            How is it like living in different districts in Hong Kong? 
+            What are the correlations between different features?
+            Try selecting features from the dropdown menus on top, and see them visualized on the map.
+            Or try clicking on a district, and see what people search the most about that district.
+            At the bottom, try play around with the parallel coordinates to look into specific features in detail.
+          </p>
         </div>
 
         <Map />
 
         <div className='heading'>
           <div>Monthly Air Pollution in Different Districts</div>
-          <p>short description</p>
+          <p>Explore the patterns of air pollution in the breath-taking heatmaps (pun inteended). You can also choose a specific timeframe from the dropdown menu.</p>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
@@ -33,7 +39,7 @@ class App extends Component {
 
         <div className='heading'>
           <div>Median Income of People in Different Districts</div>
-          <p>short description</p>
+          <p>Check out the bubble plots to see how much do people from different districts make.</p>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
