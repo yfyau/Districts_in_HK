@@ -76,7 +76,7 @@ export default class HeatMap extends React.Component {
                 color: {
                     field: 'avg_monthly_aqhi',
                     type: 'q',
-                    scale: { scheme: 'blueorange', domain: [1.5, 6] }
+                    scale: { "scheme": "redyellowgreen", "reverse": true }
                 },
                 opacity: {
                     condition: { selection: "highlight", value: 1 },

@@ -242,9 +242,6 @@ export default class Map extends Component {
             min = Math.floor(min)
         }
 
-        // max = Math.ceil(max)
-        // min = Math.floor(min)
-        console.log(max, min)
 
         const color = this.linearColorScale(max, min, "red", "white")
 
@@ -270,17 +267,16 @@ export default class Map extends Component {
         var color = d3.scaleLinear([max, min], [startColor, endColor]);
 
         var legendscale = d3.scaleLinear()
+            .domain(color.domain())
             .range([1, legendheight - margin.top - margin.bottom])
-            .domain(color.domain());
+            .nice()
 
-
-        const yTicks = this.getSmartTicks(max)
-        console.log(legendscale)
+        console.log(color.domain(), legendscale(max), legendscale(min))
 
         var legendaxis = d3.axisRight()
             .scale(legendscale)
-            // .tickSize(6)
-            .ticks(5);
+        // .tickSize(6)
+        // .ticks(5);
 
         console.log(legendaxis)
 
@@ -319,9 +315,6 @@ export default class Map extends Component {
             .style("right", "10px")
             .style("cursor", "default")
 
-
-        console.log((legendwidth - margin.left - margin.right + 3) + "," + (margin.top))
-
         svg
             .append("g")
             .attr("class", "axis")
@@ -329,31 +322,6 @@ export default class Map extends Component {
             .call(legendaxis);
 
         return color
-    }
-
-    getSmartTicks = (val) => {
-
-        //base step between nearby two ticks
-        var step = Math.pow(10, val.toString().length - 1);
-
-        console.log(val, step, val / step)
-
-        //modify steps either: 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000...
-        if (val / step < 2) {
-            step = step / 5;
-        } else if (val / step < 5) {
-            step = step / 2;
-        }
-
-        //add one more step if the last tick value is the same as the max value
-        //if you don't want to add, remove "+1"
-        var slicesCount = Math.ceil((val + 1) / step);
-
-        return {
-            endPoint: slicesCount * step,
-            count: Math.min(10, slicesCount) //show max 10 ticks
-        };
-
     }
 
     toggleBivariateColor = (json, scale1, scale2) => {
@@ -561,7 +529,7 @@ export default class Map extends Component {
                     <button onClick={this.toggleColor} > Toggle Color </button>
                     {/* <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button> */}
                 </div>
-                
+
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
                     <div id='map' style={{ width: '100%', height: '70%' }}></div>
                     <div style={{ width: '100%', height: '30%', position: "absolute", bottom: 0, background: "white" }}>
