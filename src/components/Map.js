@@ -538,7 +538,7 @@ export default class Map extends Component {
 
         return (
             <div style={{ width: '100%', height: '100%' }}>
-                <div style={{ position: "fixed", zIndex: 10 }}>
+                <div style={{ position: "absolute", zIndex: 10 }}>
                     <button onClick={this.toggleRoads} > Toggle Roads </button>
                     {/* <button onClick={this.toggleLinearColor} > Toggle Linear Color </button> */}
                     {/* <button onClick={this.toggleLocationPoint} > Toggle Location Point </button> */}
@@ -561,6 +561,7 @@ export default class Map extends Component {
                     <button onClick={this.toggleColor} > Toggle Color </button>
                     {/* <button onClick={this.toggleBivariateColor} > Toggle Bivariate Color </button> */}
                 </div>
+                
                 <div style={{ position: "relative", width: '75%', height: "100%" }}>
                     <div id='map' style={{ width: '100%', height: '70%' }}></div>
                     <div style={{ width: '100%', height: '30%', position: "absolute", bottom: 0, background: "white" }}>
