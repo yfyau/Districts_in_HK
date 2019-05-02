@@ -156,20 +156,47 @@ export default class Map extends Component {
         const { scale1, scale2 } = this.state
         const json = housing_estates_hk
 
+        var summary = {};
+        for (const obj of json) {
+            if (summary[obj["District"]] === undefined) {
+                summary[obj["District"]] = { ...obj }
+                summary[obj["District"]]["count"] = 1
+            }
+            else {
+                for (const key in obj) {
+                    summary[obj["District"]][key] += obj[key]
+                }
+                summary[obj["District"]]["count"] += 1
+            }
+        }
+
+        var summary_average = [];
+        for (const key in summary) {
+            const new_obj = {
+                "Average Domestic Household Size": summary[key]["Average Domestic Household Size"] / summary[key]["count"],
+                "Median Age": summary[key]["Median Age"] / summary[key]["count"],
+                "Median Monthly Domestic Household Income": summary[key]["Median Monthly Domestic Household Income"] / summary[key]["count"],
+                "Median Rent to Income Ratio": summary[key]["Median Rent to Income Ratio"] / summary[key]["count"],
+                "Population": summary[key]["Population"] / summary[key]["count"],
+                "District": key
+            }
+            summary_average.push(new_obj)
+        }
+
         // Set back to default
         this.toggleDefaultColor()
 
         // 2 option - Bivariate
         if (scale1 && scale2) {
-            this.toggleBivariateColor(json, scale1, scale2)
+            this.toggleBivariateColor(summary_average, scale1, scale2)
         }
 
         // 1 option - Linear
         else if (scale1 || scale2) {
             if (scale1)
-                this.toggleLinearColor(json, scale1)
+                this.toggleLinearColor(summary_average, scale1)
             else
-                this.toggleLinearColor(json, scale2)
+                this.toggleLinearColor(summary_average, scale2)
         }
 
     }
