@@ -376,12 +376,12 @@ export default class Map extends Component {
         const n = Math.floor(Math.sqrt(colors.length))
 
         const svg = d3.create("svg")
-            .attr("viewBox", "0 0 1100 900")
             .attr("id", "svg_legend")
-            .style("width", "100%")
-            .style("height", "auto")
+            .style("width", "300px")
+            .style("height", "300px")
             .style("position", "absolute")
-            .style("top", "0")
+            .style("bottom", "0px")
+            .style("right", "0px")
             .style("pointer-events", "none");
 
 
@@ -412,9 +412,13 @@ export default class Map extends Component {
         }
 
         svg.append(legend)
-            .attr("transform", "translate(870,450)");
+            .attr("transform", "translate(150,150)");
 
-        d3.select("#map").append(function () { return svg.node(); });
+        d3.select("#map")
+            .append("div")
+            .style("width", "100%")
+            .style("height", "100%")
+            .append(function () { return svg.node(); });
 
         var x = d3.scaleQuantile(data1, d3.range(n))
         var y = d3.scaleQuantile(data2, d3.range(n))
