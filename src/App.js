@@ -15,10 +15,13 @@ class App extends Component {
           <div>511 Major Housing Estates Visualized</div>
           <p>
             How is it like living in different districts in Hong Kong? 
-            What are the correlations between different features?
-            Try selecting features from the dropdown menus on top, and see them visualized on the map.
-            Or try clicking on a district, and see what people search the most about that district.
-            At the bottom, try play around with the parallel coordinates to look into specific features in detail.
+            What are the correlations between different features? <br></br>
+            Try the following to have a glance!
+			<ul>
+			<li> Select one or two features from the dropdown menus on the top of the map, and you will see colors filling it, </li>
+            <li> Click on a district in the map, and see what people search the most about that district on the right, </li>
+            <li> Or play around with the parallel coordinate at the map's bottom to look into specific features. </li>
+			</ul>
           </p>
         </div>
 
@@ -26,7 +29,7 @@ class App extends Component {
 
         <div className='heading'>
           <div>Monthly Air Pollution in Different Districts</div>
-          <p>Explore the patterns of air pollution in the breath-taking heatmaps (pun inteended). You can also choose a specific timeframe from the slider.</p>
+          <p>Explore the patterns of air pollution in these breath-taking heatmaps (pun intended). The slider allows heatmap of a different timeframe to be shown.</p>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
@@ -39,7 +42,7 @@ class App extends Component {
 
         <div className='heading'>
           <div>Median Income of People in Different Districts</div>
-          <p>Check out the bubble plots to see how much do people from different districts make.</p>
+          <p>Check out the bubble plots to see how good people from different districts make a living.</p>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
