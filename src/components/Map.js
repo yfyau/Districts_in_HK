@@ -202,7 +202,8 @@ export default class Map extends Component {
     }
 
     toggleDefaultColor = () => {
-        d3.select("#bivariate_chart").remove()
+        d3.select("#svg_legend").remove()
+        d3.select("#canvas_legend").remove()
 
         const color_expression = "#888888"
         var layers = this.map.getStyle().layers
@@ -231,6 +232,20 @@ export default class Map extends Component {
             obj[scale] < min && (min = obj[scale])
         }
 
+        // Round up to 0.5 scale
+        if (max - min < 5) {
+            max = Math.ceil(max * 2) / 2
+            min = Math.floor(min * 2) / 2
+        }
+        else {
+            max = Math.ceil(max)
+            min = Math.floor(min)
+        }
+
+        // max = Math.ceil(max)
+        // min = Math.floor(min)
+        console.log(max, min)
+
         const color = this.linearColorScale(max, min, "red", "white")
 
         for (const obj of json) {
@@ -247,8 +262,98 @@ export default class Map extends Component {
     }
 
     linearColorScale = (max, min, startColor, endColor) => {
+
+        var legendheight = 200,
+            legendwidth = 80,
+            margin = { top: 10, right: 60, bottom: 10, left: 2 };
+
         var color = d3.scaleLinear([max, min], [startColor, endColor]);
+
+        var legendscale = d3.scaleLinear()
+            .range([1, legendheight - margin.top - margin.bottom])
+            .domain(color.domain());
+
+
+        const yTicks = this.getSmartTicks(max)
+        console.log(legendscale)
+
+        var legendaxis = d3.axisRight()
+            .scale(legendscale)
+            // .tickSize(6)
+            .ticks(5);
+
+        console.log(legendaxis)
+
+        var canvas = d3.select("#map")
+            .append("canvas")
+            .attr("id", "canvas_legend")
+            .attr("height", legendheight - margin.top - margin.bottom)
+            .attr("width", 1)
+            .style("height", (legendheight - margin.top - margin.bottom) + "px")
+            .style("width", (legendwidth - margin.left - margin.right) + "px")
+            .style("border", "1px solid #000")
+            .style("position", "absolute")
+            .style("bottom", (margin.bottom + 18) + "px")
+            .style("right", (margin.right + 8) + "px")
+            .node();
+
+        var ctx = canvas.getContext("2d");
+
+        var image = ctx.createImageData(1, legendheight);
+        d3.range(legendheight).forEach(function (i) {
+            var c = d3.rgb(color(legendscale.invert(i)));
+            image.data[4 * i] = c.r;
+            image.data[4 * i + 1] = c.g;
+            image.data[4 * i + 2] = c.b;
+            image.data[4 * i + 3] = 255;
+        });
+        ctx.putImageData(image, 0, 0);
+
+        var svg = d3.select("#map")
+            .append("svg")
+            .attr("height", legendheight + "px")
+            .attr("width", legendwidth + "px")
+            .attr("id", "svg_legend")
+            .style("position", "absolute")
+            .style("bottom", "20px")
+            .style("right", "10px")
+            .style("cursor", "default")
+
+
+        console.log((legendwidth - margin.left - margin.right + 3) + "," + (margin.top))
+
+        svg
+            .append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(" + (legendwidth - margin.left - margin.right + 3) + "," + (margin.top) + ")")
+            .call(legendaxis);
+
         return color
+    }
+
+    getSmartTicks = (val) => {
+
+        //base step between nearby two ticks
+        var step = Math.pow(10, val.toString().length - 1);
+
+        console.log(val, step, val / step)
+
+        //modify steps either: 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000...
+        if (val / step < 2) {
+            step = step / 5;
+        } else if (val / step < 5) {
+            step = step / 2;
+        }
+
+        //add one more step if the last tick value is the same as the max value
+        //if you don't want to add, remove "+1"
+        var slicesCount = Math.ceil((val + 1) / step);
+
+        return {
+            endPoint: slicesCount * step,
+            count: Math.min(10, slicesCount) //show max 10 ticks
+        };
+
     }
 
     toggleBivariateColor = (json, scale1, scale2) => {
@@ -302,11 +407,9 @@ export default class Map extends Component {
 
         const n = Math.floor(Math.sqrt(colors.length))
 
-        d3.select("#bivariate_chart").remove()
-
         const svg = d3.create("svg")
             .attr("viewBox", "0 0 1100 900")
-            .attr("id", "bivariate_chart")
+            .attr("id", "svg_legend")
             .style("width", "100%")
             .style("height", "auto")
             .style("position", "absolute")
