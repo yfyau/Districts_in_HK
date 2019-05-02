@@ -13,7 +13,7 @@ module.exports = {
             color: {
                 field: 'AQHI',
                 type: 'q',
-                scale: { "scheme": "redyellowgreen", "reverse": true }
+                scale: { "scheme": "redyellowgreen", "reverse": true, "domain": [1.5,6] }
             },
             opacity: {
                 condition: { selection: "highlight", value: 1 },
