@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Districts_in_HK/static/css/main.98e91237.chunk.css",
-    "main.js": "/Districts_in_HK/static/js/main.ce7ed17b.chunk.js",
-    "main.js.map": "/Districts_in_HK/static/js/main.ce7ed17b.chunk.js.map",
+    "main.css": "/Districts_in_HK/static/css/main.6d98d68a.chunk.css",
+    "main.js": "/Districts_in_HK/static/js/main.2441b2be.chunk.js",
+    "main.js.map": "/Districts_in_HK/static/js/main.2441b2be.chunk.js.map",
     "runtime~main.js": "/Districts_in_HK/static/js/runtime~main.b6f75f80.js",
     "runtime~main.js.map": "/Districts_in_HK/static/js/runtime~main.b6f75f80.js.map",
     "static/css/2.172d1813.chunk.css": "/Districts_in_HK/static/css/2.172d1813.chunk.css",
-    "static/js/2.e89529ca.chunk.js": "/Districts_in_HK/static/js/2.e89529ca.chunk.js",
-    "static/js/2.e89529ca.chunk.js.map": "/Districts_in_HK/static/js/2.e89529ca.chunk.js.map",
+    "static/js/2.3d86e56b.chunk.js": "/Districts_in_HK/static/js/2.3d86e56b.chunk.js",
+    "static/js/2.3d86e56b.chunk.js.map": "/Districts_in_HK/static/js/2.3d86e56b.chunk.js.map",
     "index.html": "/Districts_in_HK/index.html",
-    "precache-manifest.c2077b5ec5ba59e75ddc5cf4ed7efce2.js": "/Districts_in_HK/precache-manifest.c2077b5ec5ba59e75ddc5cf4ed7efce2.js",
+    "precache-manifest.67b056ca08762f2eb96273a4482126d5.js": "/Districts_in_HK/precache-manifest.67b056ca08762f2eb96273a4482126d5.js",
     "service-worker.js": "/Districts_in_HK/service-worker.js",
     "static/css/2.172d1813.chunk.css.map": "/Districts_in_HK/static/css/2.172d1813.chunk.css.map",
-    "static/css/main.98e91237.chunk.css.map": "/Districts_in_HK/static/css/main.98e91237.chunk.css.map",
-    "static/media/0100_0500_2018.csv": "/Districts_in_HK/static/media/0100_0500_2018.070aa623.csv",
-    "static/media/0600_1000_2018.csv": "/Districts_in_HK/static/media/0600_1000_2018.daab13dd.csv",
-    "static/media/1100_1300_2018.csv": "/Districts_in_HK/static/media/1100_1300_2018.ca62ebee.csv",
-    "static/media/1400_1800_2018.csv": "/Districts_in_HK/static/media/1400_1800_2018.fdbe26c0.csv",
-    "static/media/1900_2400_2018.csv": "/Districts_in_HK/static/media/1900_2400_2018.ec67b732.csv",
-    "static/media/2018.csv": "/Districts_in_HK/static/media/2018.07394927.csv"
+    "static/css/main.6d98d68a.chunk.css.map": "/Districts_in_HK/static/css/main.6d98d68a.chunk.css.map",
+    "static/media/0100_0500_2018.csv": "/Districts_in_HK/static/media/0100_0500_2018.1672892e.csv",
+    "static/media/0600_1000_2018.csv": "/Districts_in_HK/static/media/0600_1000_2018.2517c8f4.csv",
+    "static/media/1100_1300_2018.csv": "/Districts_in_HK/static/media/1100_1300_2018.31c2713c.csv",
+    "static/media/1400_1800_2018.csv": "/Districts_in_HK/static/media/1400_1800_2018.c2c05064.csv",
+    "static/media/1900_2400_2018.csv": "/Districts_in_HK/static/media/1900_2400_2018.3c95da87.csv",
+    "static/media/2018.csv": "/Districts_in_HK/static/media/2018.72dbb374.csv"
   }
 }
