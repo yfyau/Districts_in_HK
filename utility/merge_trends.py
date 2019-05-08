@@ -2,23 +2,31 @@ import glob
 import errno
 import json
 
-path = r'C:\Users\Jason\Desktop\Districts_in_HK\web\src\data\google-trends\屯門區'
-files = glob.glob(path+"\*.json")
-new_json = []
+data_folder = glob.glob(r"..\src\data\google-trends\*")
 
-for name in files:
-    try:
-        with open(name,"r",encoding="utf-8") as f:
-            json_data = json.load(f)
-            for obj in json_data:
-                new_json.append(obj)
-    except IOError as exc:
-        if exc.errno != errno.EISDIR:
-            raise
+for district in data_folder:
 
-new_json = sorted(new_json, key=lambda x: x['value'], reverse=True)
+    district_name = district.split('\\')[-1]
 
-print(new_json[0:19])
+    print(district_name)
 
-with open(path+'\\new.json', 'w', encoding='utf-8') as outfile:
-    json.dump(new_json[0:14], outfile)
+    files = glob.glob(district+r"\*.json")
+    new_json = []
+    new_strings = ""
+
+    for name in files:
+        try:
+            with open(name,"r",encoding="utf-8") as f:
+                json_data = json.load(f)
+                for obj in json_data:
+                    
+                    if obj['query'] not in new_strings:
+                        new_json.append(obj)
+                        new_strings += obj['query']
+        except IOError as exc:
+            if exc.errno != errno.EISDIR:
+                raise
+
+    new_json = sorted(new_json, key=lambda x: x['value'], reverse=True)
+    with open(district+'\\new.json', 'w', encoding='utf-8') as outfile:
+        json.dump(new_json[0:14], outfile)
