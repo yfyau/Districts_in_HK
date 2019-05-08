@@ -37,7 +37,7 @@ const renderWordCloud = (district) => {
 class TextVis extends Component {
 
   shouldComponentUpdate(nextProps, nextState) {
-    if (nextProps.district === this.props.district)
+    if (nextProps.district_chinese === this.props.district_chinese)
       return false
 
     return true
@@ -46,6 +46,7 @@ class TextVis extends Component {
   render() {
     return (
       <div className='app-outer'>
+      <div>{`District selected: ${this.props.district_english} (${this.props.district_chinese})`}</div>
         <div className='app-inner'>
           <TagCloud
             className='tag-cloud'
@@ -58,7 +59,7 @@ class TextVis extends Component {
               }),
               padding: 5,
             }}>
-            {renderWordCloud(this.props.district)}
+            {renderWordCloud(this.props.district_chinese)}
           </TagCloud>
         </div>
       </div>

@@ -543,7 +543,8 @@ export default class Map extends Component {
                             ?
                             <TextVis
                                 // District in Chinese
-                                district={district_chinese}
+                                district_chinese={district_chinese}
+                                district_english={district_english}
                             />
                             :
                             null
